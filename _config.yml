@@ -6,7 +6,7 @@
 ###########################################################
 
 theme: minima
-# remote_theme: pages-themes/slate@v0.2.0
+remote_theme: pages-themes/slate
 
 
 ############################
