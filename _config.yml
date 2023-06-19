@@ -5,7 +5,10 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 
-theme: slate
+# theme: minima
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme
 
 ############################
 # --- Required options --- #
