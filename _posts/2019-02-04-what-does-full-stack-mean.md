@@ -11,61 +11,53 @@ blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-21656105765687894
 blogger_orig_url: https://aspellclark.blogspot.com/2019/02/what-does-full-stack-mean.html
 ---
 
-I've been a software engineer for a little while and I&nbsp;see the term "Full Stack developer" more and more, but what does it mean?
+I've been a software engineer for a little while and I see the term "Full Stack developer" more and more, but what does it mean?
 
 Okay, let's walk through what a complete system will comprise of and see if we can work it out.
 
-UI
+## UI
 First (from the users perspective) is the UI. It's how they interact and really all they care about (as long as the application does what is expected of it. Here is a list of some UI technologies that I know of
 
-AWT
-Swing
-Qt
-Android XML
-MFC and VB
-OpenGl
-Vulkan
+* AWT
+* Swing
+* Qt
+* Android XML
+* MFC and VB
+* OpenGl
+* Vulkan
 
-
-Communication Protocol
+## Communication Protocol
 Next up is the communications protocol (as most applications these days are a thin UI talking to a backend server (we've gone back to the mainframe era!)
 
-RPC
-FTP
-SNMP
-SMTP
-DDS
-ActiveMq/RabbitMq
+* RPC
+* FTP
+* SNMP
+* SMTP
+* DDS
+* ActiveMq/RabbitMq
 
-
-Network Layer
+## Network Layer
 The communications protocol has to be transported between the client and the server somehow, so here we have the network layer
 
+* IPX/SPX
+* Token Ring
+* Bluetooth
+* USB
 
-IPX/SPX
-Token Ring
-Bluetooth
-USB
-
-
-
-Server
+## Server
 
 So now we have data being transferred between the UI and the server, but it can't just appear at the server, there's software to write.
 
-API
+## API
 
 there have to be endpoints that can accept the requests from the UI, so here we have the server side of the network protocols
 
+* RPC
+* FTP
+* SNMP
+* SMTP
 
-RPC
-FTP
-SNMP
-SMTP
-
-
-
-Processing / Storage
+## Processing / Storage
 
 And here is where the actual work gets done, here is where we put the "Business processing" and store data for later use. Business processing can be done in any language, COBOL used to be the top, but I'm pretty sure it's not used that much in modern applications (so much for my diploma project). But it could also encompass larger technologies and not just the language used.
 

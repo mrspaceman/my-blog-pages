@@ -13,7 +13,7 @@ blogger_orig_url: https://aspellclark.blogspot.com/2019/02/windows-subsystem-for
 ---
 
 
-Background
+## Background
 
 Windows Subsystem for Linux was developed by Microsoft to enable command line programs compiled for the Linux operating system to be executed on Windows.
 
@@ -21,49 +21,28 @@ Windows Subsystem for Linux was developed by Microsoft to enable command line pr
 
 To explain the architecture I would like to show the evolution of OS design and how that has enabled this subsystem to be built.
 
-
-
-Dark Ages (or Back in the Day)
+## Dark Ages (or Back in the Day)
 
 Microsoft's MS-DOS was quite primitive in its design (compared to today's OS's). It is a single user OS that can execute one process at a time. DOS had an application programming interface to allow user programs to access some hardware in a device independent way, but only for character-based applications.
 
-
-
 This allowed applications to display graphical elements emulated with text characters as these screenshots of Microsoft word for DOS show:
 
-
-
-
-
+![image](../_images/word1-example-1.png)
 
 
 This is Microsoft Word version 1.
 
-
-
-
-
-
+![image](../_images/word1-example-2.png)
 
 To use these programs you had to remember key combinations to bring up the menus and used the cursor keys to navigate around the screen.
 
-
-
 If the application required fancy graphics, sounds or networking (or just wanted to allow the use of a mouse), then the application had to talk directly to that hardware using device-specific drivers.
 
-
-
-
-
-
-
-
+![image](../_images/MS-DOS_App_Architecture.png)
 
 If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.
 
-
-
-Windows
+## Windows
 
 On 20th November 1985 Microsoft launched Windows version 1.0.
 
@@ -71,11 +50,7 @@ On 20th November 1985 Microsoft launched Windows version 1.0.
 
 The first version of Windows ran on top of MS-DOS and presented a Graphical User Interface.
 
-
-
-
-
-
+![image](../_images/MS-windows1.png)
 
 Windows 1 introduced the hardware abstraction layer into the PC application architecture. Windows 1 included drivers for video cards, a mouse, keyboards, printers and serial communications, and applications were supposed to only invoke The Windows APIs and not talk to the drivers directly.
 
