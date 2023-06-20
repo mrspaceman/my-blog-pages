@@ -61,30 +61,24 @@ there have to be endpoints that can accept the requests from the UI, so here we 
 
 And here is where the actual work gets done, here is where we put the "Business processing" and store data for later use. Business processing can be done in any language, COBOL used to be the top, but I'm pretty sure it's not used that much in modern applications (so much for my diploma project). But it could also encompass larger technologies and not just the language used.
 
+* PL/8
+* Fortran
+* Smalltalk
+* Ada
 
-PL/8
-Fortran
-Smalltalk
-Ada
-
-
-CUDA
-Beowulf
-MPI
-OpenCL
-
-
+* CUDA
+* Beowulf
+* MPI
+* OpenCL
 
 And data has to be stored for later use:
 
-Structured data
-Unstructured data
-Bitstreams
-HEX dump
+* Structured data
+* Unstructured data
+* Bitstreams
+* HEX dump
 
-
-
-OS
+## OS
 
 All of the above technologies sit on top of an OS, which is (normally) a very complicated beast (actually QT can run on the bare metal, but then it's acting as the OS).
 
@@ -92,17 +86,14 @@ Kernels can be broken down into quite a few different categories such as monolit
 
 This is a whole series of articles in itself (which I may go into one day), but there are many OS's/Kernel's out there which could be used
 
+* Amoeba (distributed)
+* Plan 9 (distributed)
+* AIX
+* Mach
+* HURD
+* L4
 
-Amoeba (distributed)
-Plan 9 (distributed)
-AIX
-Mach
-HURD
-L4
-
-
-
-Conclusion
+## Conclusion
 
 One thing I have deliberately done in the above sections is (try) to avoid mentioning any of the technologies typically associated with a "Full Stack" developer. I dougt that any developer would be an expert in writing the assembly code to get a CPU to boot, initialising the MMU (and other CPU's in an SMP system), then writing all of the drivers so that the OS is ready for an application to be written on top of it.
 
