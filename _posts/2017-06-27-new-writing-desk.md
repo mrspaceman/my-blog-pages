@@ -28,13 +28,9 @@ of course I could look through ebay for a "proper" writing desk, but this will s
 
 here is a picture of the desk.
 
-
-
-
+![image](../_images/IMG_20170627_065436.jpg)
 
 it's positioned so that I can look out into the garden if I want, and while I'm writing this, our dogs are playing, running up and down chasing each other.
-
-
 
 to finish the writing experience, I have a cafetiere of coffee, for that authentic "Coffee Shop" feeling.
 

@@ -5,9 +5,9 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 
-# theme: minima
+theme: minima
 # remote_theme: pages-themes/slate
-remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
 
 
 ############################

@@ -47,6 +47,7 @@ I think that I'll keep the Z750 stock and move onto my next project - the CB750.
 
 So here she is out for a quick ride.
 
+![out for a ride](../_images/IMG_20170820_072753.jpg)
 
 
 

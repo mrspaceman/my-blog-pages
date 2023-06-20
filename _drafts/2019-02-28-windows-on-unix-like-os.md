@@ -13,10 +13,24 @@ thumbnail: https://3.bp.blogspot.com/-qGToWYwSDNs/XDj8lo4yNrI/AAAAAAADFrw/FJy1AK
 blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-8047934867626154428
 blogger_orig_url: https://aspellclark.blogspot.com/2019/02/windows-on-unix-like-os.html
 ---
+## Graphical programs and X-Windows
 
+<<<<<<< HEAD
 ## Graphical programs and X-Windows</h3>
 
+||||||| 8842363
+<br />
+<div>
+<br /></div>
+<div>
+<br /></div>
+<h3>
+Graphical programs and X-Windows</h3>
+<div>
+=======
+>>>>>>> efa0f714671863767526cd264a548123d60d9c5d
 X-Windows abstracted even more so that cheap workstations could run large applications.</div>
+<<<<<<< HEAD
 
 
 <a href="http://3.bp.blogspot.com/-qGToWYwSDNs/XDj8lo4yNrI/AAAAAAADFrw/FJy1AKglXoMny8IIV3dNgK05TPNO0fWYwCK4BGAYYCw/s1600/XWindows_Architecture.png" imageanchor="1"><img border="0" height="444" src="https://3.bp.blogspot.com/-qGToWYwSDNs/XDj8lo4yNrI/AAAAAAADFrw/FJy1AKglXoMny8IIV3dNgK05TPNO0fWYwCK4BGAYYCw/s640/XWindows_Architecture.png" width="640" /></a></div>
@@ -25,6 +39,29 @@ X-Windows abstracted even more so that cheap workstations could run large applic
 <div style="-webkit-text-stroke-width: 0px; color: black; font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
 
 
+||||||| 8842363
+<div>
+<br /></div>
+<div>
+<a href="http://3.bp.blogspot.com/-qGToWYwSDNs/XDj8lo4yNrI/AAAAAAADFrw/FJy1AKglXoMny8IIV3dNgK05TPNO0fWYwCK4BGAYYCw/s1600/XWindows_Architecture.png" imageanchor="1"><img border="0" height="444" src="https://3.bp.blogspot.com/-qGToWYwSDNs/XDj8lo4yNrI/AAAAAAADFrw/FJy1AKglXoMny8IIV3dNgK05TPNO0fWYwCK4BGAYYCw/s640/XWindows_Architecture.png" width="640" /></a></div>
+<div>
+<br /></div>
+<br />
+<div>
+</div>
+<br />
+<div style="-webkit-text-stroke-width: 0px; color: black; font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
+<div style="margin: 0px;">
+=======
+
+![image](../_images/XWindows_Architecture.jpg)
+
+>>>>>>> efa0f714671863767526cd264a548123d60d9c5d
 So we can install an X-Server on windows and then we can run graphical programs from the WSL.</div>
+<<<<<<< HEAD
 
 
+||||||| 8842363
+</div>
+=======
+>>>>>>> efa0f714671863767526cd264a548123d60d9c5d

@@ -15,12 +15,10 @@ blogger_orig_url: https://aspellclark.blogspot.com/2017/06/cb750-has-gears-again
 
 Just thought I would post a quick picture of the little devil that caused me so much trouble
 
-
-
+![image](../_images/IMG_20170607_182438.jpg)
 
 I'll try to get a clearer picture soon, Clearer Image is here. You can see the little circlip that holds the lever onto it's pivot.
 
-
-
+![image](../_images/IMG_20170603_175349.jpg)
 
 and there you can see the whole gear linkage.
