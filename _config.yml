@@ -41,7 +41,7 @@ header_pages:
   - _pages/archive.md
 
 include:
-  - _pages¬
+  - _pages
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -96,7 +96,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
 
@@ -243,4 +243,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
