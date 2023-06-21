@@ -17,6 +17,6 @@ blogger_orig_url: https://aspellclark.blogspot.com/2019/02/windows-on-unix-like-
 
 X-Windows abstracted even more so that cheap workstations could run large applications.</div>
 
-![image](../_images/XWindows_Architecture.jpg)
+![image](../assets/images/XWindows_Architecture.jpg)
 
 So we can install an X-Server on windows and then we can run graphical programs from the WSL.</div>
