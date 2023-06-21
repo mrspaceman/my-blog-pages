@@ -96,15 +96,6 @@ Basically, it performs real-time translation of Linux syscalls into Windows OS s
 
 So what it boils down to is that Microsoft wrote a Linux kernel 'emulator', which allows programs that call into the Linux kernel user-space API to execute on windows and not know it. But being only the Linux kernel, there are no graphics calls. Sorry but Xeyes won't run. Unix has a unique take on windowing systems. but that is a large subject and probably best left for another post. This one is long enough for now.
 
+### References
 
-
-References
-
-
-The Halloween Documents-1 Nov 1998
-
-
-
-
-
-
+[The Halloween Documents-1 Nov 1998](https://en.wikipedia.org/wiki/Halloween_documents)
