@@ -54,7 +54,7 @@ X-Windows abstracted even more so that cheap workstations could run large applic
 <div style="margin: 0px;">
 =======
 
-![image](../_images/XWindows_Architecture.jpg)
+![image](../assets/images/XWindows_Architecture.jpg)
 
 >>>>>>> efa0f714671863767526cd264a548123d60d9c5d
 So we can install an X-Server on windows and then we can run graphical programs from the WSL.</div>
