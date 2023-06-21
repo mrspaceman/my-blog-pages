@@ -1,642 +1,654 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-21T06:38:23+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Braindump</title><subtitle>Just my ramblings</subtitle><author><name>Andy Aspell-Clark</name></author><entry><title type="html">Moving my blog to Github Pages</title><link href="http://localhost:4000/2023-06-21-moving-to-github/" rel="alternate" type="text/html" title="Moving my blog to Github Pages" /><published>2023-06-21T00:00:00+01:00</published><updated>2023-06-21T00:00:00+01:00</updated><id>http://localhost:4000/moving-to-github</id><content type="html" xml:base="http://localhost:4000/2023-06-21-moving-to-github/"><![CDATA[<p>https://github.com/jsanz/gh-pages-minima-starter</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="computers" /><summary type="html"><![CDATA[https://github.com/jsanz/gh-pages-minima-starter]]></summary></entry><entry><title type="html">My new blog site</title><link href="http://localhost:4000/2023-06-19-first-post/" rel="alternate" type="text/html" title="My new blog site" /><published>2023-06-19T00:00:00+01:00</published><updated>2023-06-19T00:00:00+01:00</updated><id>http://localhost:4000/first-post</id><content type="html" xml:base="http://localhost:4000/2023-06-19-first-post/"><![CDATA[<p>This is the first post in my new blog hosted in ggithub pages. I used to have a blog over at blogger.com, but I wanted something I had a little more control over and I use github daily, so I thought it would be a good place to host a new blog.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-21T06:44:34+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Braindump</title><subtitle>Just my ramblings</subtitle><author><name>Andy Aspell-Clark</name></author><entry><title type="html">Moving my blog to Github Pages</title><link href="http://localhost:4000/2023-06-21-moving-to-github/" rel="alternate" type="text/html" title="Moving my blog to Github Pages" /><published>2023-06-21T00:00:00+01:00</published><updated>2023-06-21T00:00:00+01:00</updated><id>http://localhost:4000/moving-to-github</id><content type="html" xml:base="http://localhost:4000/2023-06-21-moving-to-github/"><![CDATA[https://github.com/jsanz/gh-pages-minima-starter]]></content><author><name>Andy Aspell-Clark</name></author><category term="computers" /><summary type="html"><![CDATA[https://github.com/jsanz/gh-pages-minima-starter]]></summary></entry><entry><title type="html">My new blog site</title><link href="http://localhost:4000/2023-06-19-first-post/" rel="alternate" type="text/html" title="My new blog site" /><published>2023-06-19T00:00:00+01:00</published><updated>2023-06-19T00:00:00+01:00</updated><id>http://localhost:4000/first-post</id><content type="html" xml:base="http://localhost:4000/2023-06-19-first-post/"><![CDATA[This is the first post in my new blog hosted in ggithub pages. I used to have a blog over at blogger.com, but I wanted something I had a little more control over and I use github daily, so I thought it would be a good place to host a new blog.
 
-<p>what will you be able to find in these posts? probably nothing useful. The posts in this blog will be my ramblings</p>
+what will you be able to find in these posts? probably nothing useful. The posts in this blog will be my ramblings
 
-<p>Over time I will transfer my blog posts from blogger.com to this site. This will allow me to edit things a lot easier (mainly because I really like markdown).</p>
+Over time I will transfer my blog posts from blogger.com to this site. This will allow me to edit things a lot easier (mainly because I really like markdown).
 
-<p>I will also be adding new blog posts (that I dont really think anyone will be too interested in), but some of them may be useful to some people.</p>]]></content><author><name>Andy Aspell-Clark</name></author><summary type="html"><![CDATA[This is the first post in my new blog hosted in ggithub pages. I used to have a blog over at blogger.com, but I wanted something I had a little more control over and I use github daily, so I thought it would be a good place to host a new blog.]]></summary></entry><entry><title type="html">Windows Subsystem for Linux Internals</title><link href="http://localhost:4000/2019-02-28-windows-subsystem-for-linux-internals/" rel="alternate" type="text/html" title="Windows Subsystem for Linux Internals" /><published>2019-02-28T21:09:00+00:00</published><updated>2019-02-28T21:09:00+00:00</updated><id>http://localhost:4000/windows-subsystem-for-linux-internals</id><content type="html" xml:base="http://localhost:4000/2019-02-28-windows-subsystem-for-linux-internals/"><![CDATA[<h2 id="background">Background</h2>
+I will also be adding new blog posts (that I dont really think anyone will be too interested in), but some of them may be useful to some people.]]></content><author><name>Andy Aspell-Clark</name></author><summary type="html"><![CDATA[This is the first post in my new blog hosted in ggithub pages. I used to have a blog over at blogger.com, but I wanted something I had a little more control over and I use github daily, so I thought it would be a good place to host a new blog.]]></summary></entry><entry><title type="html">Windows Subsystem for Linux Internals</title><link href="http://localhost:4000/2019-02-28-windows-subsystem-for-linux-internals/" rel="alternate" type="text/html" title="Windows Subsystem for Linux Internals" /><published>2019-02-28T21:09:00+00:00</published><updated>2019-02-28T21:09:00+00:00</updated><id>http://localhost:4000/windows-subsystem-for-linux-internals</id><content type="html" xml:base="http://localhost:4000/2019-02-28-windows-subsystem-for-linux-internals/"><![CDATA[## Background
 
-<p>Windows Subsystem for Linux was developed by Microsoft to enable command line programs compiled for the Linux operating system to be executed on Windows.</p>
+Windows Subsystem for Linux was developed by Microsoft to enable command line programs compiled for the Linux operating system to be executed on Windows.
 
-<p>To explain the architecture I would like to show the evolution of OS design and how that has enabled this subsystem to be built.</p>
 
-<h2 id="dark-ages-or-back-in-the-day">Dark Ages (or Back in the Day)</h2>
 
-<p>Microsoft’s MS-DOS was quite primitive in its design (compared to today’s OS’s). It is a single user OS that can execute one process at a time. DOS had an application programming interface to allow user programs to access some hardware in a device independent way, but only for character-based applications.</p>
+To explain the architecture I would like to show the evolution of OS design and how that has enabled this subsystem to be built.
 
-<p>This allowed applications to display graphical elements emulated with text characters as these screenshots of Microsoft word for DOS show:</p>
+## Dark Ages (or Back in the Day)
 
-<p><img src="../assets/images/word1-example-1.png" alt="image" /></p>
+Microsoft's MS-DOS was quite primitive in its design (compared to today's OS's). It is a single user OS that can execute one process at a time. DOS had an application programming interface to allow user programs to access some hardware in a device independent way, but only for character-based applications.
 
-<p>This is Microsoft Word version 1.</p>
+This allowed applications to display graphical elements emulated with text characters as these screenshots of Microsoft word for DOS show:
 
-<p><img src="../assets/images/word1-example-2.png" alt="image" /></p>
+![image](../assets/images/word1-example-1.png)
 
-<p>To use these programs you had to remember key combinations to bring up the menus and used the cursor keys to navigate around the screen.</p>
 
-<p>If the application required fancy graphics, sounds or networking (or just wanted to allow the use of a mouse), then the application had to talk directly to that hardware using device-specific drivers.</p>
+This is Microsoft Word version 1.
 
-<p><img src="../assets/images/MS-DOS_App_Architecture.png" alt="image" /></p>
+![image](../assets/images/word1-example-2.png)
 
-<p>If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.</p>
+To use these programs you had to remember key combinations to bring up the menus and used the cursor keys to navigate around the screen.
 
-<h2 id="windows">Windows</h2>
+If the application required fancy graphics, sounds or networking (or just wanted to allow the use of a mouse), then the application had to talk directly to that hardware using device-specific drivers.
 
-<p>On 20th November 1985 Microsoft launched <a href="https://en.wikipedia.org/wiki/Windows_1.0">Windows version 1.0</a>.</p>
+![image](../assets/images/MS-DOS_App_Architecture.png)
 
-<p>The first version of Windows ran on top of MS-DOS and presented a Graphical User Interface.</p>
+If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.
 
-<p><img src="../assets/images/windows1.png" alt="image" /></p>
+## Windows
 
-<p>Windows 1 introduced the hardware abstraction layer into the PC application architecture. Windows 1 included drivers for video cards, a mouse, keyboards, printers and serial communications, and applications were supposed to only invoke The Windows APIs and not talk to the drivers directly.</p>
+On 20th November 1985 Microsoft launched [Windows version 1.0](https://en.wikipedia.org/wiki/Windows_1.0).
 
-<p>The windows OS has evolved a great deal over the years and the original windows 1 architecture was still in use as the foundation of Windows ME release in 2000.</p>
+The first version of Windows ran on top of MS-DOS and presented a Graphical User Interface.
 
-<p>Starting in 1993 Microsoft created a purely 32 bit OS with no legacy code from Windows 1 architecture. The kernel created for Windows NT is still used as the base for current versions of Windows (although it has evolved since 1993).</p>
+![image](../assets/images/windows1.png)
 
-<p>This is the basic structure of windows today. User applications talk to a layer in the kernel that abstracts out all details of the hardware and presents a unified API to user applications.</p>
+Windows 1 introduced the hardware abstraction layer into the PC application architecture. Windows 1 included drivers for video cards, a mouse, keyboards, printers and serial communications, and applications were supposed to only invoke The Windows APIs and not talk to the drivers directly.
 
-<p><img src="../assets/images/Windows_Architecture.png" alt="image" /></p>
 
-<h2 id="linux">Linux</h2>
+The windows OS has evolved a great deal over the years and the original windows 1 architecture was still in use as the foundation of Windows ME release in 2000.
 
-<p>In 1991, Linus Torvalds, a student at Helsinki university wanted an OS where he could play with its source code and learn about its internals. He started using an OS called Minix written by professor Andrew Tanenbaum and documented in a book which was aimed at students learning operating systems design. While the source code for the Minix system was available, modification and redistribution were restricted.</p>
 
-<p>This led Linus Torvalds to start writing his own OS which he called Linux.</p>
+Starting in 1993 Microsoft created a purely 32 bit OS with no legacy code from Windows 1 architecture. The kernel created for Windows NT is still used as the base for current versions of Windows (although it has evolved since 1993).
 
-<p>The first message about Linux was actually posted to the comp.os.minix newsgroup on <a href="https://groups.google.com/forum/#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ">25 Aug 1991 - First msg about Linux</a></p>
 
-<p>Linux has a similar architecture to current Windows versions. no user application accesses hardware devices directly not even by talking to device drivers. User applications talk to a layer in the kernel that abstracts out all details of the hardware and presents a unified API to user applications.</p>
+This is the basic structure of windows today. User applications talk to a layer in the kernel that abstracts out all details of the hardware and presents a unified API to user applications.
 
-<p><img src="../assets/images/Linux_Architecture.png" alt="image" /></p>
+![image](../assets/images/Windows_Architecture.png)
 
-<h2 id="windows-subsystem-for-linux">Windows Subsystem for Linux</h2>
+## Linux
 
-<p>So, finally on to the subject of this post.</p>
+In 1991, Linus Torvalds, a student at Helsinki university wanted an OS where he could play with its source code and learn about its internals. He started using an OS called Minix written by professor Andrew Tanenbaum and documented in a book which was aimed at students learning operating systems design. While the source code for the Minix system was available, modification and redistribution were restricted.
 
-<p>Microsoft hasn’t always been a fan of Linux. Some people have even accused Microsoft of underhand tactics in the past designed to stop Linux being installed on PC’s that also had Windows installed.</p>
+This led Linus Torvalds to start writing his own OS which he called Linux.
 
-<p>But eventually, they have realised that developers seem to like the open source OS and have started supporting it.</p>
+The first message about Linux was actually posted to the comp.os.minix newsgroup on [25 Aug 1991 - First msg about Linux](https://groups.google.com/forum/#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ)
 
-<p>Windows Subsystem for Linux-August 2, 2016 (<a href="https://en.wikipedia.org/wiki/Windows_10#Redstone_1">Windows 10 Build 1607</a>)</p>
+Linux has a similar architecture to current Windows versions. no user application accesses hardware devices directly not even by talking to device drivers. User applications talk to a layer in the kernel that abstracts out all details of the hardware and presents a unified API to user applications.
 
-<p>the Windows subsystem for Linux was written to allow text mode Linux programs to be executed on windows.</p>
+![image](../assets/images/Linux_Architecture.png)
 
-<p>“WSL executes unmodified Linux ELF64 binaries by virtualizing a Linux kernel interface on top of the Windows NT kernel”</p>
 
-<p>Basically, it performs real-time translation of Linux syscalls into Windows OS syscalls.</p>
+## Windows Subsystem for Linux
 
-<p><img src="../assets/images/Windows-Subsystem-for-Linux-Architecture.png" alt="image" /></p>
+So, finally on to the subject of this post.
 
-<p>So what it boils down to is that Microsoft wrote a Linux kernel ‘emulator’, which allows programs that call into the Linux kernel user-space API to execute on windows and not know it. But being only the Linux kernel, there are no graphics calls. Sorry but Xeyes won’t run. Unix has a unique take on windowing systems. but that is a large subject and probably best left for another post. This one is long enough for now.</p>
+Microsoft hasn't always been a fan of Linux. Some people have even accused Microsoft of underhand tactics in the past designed to stop Linux being installed on PC's that also had Windows installed.
 
-<p>References</p>
+But eventually, they have realised that developers seem to like the open source OS and have started supporting it.
 
-<p>The Halloween Documents-1 Nov 1998</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="software" /><category term="computers" /><summary type="html"><![CDATA[Background]]></summary></entry><entry><title type="html">What does “Full Stack” mean?</title><link href="http://localhost:4000/2019-02-04-what-does-full-stack-mean/" rel="alternate" type="text/html" title="What does “Full Stack” mean?" /><published>2019-02-04T06:16:00+00:00</published><updated>2019-02-04T06:16:00+00:00</updated><id>http://localhost:4000/what-does-full-stack-mean</id><content type="html" xml:base="http://localhost:4000/2019-02-04-what-does-full-stack-mean/"><![CDATA[<p>I’ve been a software engineer for a little while and I see the term “Full Stack developer” more and more, but what does it mean?</p>
+Windows Subsystem for Linux-August 2, 2016 ([Windows 10 Build 1607](https://en.wikipedia.org/wiki/Windows_10#Redstone_1)) 
 
-<p>Okay, let’s walk through what a complete system will comprise of and see if we can work it out.</p>
+the Windows subsystem for Linux was written to allow text mode Linux programs to be executed on windows.
 
-<h2 id="ui">UI</h2>
-<p>First (from the users perspective) is the UI. It’s how they interact and really all they care about (as long as the application does what is expected of it. Here is a list of some UI technologies that I know of</p>
+"WSL executes unmodified Linux ELF64 binaries by virtualizing a Linux kernel interface on top of the Windows NT kernel"
 
-<ul>
-  <li>AWT</li>
-  <li>Swing</li>
-  <li>Qt</li>
-  <li>Android XML</li>
-  <li>MFC and VB</li>
-  <li>OpenGl</li>
-  <li>Vulkan</li>
-</ul>
+Basically, it performs real-time translation of Linux syscalls into Windows OS syscalls.
 
-<h2 id="communication-protocol">Communication Protocol</h2>
-<p>Next up is the communications protocol (as most applications these days are a thin UI talking to a backend server (we’ve gone back to the mainframe era!)</p>
+![image](../assets/images/Windows-Subsystem-for-Linux-Architecture.png)
 
-<ul>
-  <li>RPC</li>
-  <li>FTP</li>
-  <li>SNMP</li>
-  <li>SMTP</li>
-  <li>DDS</li>
-  <li>ActiveMq/RabbitMq</li>
-</ul>
+So what it boils down to is that Microsoft wrote a Linux kernel 'emulator', which allows programs that call into the Linux kernel user-space API to execute on windows and not know it. But being only the Linux kernel, there are no graphics calls. Sorry but Xeyes won't run. Unix has a unique take on windowing systems. but that is a large subject and probably best left for another post. This one is long enough for now.
 
-<h2 id="network-layer">Network Layer</h2>
-<p>The communications protocol has to be transported between the client and the server somehow, so here we have the network layer</p>
 
-<ul>
-  <li>IPX/SPX</li>
-  <li>Token Ring</li>
-  <li>Bluetooth</li>
-  <li>USB</li>
-</ul>
 
-<h2 id="server">Server</h2>
+References
 
-<p>So now we have data being transferred between the UI and the server, but it can’t just appear at the server, there’s software to write.</p>
 
-<h2 id="api">API</h2>
+The Halloween Documents-1 Nov 1998]]></content><author><name>Andy Aspell-Clark</name></author><category term="software" /><category term="computers" /><summary type="html"><![CDATA[Background]]></summary></entry><entry><title type="html">What does “Full Stack” mean?</title><link href="http://localhost:4000/2019-02-04-what-does-full-stack-mean/" rel="alternate" type="text/html" title="What does “Full Stack” mean?" /><published>2019-02-04T06:16:00+00:00</published><updated>2019-02-04T06:16:00+00:00</updated><id>http://localhost:4000/what-does-full-stack-mean</id><content type="html" xml:base="http://localhost:4000/2019-02-04-what-does-full-stack-mean/"><![CDATA[I've been a software engineer for a little while and I see the term "Full Stack developer" more and more, but what does it mean?
 
-<p>there have to be endpoints that can accept the requests from the UI, so here we have the server side of the network protocols</p>
+Okay, let's walk through what a complete system will comprise of and see if we can work it out.
 
-<ul>
-  <li>RPC</li>
-  <li>FTP</li>
-  <li>SNMP</li>
-  <li>SMTP</li>
-</ul>
+## UI
+First (from the users perspective) is the UI. It's how they interact and really all they care about (as long as the application does what is expected of it. Here is a list of some UI technologies that I know of
 
-<h2 id="processing--storage">Processing / Storage</h2>
+* AWT
+* Swing
+* Qt
+* Android XML
+* MFC and VB
+* OpenGl
+* Vulkan
 
-<p>And here is where the actual work gets done, here is where we put the “Business processing” and store data for later use. Business processing can be done in any language, COBOL used to be the top, but I’m pretty sure it’s not used that much in modern applications (so much for my diploma project). But it could also encompass larger technologies and not just the language used.</p>
+## Communication Protocol
+Next up is the communications protocol (as most applications these days are a thin UI talking to a backend server (we've gone back to the mainframe era!)
 
-<ul>
-  <li>PL/8</li>
-  <li>Fortran</li>
-  <li>Smalltalk</li>
-  <li>
-    <p>Ada</p>
-  </li>
-  <li>CUDA</li>
-  <li>Beowulf</li>
-  <li>MPI</li>
-  <li>OpenCL</li>
-</ul>
+* RPC
+* FTP
+* SNMP
+* SMTP
+* DDS
+* ActiveMq/RabbitMq
 
-<p>And data has to be stored for later use:</p>
+## Network Layer
+The communications protocol has to be transported between the client and the server somehow, so here we have the network layer
 
-<ul>
-  <li>Structured data</li>
-  <li>Unstructured data</li>
-  <li>Bitstreams</li>
-  <li>HEX dump</li>
-</ul>
+* IPX/SPX
+* Token Ring
+* Bluetooth
+* USB
 
-<h2 id="os">OS</h2>
+## Server
 
-<p>All of the above technologies sit on top of an OS, which is (normally) a very complicated beast (actually QT can run on the bare metal, but then it’s acting as the OS).</p>
+So now we have data being transferred between the UI and the server, but it can't just appear at the server, there's software to write.
 
-<p>Kernels can be broken down into quite a few different categories such as monolithic and microkernel and distributed to name a few. but the kernel is only part of the OS, there are a whole host of other parts (memory management, filesystems etc…) without which the OS would not function.</p>
+## API
 
-<p>This is a whole series of articles in itself (which I may go into one day), but there are many OS’s/Kernel’s out there which could be used</p>
+there have to be endpoints that can accept the requests from the UI, so here we have the server side of the network protocols
 
-<ul>
-  <li>Amoeba (distributed)</li>
-  <li>Plan 9 (distributed)</li>
-  <li>AIX</li>
-  <li>Mach</li>
-  <li>HURD</li>
-  <li>L4</li>
-</ul>
+* RPC
+* FTP
+* SNMP
+* SMTP
 
-<h2 id="conclusion">Conclusion</h2>
+## Processing / Storage
 
-<p>One thing I have deliberately done in the above sections is (try) to avoid mentioning any of the technologies typically associated with a “Full Stack” developer. I dougt that any developer would be an expert in writing the assembly code to get a CPU to boot, initialising the MMU (and other CPU’s in an SMP system), then writing all of the drivers so that the OS is ready for an application to be written on top of it.</p>
+And here is where the actual work gets done, here is where we put the "Business processing" and store data for later use. Business processing can be done in any language, COBOL used to be the top, but I'm pretty sure it's not used that much in modern applications (so much for my diploma project). But it could also encompass larger technologies and not just the language used.
 
-<p>and why develop all of these things when there are so many options out there? So what does this oft used term mean then?</p>
+* PL/8
+* Fortran
+* Smalltalk
+* Ada
 
-<p>from what I have seen it is actually referencing a very specific and narrow set of technologies. Namely Java, Javascript and HTML (and maybe docker or kubernetes and node).</p>
+* CUDA
+* Beowulf
+* MPI
+* OpenCL
 
-<p>but here again, we are being far too vague (well HTML is okay)</p>
+And data has to be stored for later use:
 
-<p>when someone says they “Know” Java, I can bet you that they don’t. What would happen do you think if I was interviewing a “Java” developer and asked them how they would store a list of objects in a JavaME application? Yes, I know some would be able to answer it, but how many “Full Stack” developers would?</p>
+* Structured data
+* Unstructured data
+* Bitstreams
+* HEX dump
 
-<p>or how much storage they would typically have for a JavaCard application? or how about quizzing them about their AWT knowledge?</p>
+## OS
 
-<p>I’m pretty sure that they would flounder, yet all of these are part of Java. There are also the libraries and frameworks that go along with Java like Spring and JBoss, so anyone who says they “know java” can be considered to be stretching the truth.</p>
+All of the above technologies sit on top of an OS, which is (normally) a very complicated beast (actually QT can run on the bare metal, but then it's acting as the OS).
 
-<p>It’s the same with Javascript, any advert that ask for “Javascript” really mean Javascript plus quite a lot of the thousands of Javascript libraries out there. but which ones?</p>
+Kernels can be broken down into quite a few different categories such as monolithic and microkernel and distributed to name a few. but the kernel is only part of the OS, there are a whole host of other parts (memory management, filesystems etc...) without which the OS would not function.
 
-<p>So what does Full Stack really mean? as far as I can tell it’s just another meaningless buzzword used by recruiters to make them sound like they know what they are talking about.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="software" /><category term="computers" /><summary type="html"><![CDATA[I’ve been a software engineer for a little while and I see the term “Full Stack developer” more and more, but what does it mean?]]></summary></entry><entry><title type="html">School Story</title><link href="http://localhost:4000/2019-01-28-school-story/" rel="alternate" type="text/html" title="School Story" /><published>2019-01-28T20:04:00+00:00</published><updated>2019-01-28T20:04:00+00:00</updated><id>http://localhost:4000/school-story</id><content type="html" xml:base="http://localhost:4000/2019-01-28-school-story/"><![CDATA[<p>When I was at school (yes I can remember that long ago, just) I remember that I submitted a story (I guess it was a homework exercise) and the teachers would not believe that I wrote it myself.</p>
+This is a whole series of articles in itself (which I may go into one day), but there are many OS's/Kernel's out there which could be used
 
-<p>During NaNoWriMo 2018 I finally got round to recreating the story as best I can remember.</p>
+* Amoeba (distributed)
+* Plan 9 (distributed)
+* AIX
+* Mach
+* HURD
+* L4
 
-<p>Story
-“Detention sucks. Especially in winter.”</p>
+## Conclusion
 
-<p>That’s what I was thinking as I wandered towards the pedestrian path behind the school that would lead me to the main road.
-It was November, and it was now dark and misty. I hated it when the days started getting shorter. I didn’t like the dark. I was a big fan of horror. I enjoyed watching films and reading books that scared me.</p>
+One thing I have deliberately done in the above sections is (try) to avoid mentioning any of the technologies typically associated with a "Full Stack" developer. I dougt that any developer would be an expert in writing the assembly code to get a CPU to boot, initialising the MMU (and other CPU's in an SMP system), then writing all of the drivers so that the OS is ready for an application to be written on top of it.
 
-<p>Unfortunately for me that made walking home alone along a dark path a bit nerve-racking as my mind would remember all the stories where a lone teenager would get to be walking alone in the dark and some monster would grab them.</p>
+and why develop all of these things when there are so many options out there? So what does this oft used term mean then?
 
-<p>The path wasn’t lit, and it had trees on one side with a high fence on the school side.</p>
 
-<p>I hurried up.</p>
 
-<p>I always got a feeling of eyes watching me when it was dark, but today it was so much stronger than it had ever been before. The hairs on the back of my neck felt like they were being gently brushed by a wind, and I kept rubbing my hand over my neck to ease the feeling.</p>
+from what I have seen it is actually referencing a very specific and narrow set of technologies. Namely Java, Javascript and HTML (and maybe docker or kubernetes and node).
 
-<p>as I walked along, I kept imagining that something was stalking me, maybe even reaching out to grab me and take me struggling to its lair.</p>
 
-<p>My imagination has a lot to answer for.</p>
 
-<p>I felt a lot better once I got to the main road. The street lights made it a lot lighter and even the smell of the car exhaust was familiar and comforting. My mood lifted. I turned left and started towards home. There wasn’t much traffic as it was past rush hour now.
-As I walked along the street, I began to get the feeling of being watched again. Just a niggle at first, but as I continued down the street, I started to feel it more and more.</p>
+but here again, we are being far too vague (well HTML is okay)
 
-<p>I looked over my shoulder, but there was no one on the road behind me. I was walking down a street with a park on my right. The road and park were separated by some trees which were quick thick in places. As I walked down the street, the trees were beginning to feel too close, so I crossed the street to put more distance between myself and the dark beneath the trees.</p>
 
-<p>As I stepped off the pavement a car horn blared out, and I jumped back my heart racing. I looked behind me at the trees. The darkness beneath them was complete. I could see nothing between their trunks. As I turned back to see if there were any more cars on the road, I thought I caught a glint of light. I turned my head back to the trees so quickly I heard it crack. I could see nothing in the trees this time. I tried to keep my eyes on the trees as I turned back to the road.</p>
 
-<p>I could hear a gentle rustle of a breeze through the trunks and I started to think I could hear something breathing.</p>
+when someone says they "Know" Java, I can bet you that they don't. What would happen do you think if I was interviewing a "Java" developer and asked them how they would store a list of objects in a JavaME application? Yes, I know some would be able to answer it, but how many "Full Stack" developers would?
 
-<p>I checked the road as quickly as I could, then I ran across. Once I got to the other side of the road, I turned around and looked back at the trees. All I could see was black. There were no eyes staring out at me, not that I could see anyway.</p>
 
-<p>I felt better now I was further away from the trees.</p>
 
-<p>“Oh great” I thought, now it was starting to rain.</p>
+or how much storage they would typically have for a JavaCard application? or how about quizzing them about their AWT knowledge?
 
-<p>I continued walking toward home along the road. I was kicking myself for not bringing a coat as the rain was getting heavier. I needed to get home quick before I got soaked, so I turned down a side road which would take me over the railway tracks and along a back street, then I could cut back over the railway tracks and be home in half the time the route following the road would take me.
-I didn’t notice at first that street lamps further down the side road were not working. I soon noticed as I was walking down the road and it was getting darker.</p>
 
-<p>I continued down the street to the footbridge over the railway and was up on top crossing the tracks by the time I remembered the feeling of being watched. my skin went even colder, but I started to sweat. This was ridiculous, I felt nothing now; it was fine. so why was I sweating and shivering (a bad combination) and my mind was screaming at me to hurry and get to the safety of home as quickly as I could.</p>
 
-<p>At least the lights on the bridge were working. It made me feel easier.</p>
+I'm pretty sure that they would flounder, yet all of these are part of Java. There are also the libraries and frameworks that go along with Java like Spring and JBoss, so anyone who says they "know java" can be considered to be stretching the truth.
 
-<p>I tried to shrug off the feeling and calm down. I told myself “Nothing is wrong, it’s all in your head”.</p>
 
-<p>I stopped in the bridge’s middle and looked along the tracks both ways just to calm my mind down.</p>
 
-<p>“Nothing is following me, Nothing is following me” I tried chanting in my head, but I guess my mind wasn’t listening.</p>
+It's the same with Javascript, any advert that ask for "Javascript" really mean Javascript plus quite a lot of the thousands of Javascript libraries out there. but which ones?
 
-<p>I walked, slowly, to the other end of the bridge and walked down the steps.</p>
 
-<p>I was calming down a little as I reached the bottom of the stairs. It was less noisy on this side of the railway tracks as the road was much farther away, and I hummed to myself to counter the quiet.
-I tried to hunker my head down into my shoulders as the rain was getting harder.</p>
 
-<p>Suddenly I thought I heard a noise behind me, I turned so quickly I fell down. I panicked and grabbed the fence next to me and hauled myself up. I stared back at the bridge which was a pool of light in the black wet night.</p>
+So what does Full Stack really mean? as far as I can tell it's just another meaningless buzzword used by recruiters to make them sound like they know what they are talking about.]]></content><author><name>Andy Aspell-Clark</name></author><category term="software" /><category term="computers" /><summary type="html"><![CDATA[I’ve been a software engineer for a little while and I see the term “Full Stack developer” more and more, but what does it mean?]]></summary></entry><entry><title type="html">School Story</title><link href="http://localhost:4000/2019-01-28-school-story/" rel="alternate" type="text/html" title="School Story" /><published>2019-01-28T20:04:00+00:00</published><updated>2019-01-28T20:04:00+00:00</updated><id>http://localhost:4000/school-story</id><content type="html" xml:base="http://localhost:4000/2019-01-28-school-story/"><![CDATA[When I was at school (yes I can remember that long ago, just) I remember that I submitted a story (I guess it was a homework exercise) and the teachers would not believe that I wrote it myself.
 
-<p>Was that movement I saw in the blackness on the other side of the bridge? I stared at it for what felt like ages, but I saw nothing.
-I tried to convince myself that I had heard nothing and I walked backwards toward home to keep my eyes on the bridge.</p>
+During NaNoWriMo 2018 I finally got round to recreating the story as best I can remember.
 
-<p>When I fell a second time, I told myself to not be so ridiculous, turned around and started walking again. I wasn’t humming any more; I was straining all my senses in case something was out there.</p>
+Story
+“Detention sucks. Especially in winter.”
 
-<p>Then I heard a noise that sounded like metal on metal.</p>
+That’s what I was thinking as I wandered towards the pedestrian path behind the school that would lead me to the main road.
+It was November, and it was now dark and misty. I hated it when the days started getting shorter. I didn’t like the dark. I was a big fan of horror. I enjoyed watching films and reading books that scared me.
 
-<p>I slowly turned my head as I kept walking. There it was. There was a shadow on the other side of the bridge, I was certain. I stopped and stared, the shadow just at the bottom of the steps on the other side of the bridge was different. I could have sworn it had moved as I looked at it. It wasn’t moving now, but I was sure there was a shadow where it should have been lit up.</p>
+Unfortunately for me that made walking home alone along a dark path a bit nerve-racking as my mind would remember all the stories where a lone teenager would get to be walking alone in the dark and some monster would grab them.
 
-<p>Something was following me, I was sure of it now. The rain didn’t help, it made the scene at the footbridge vague and dampened any sounds, but I was sure something was there.</p>
+The path wasn’t lit, and it had trees on one side with a high fence on the school side.
 
-<p>Then, out of the darkness something came streaking towards me. I shrieked and felt my heart stop as a tabby cat ran past me, a silent blur of motion. “running’s not such a bad idea” I thought as I clutched my chest, panting “but it might give it something to chase”. I looked back to the bridge and the shadow, if it had been there, was now gone.</p>
+I hurried up.
 
-<p>“Am I going mad?” I thought to myself. Then I thought I heard a growl. it was quiet and indistinct, but I was sure it was a growl. I looked up at the top of the bridge and there was a shape stopped just at the top on the other side.</p>
+I always got a feeling of eyes watching me when it was dark, but today it was so much stronger than it had ever been before. The hairs on the back of my neck felt like they were being gently brushed by a wind, and I kept rubbing my hand over my neck to ease the feeling.
 
-<p>With the lights on the bridge, the shadow of the shape was there. it was just an indistinct shape, but something was there. it was large, maybe hunched over, but it was definitely there.</p>
+as I walked along, I kept imagining that something was stalking me, maybe even reaching out to grab me and take me struggling to its lair.
 
-<p>It wasn’t moving. was I imagining it? or was it trying to hide?
-I walked backwards slowly and kept my eyes on the shadow, but it didn’t move.</p>
+My imagination has a lot to answer for.
 
-<p>I heard a rumble now behind me.</p>
+I felt a lot better once I got to the main road. The street lights made it a lot lighter and even the smell of the car exhaust was familiar and comforting. My mood lifted. I turned left and started towards home. There wasn’t much traffic as it was past rush hour now.
+As I walked along the street, I began to get the feeling of being watched again. Just a niggle at first, but as I continued down the street, I started to feel it more and more.
 
-<p>“two of them?” I thought, the rumble was getting louder quickly. I turned around when a tremendous noise blared and lights flashed past. “oh my god, it’s only a train”.</p>
+I looked over my shoulder, but there was no one on the road behind me. I was walking down a street with a park on my right. The road and park were separated by some trees which were quick thick in places. As I walked down the street, the trees were beginning to feel too close, so I crossed the street to put more distance between myself and the dark beneath the trees.
 
-<p>I looked back at the bridge, but the lights from the train were still bright in my eyes. When the train had finally passed, the darkness that fell was the blackest I could ever remember. I turned and stumbled towards home with the train’s horn still ringing in my ears “I should have stuck to the road, I’m still soaked and there’s something following me, at least there would have been people or cars over there.”</p>
+As I stepped off the pavement a car horn blared out, and I jumped back my heart racing. I looked behind me at the trees. The darkness beneath them was complete. I could see nothing between their trunks. As I turned back to see if there were any more cars on the road, I thought I caught a glint of light. I turned my head back to the trees so quickly I heard it crack. I could see nothing in the trees this time. I tried to keep my eyes on the trees as I turned back to the road.
 
-<p>As my eyes got used to the darkness again, and my ears stopped ringing from the thundering noise of the train, I started to jog, but I was sure I could hear something behind me. It wasn’t close, but I could hear the fence rattling as if something was brushing against it.</p>
+I could hear a gentle rustle of a breeze through the trunks and I started to think I could hear something breathing.
 
-<p>I sped up as much as I could in the darkness. my eyes were getting used to it, but this was just a small footpath and branches overhung it in places making it dark and there were rocks underfoot.</p>
+I checked the road as quickly as I could, then I ran across. Once I got to the other side of the road, I turned around and looked back at the trees. All I could see was black. There were no eyes staring out at me, not that I could see anyway.
 
-<p>all the time I was trying to tell myself “I’m imagining it, there’s nothing really there, I can walk, everything is fine. there is no monster chasing me”</p>
+I felt better now I was further away from the trees.
 
-<p>It wasn’t working. my heart was thumping in my chest, I was sweating more from fear than from running, and I could still hear the fence behind me being rattled.</p>
+“Oh great” I thought, now it was starting to rain.
 
-<p>“is it getting closer? or is it my imagination? what am I thinking, it’s all my imagination there are no monsters”</p>
+I continued walking toward home along the road. I was kicking myself for not bringing a coat as the rain was getting heavier. I needed to get home quick before I got soaked, so I turned down a side road which would take me over the railway tracks and along a back street, then I could cut back over the railway tracks and be home in half the time the route following the road would take me.
+I didn’t notice at first that street lamps further down the side road were not working. I soon noticed as I was walking down the road and it was getting darker.
 
-<p>and yet, still I ran on.</p>
+I continued down the street to the footbridge over the railway and was up on top crossing the tracks by the time I remembered the feeling of being watched. my skin went even colder, but I started to sweat. This was ridiculous, I felt nothing now; it was fine. so why was I sweating and shivering (a bad combination) and my mind was screaming at me to hurry and get to the safety of home as quickly as I could.
 
-<p>I knew where the end of the path was as I often took this route home. usually, it was still daylight, and I wasn’t being chased by a monster, but I knew I was getting closer to the bridge back over the railway, back to the street, back to the safety of not being alone on a dark path.</p>
+At least the lights on the bridge were working. It made me feel easier.
 
-<p>I could hear the rattling of the fence. It sounded like it was getting closer.</p>
+I tried to shrug off the feeling and calm down. I told myself “Nothing is wrong, it’s all in your head”.
 
-<p>I sped up. I was sprinting now. up ahead there was a glow of lights. The bridge, I was getting there. I would make it.</p>
+I stopped in the bridge’s middle and looked along the tracks both ways just to calm my mind down.
 
-<p>then I heard a howl from behind me and the fence sounded like it was being ripped up. I was not imagining this. this was real.</p>
+“Nothing is following me, Nothing is following me” I tried chanting in my head, but I guess my mind wasn’t listening.
 
-<p>I didn’t dare look round. with the branches and rocks, there was no way I could keep running forward if I turned my head, but I was almost there. I could see the bridge now. I could see safety.</p>
+I walked, slowly, to the other end of the bridge and walked down the steps.
 
-<p>As I reached the bridge, I grabbed hold of the handrail and pulled myself round onto the steps. I glanced back as I was running up the stairs. There was a very large furry … thing running along the path. it was too dark to make out much detail, but it looked like a man in a furry coat. at least it had a head, legs and arms, and its surface seemed to move with the wind as it ran towards me.</p>
+I was calming down a little as I reached the bottom of the stairs. It was less noisy on this side of the railway tracks as the road was much farther away, and I hummed to myself to counter the quiet.
+I tried to hunker my head down into my shoulders as the rain was getting harder.
 
-<p>Seeing it spurred me on and I took the steps two at a time, I was halfway along the top of the bridge when I heard it grab the rails at the bottom of the stairs.</p>
+Suddenly I thought I heard a noise behind me, I turned so quickly I fell down. I panicked and grabbed the fence next to me and hauled myself up. I stared back at the bridge which was a pool of light in the black wet night.
 
-<p>it sounded like it had claws. The sound it made as it scrabbled at the bridge wasn’t normal for hands.</p>
+Was that movement I saw in the blackness on the other side of the bridge? I stared at it for what felt like ages, but I saw nothing.
+I tried to convince myself that I had heard nothing and I walked backwards toward home to keep my eyes on the bridge.
 
-<p>As I got to the top of the steps down, I looked around and saw it had launched itself up against the outside of the bridge, which meant it was now at the top of the stairs. it was now in the light and I could see that it was not a man. its face was long, and it looked like it had a snout. it was huge, much taller than any man I had seen, and it looked strong. I could see its muscles rippling as it climbed up the outside of the bridge.</p>
+When I fell a second time, I told myself to not be so ridiculous, turned around and started walking again. I wasn’t humming any more; I was straining all my senses in case something was out there.
 
-<p>Then I heard a rumbling from the tracks below. I looked along the tracks and could see the lights of a train approaching. I started leaping down the steps even though I knew there was no way I was going to be able to outrun this thing.</p>
+Then I heard a noise that sounded like metal on metal.
 
-<p>I was halfway down and dared a look back over my shoulder. it was already halfway along the bridge, but it was still on the outside. As I was looking at it, my foot slipped and I crashed down the final flight of steps just as the train rushed by underneath the bridge. as I was falling, I caught glimpses of the monster. The wind from the train, the noise and the lights must have disoriented it. I saw it leap from its perch in the bridge’s middle to try to get to me, but it must have misjudged the distance, or the wind caught it as it didn’t get far enough and I heard it shriek as it plunged down onto the railings below.</p>
+I slowly turned my head as I kept walking. There it was. There was a shadow on the other side of the bridge, I was certain. I stopped and stared, the shadow just at the bottom of the steps on the other side of the bridge was different. I could have sworn it had moved as I looked at it. It wasn’t moving now, but I was sure there was a shadow where it should have been lit up.
 
-<p>I got up from where I had fallen and looked over the side of the steps. The monster impaled itself on the railings just below me. It looked like an enormous wolf. it was trying to get itself off the railings and there was a lot of blood, and it was struggling less and less.</p>
+Something was following me, I was sure of it now. The rain didn’t help, it made the scene at the footbridge vague and dampened any sounds, but I was sure something was there.
 
-<p>As I watched it, it stopped moving and then it seemed to shimmer and its fur fell off. underneath its fur it seemed to have normal skin, and then I noticed its arms and legs were getting shorter. it was changing, right in front of my eyes. it was turning into a man.
-I could not take any more and I ran home, my left leg was hurting, but I ignored the pain. I needed to get home to my mum and dad. to the familiar sights and smells of home.</p>
+Then, out of the darkness something came streaking towards me. I shrieked and felt my heart stop as a tabby cat ran past me, a silent blur of motion. “running's not such a bad idea” I thought as I clutched my chest, panting “but it might give it something to chase”. I looked back to the bridge and the shadow, if it had been there, was now gone.
 
-<p>When I got home, I was wet and muddy from where I had fallen.
-“what on earth have you been up to?” my mum asked as I was walking into the kitchen. “I thought you were in detention? Have you been playing instead?”</p>
+“Am I going mad?” I thought to myself. Then I thought I heard a growl. it was quiet and indistinct, but I was sure it was a growl. I looked up at the top of the bridge and there was a shape stopped just at the top on the other side.
 
-<p>“No, I did my detention, and came straight home”</p>
+With the lights on the bridge, the shadow of the shape was there. it was just an indistinct shape, but something was there. it was large, maybe hunched over, but it was definitely there.
 
-<p>“then how did you get so mucky?”</p>
+It wasn’t moving. was I imagining it? or was it trying to hide?
+I walked backwards slowly and kept my eyes on the shadow, but it didn’t move.
 
-<p>I started to cry at this point I didn’t know what to say “I’m mucky because I was chased by a monster and fell down whilst running for my life” ? she wouldn’t believe that. I wasn’t sure I believed it.
-My mum stopped asking questions and just hugged me until I stopped crying.</p>
+I heard a rumble now behind me.
 
-<p>“You want to tell me what’s wrong?” I shook my head.</p>
+“two of them?” I thought, the rumble was getting louder quickly. I turned around when a tremendous noise blared and lights flashed past. “oh my god, it’s only a train”.
 
-<p>“Okay, go get yourself cleaned up, then come down and have supper,”</p>
+I looked back at the bridge, but the lights from the train were still bright in my eyes. When the train had finally passed, the darkness that fell was the blackest I could ever remember. I turned and stumbled towards home with the train’s horn still ringing in my ears “I should have stuck to the road, I’m still soaked and there’s something following me, at least there would have been people or cars over there.”
 
-<p>The next day at school everyone was talking about the man who died by the railway bridge. people thought he had committed suicide, but I knew better. I couldn’t tell them, no one would have believed me.</p>
+As my eyes got used to the darkness again, and my ears stopped ringing from the thundering noise of the train, I started to jog, but I was sure I could hear something behind me. It wasn’t close, but I could hear the fence rattling as if something was brushing against it.
 
-<p>I never took the shortcut home again.</p>
+I sped up as much as I could in the darkness. my eyes were getting used to it, but this was just a small footpath and branches overhung it in places making it dark and there were rocks underfoot.
 
-<p>and I never spoke about what happened that night to anyone.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="writing" /><summary type="html"><![CDATA[When I was at school (yes I can remember that long ago, just) I remember that I submitted a story (I guess it was a homework exercise) and the teachers would not believe that I wrote it myself.]]></summary></entry><entry><title type="html">First race of 2019</title><link href="http://localhost:4000/2019-01-28-first-race-of-2019/" rel="alternate" type="text/html" title="First race of 2019" /><published>2019-01-28T13:37:00+00:00</published><updated>2019-01-28T13:37:00+00:00</updated><id>http://localhost:4000/first-race-of-2019</id><content type="html" xml:base="http://localhost:4000/2019-01-28-first-race-of-2019/"><![CDATA[<p>As I am aiming for a middle distance triathlon in September, I want to make sure that I can complete it before shelling out the (rather high) entry fee.</p>
+all the time I was trying to tell myself “I’m imagining it, there’s nothing really there, I can walk, everything is fine. there is no monster chasing me”
 
-<p>my main concern is that my knees cope with the run section which will be 21 Km (a half marathon).
-In the past, I have had a bit of trouble with my knees playing up. I thought it was because I had run too much (increased my training too quickly, too many races close together, that sort of thing). So for the last 8 months, I have been trying to acclimatise my knees by running around 5km three times a week</p>
+It wasn’t working. my heart was thumping in my chest, I was sweating more from fear than from running, and I could still hear the fence behind me being rattled.
 
-<p>To take stock of how my knees are with running, I decided to enter a 10K race. The race I entered was the Bristol Race For Chocolate 10K. It sounded like a fun race and was on 27th January, which would give me plenty of time to train for my main race in September.</p>
+“is it getting closer? or is it my imagination? what am I thinking, it’s all my imagination there are no monsters”
 
-<p>I wanted a 10K as it is just under half the distance of my target middle distance and if my knees cope with that then I have plenty of time to increase the distance up to a half marathon.</p>
+and yet, still I ran on.
 
-<p>so Sunday morning my wife and I (and one of our dogs) set out to get to Oldbury Court Estate in plenty of time to make sure we could get parked.</p>
+I knew where the end of the path was as I often took this route home. usually, it was still daylight, and I wasn’t being chased by a monster, but I knew I was getting closer to the bridge back over the railway, back to the street, back to the safety of not being alone on a dark path.
 
-<p>with registration opening at 09:00 I wanted to get there a little before that and we managed to get there at just after 08:30 and got a nice parking space.</p>
+I could hear the rattling of the fence. It sounded like it was getting closer.
 
-<p>we took the dog for a little walk and let her run for a bit, then went and sat in the car to wait for registration to open, As we were walking back to the car my wife suggested I get my number, but I thought that they hadn’t got set up yet (it was a couple of minutes before nine) and so we just went back to the car.</p>
+I sped up. I was sprinting now. up ahead there was a glow of lights. The bridge, I was getting there. I would make it.
 
-<p>That was a mistake as when I did start looking to go get my number a large queue had formed. I really should have learned by now that my wife’s suggestions are nearly always right.</p>
+then I heard a howl from behind me and the fence sounded like it was being ripped up. I was not imagining this. this was real.
 
-<p>Oh well, I queued up and it took about 20 minutes for me to get my number, but there was still plenty of time before the start time of 10:00, so I went back to the car and attached the number to my t-shirt (I have a set of little magnets to attach my race number and they worked really well without poking holes in my shirt).</p>
+I didn’t dare look round. with the branches and rocks, there was no way I could keep running forward if I turned my head, but I was almost there. I could see the bridge now. I could see safety.
 
-<p>we then went to the start line (via the loos of course. never start a race feeling like you may need to go, after running for a while it will feel like a lead weight bouncing up and down inside you).</p>
+As I reached the bridge, I grabbed hold of the handrail and pulled myself round onto the steps. I glanced back as I was running up the stairs. There was a very large furry ... thing running along the path. it was too dark to make out much detail, but it looked like a man in a furry coat. at least it had a head, legs and arms, and its surface seemed to move with the wind as it ran towards me.
 
-<p>then we joined all of the other runners standing around waiting for the race briefing which was due at 09:45. I did a few stretches and waited.
+Seeing it spurred me on and I took the steps two at a time, I was halfway along the top of the bridge when I heard it grab the rails at the bottom of the stairs.
+
+it sounded like it had claws. The sound it made as it scrabbled at the bridge wasn’t normal for hands.
+
+As I got to the top of the steps down, I looked around and saw it had launched itself up against the outside of the bridge, which meant it was now at the top of the stairs. it was now in the light and I could see that it was not a man. its face was long, and it looked like it had a snout. it was huge, much taller than any man I had seen, and it looked strong. I could see its muscles rippling as it climbed up the outside of the bridge.
+
+Then I heard a rumbling from the tracks below. I looked along the tracks and could see the lights of a train approaching. I started leaping down the steps even though I knew there was no way I was going to be able to outrun this thing.
+
+I was halfway down and dared a look back over my shoulder. it was already halfway along the bridge, but it was still on the outside. As I was looking at it, my foot slipped and I crashed down the final flight of steps just as the train rushed by underneath the bridge. as I was falling, I caught glimpses of the monster. The wind from the train, the noise and the lights must have disoriented it. I saw it leap from its perch in the bridge’s middle to try to get to me, but it must have misjudged the distance, or the wind caught it as it didn’t get far enough and I heard it shriek as it plunged down onto the railings below.
+
+I got up from where I had fallen and looked over the side of the steps. The monster impaled itself on the railings just below me. It looked like an enormous wolf. it was trying to get itself off the railings and there was a lot of blood, and it was struggling less and less.
+
+As I watched it, it stopped moving and then it seemed to shimmer and its fur fell off. underneath its fur it seemed to have normal skin, and then I noticed its arms and legs were getting shorter. it was changing, right in front of my eyes. it was turning into a man.
+I could not take any more and I ran home, my left leg was hurting, but I ignored the pain. I needed to get home to my mum and dad. to the familiar sights and smells of home.
+
+When I got home, I was wet and muddy from where I had fallen.
+“what on earth have you been up to?” my mum asked as I was walking into the kitchen. “I thought you were in detention? Have you been playing instead?”
+
+“No, I did my detention, and came straight home”
+
+“then how did you get so mucky?”
+
+I started to cry at this point I didn’t know what to say “I’m mucky because I was chased by a monster and fell down whilst running for my life” ? she wouldn’t believe that. I wasn’t sure I believed it.
+My mum stopped asking questions and just hugged me until I stopped crying.
+
+“You want to tell me what’s wrong?” I shook my head.
+
+“Okay, go get yourself cleaned up, then come down and have supper,”
+
+The next day at school everyone was talking about the man who died by the railway bridge. people thought he had committed suicide, but I knew better. I couldn’t tell them, no one would have believed me.
+
+I never took the shortcut home again.
+
+and I never spoke about what happened that night to anyone.]]></content><author><name>Andy Aspell-Clark</name></author><category term="writing" /><summary type="html"><![CDATA[When I was at school (yes I can remember that long ago, just) I remember that I submitted a story (I guess it was a homework exercise) and the teachers would not believe that I wrote it myself.]]></summary></entry><entry><title type="html">First race of 2019</title><link href="http://localhost:4000/2019-01-28-first-race-of-2019/" rel="alternate" type="text/html" title="First race of 2019" /><published>2019-01-28T13:37:00+00:00</published><updated>2019-01-28T13:37:00+00:00</updated><id>http://localhost:4000/first-race-of-2019</id><content type="html" xml:base="http://localhost:4000/2019-01-28-first-race-of-2019/"><![CDATA[As I am aiming for a middle distance triathlon in September, I want to make sure that I can complete it before shelling out the (rather high) entry fee.
+
+my main concern is that my knees cope with the run section which will be 21 Km (a half marathon).
+In the past, I have had a bit of trouble with my knees playing up. I thought it was because I had run too much (increased my training too quickly, too many races close together, that sort of thing). So for the last 8 months, I have been trying to acclimatise my knees by running around 5km three times a week
+
+To take stock of how my knees are with running, I decided to enter a 10K race. The race I entered was the Bristol Race For Chocolate 10K. It sounded like a fun race and was on 27th January, which would give me plenty of time to train for my main race in September.
+
+I wanted a 10K as it is just under half the distance of my target middle distance and if my knees cope with&nbsp;that then I have plenty of time to increase the distance up to a half marathon.
+
+so Sunday morning my wife and I (and one of our dogs) set out to get to&nbsp;Oldbury Court Estate in plenty of time to make sure we could get parked.
+
+with registration opening at 09:00 I wanted to get there a little before that and we managed to get there at just after 08:30 and got a nice parking space.
+
+we took the dog for a little walk and let her run for a bit, then went and sat in the car to wait for registration to open, As we were walking back to the car my wife suggested I get my number, but I thought that they hadn't got set up yet (it was a couple of minutes before nine) and so we just went back to the car.
+
+That was a mistake as when I did start looking to go get my number a large queue had formed. I really should have learned by now that my wife's suggestions are nearly always right.
+
+Oh well, I queued up and it took about 20 minutes for me to get my number, but there was still plenty of time before the start time of 10:00, so I went back to the car and attached the number to my t-shirt (I have a set of little magnets to attach my race number and they worked really well without poking holes in my shirt).
+
+we then went to the start line (via the loos of course. never start a race feeling like you may need to go, after running for a while it will feel like a lead weight bouncing up and down inside you).
+
+then we joined all of the other runners standing around waiting for the race briefing which was due at 09:45. I did a few stretches and waited.
 and waited.
-and waited.</p>
+and waited.
 
-<p>09:50. No race briefing yet, so we waited.</p>
+09:50. No race briefing yet, so we waited.
 
-<p>09:55. Still no race briefing, hmmmm. more waiting.</p>
+09:55. Still no race briefing, hmmmm. more waiting.
 
-<p>10:05 and everyone moved to the start line. I must have missed the briefing, oh well, it’s only a 10K what can go wrong?</p>
+10:05 and everyone moved to the start line. I must have missed the briefing, oh well, it's only a 10K what can go wrong?
 
-<p>Never think that. if you think “what can go wrong?” then everything will.</p>
+Never think that. if you think "what can go wrong?" then everything will.
 
-<p>Everyone started moving forward. I thought that I had missed to the countdown to the start, but I found out later that there was no countdown or start signal, we all just started running. Guess someone up front got bored waiting, and I don’t blame them.</p>
+Everyone&nbsp;started moving forward. I thought that I had missed to the countdown to the start, but I found out later that there was no countdown or start signal, we all just started running. Guess someone up front got bored waiting, and I don't blame them.
 
-<p>we all followed the path and people were jogging along quite happily when there seemed to be a wall of runners coming towards us. Odd. very odd.</p>
+we all followed the path and people were jogging along quite happily when there seemed to be a wall of runners coming towards us. Odd. very odd.
 
-<p>turns out there was a left turn about 500 meters from the start marked my an A4 piece of paper with an arrow on it laying on the floor. I didn’t see it as I was on the right-hand side with loads of other runners and the arrow was on the left side of the path.</p>
+turns out there was a left turn about 500 meters from the start marked my an A4 piece of paper with an arrow on it laying on the floor. I didn't see it as I was on the right-hand side with loads of other runners and the arrow was on the left side of the path.
 
-<p>So we all turned around and for once in my life, I was near the front of the race. wow, bet that won’t happen again (unless there is another fluff made by people)</p>
+So we all turned around and for once in my life, I was near the front of the race. wow, bet that won't happen again (unless there is another fluff made by people)
 
-<p>Oldbury court park is really nice to run through and the course (now that I knew to look for these little A4 arrows on the floor) was okay. I was following lots of other runners and keeping my speed low. My knees were behaving and it was quite a nice run.</p>
+Oldbury court park is really nice to run through and the course (now that I knew to look for these little A4 arrows on the floor) was okay. I was following lots of other runners and keeping my speed low. My knees were behaving and it was quite a nice run.
 
-<p>We ran through some open park, through some forest. we also ran along some sections which were quite muddy and slippery and with a large steep drop down one side, which I hoped wouldn’t catch anyone out.</p>
+We ran through some open park, through some forest. we also ran along some sections which were quite muddy and slippery and with a large steep drop down one side, which I hoped wouldn't catch anyone out.
 
-<p>At one point there was a marshall (at least we guessed he was a marshall. he was telling us which way to go, 5K runners this way, 10K runners that way. okay, that’s good, so I set off on what I thought would be a second loop, the same as the first (although I had only run just over 4Km, so I was a bit concerned about the distance, but the organisers must have the route sorted, so on I ran.</p>
+At one point there was a marshall (at least we guessed he was a marshall. he was telling us which way to go, 5K runners this way, 10K runners that way. okay, that's good, so I set off on what I thought would be a second loop, the same as the first (although I had only run just over 4Km, so I was a bit concerned about the distance, but the organisers must have the route sorted, so on I ran.
 
-<p>So I followed the other runners and the race arrows and got back to the same marshall at just over 6Km. this time he pointed me on a different route. Ah, so this is how we get that little extra, fine, I’ll go this way, and ran on.</p>
+So I followed the other runners and the race arrows and got back to the same marshall at just over 6Km. this time he pointed me on a different route. Ah, so this is how we get that little extra, fine, I'll go this way, and ran on.
 
-<p>At around 7.5Km my left knees started making it’s presence felt. I guess you could call it pain, but not the sort of pain that makes you think you need to stop, so I carried on making sure that I kept an eye on how it felt.</p>
+At around 7.5Km my left knees started making it's presence felt. I guess you could call it pain, but not the sort of pain that makes you think you need to stop, so I carried on making sure that I kept an eye on how it felt.
 
-<p>The next time I got to the marshall I was at 8.9K. Apparently, it was a loop, but if I did the same loop again I would be doing more than the 10Km I wanted and if I went to the finish now, I would be way short.</p>
+The next time I got to the marshall I was at 8.9K. Apparently, it was a loop, but if I did the same loop again I would be doing more than the 10Km I wanted and if I went to the finish now, I would be way short.
 
-<p>I decided to start the loop and work my own way back to the start making sure that I had done 10K, so off I ran keeping a close eye on my watch for the distance I had left.</p>
+I decided to start the loop and work my own way back to the start making sure that I had done 10K, so off I ran keeping a close eye on my watch for the distance I had left.
 
-<p>I ran with some other runners for a while, but as we came out into an open park area, while the other runners followed the course and went straight on I turned left as I thought it was about time to start heading to the finish. So now I was making up a route myself.</p>
+I ran with some other runners for a while, but as we came out into an open park area, while the other runners followed the course and went straight on I turned left as I thought it was about time to start heading to the finish. So now I was making up a route myself.
 
-<p>I got to the finish having run 10.07Km. pretty close to the 10Km I wanted.</p>
+I got to the finish having run 10.07Km. pretty close to the 10Km I wanted.
 
-<p>I stopped my watch and walked on towards to get my medal. my wife joined me and asked if I was going to wait for my hot chocolate, but the queue seemed rather long and I just wanted to get home and have a shower.</p>
+I stopped my watch and walked on towards to get my medal. my wife joined me and asked if I was going to wait for my hot chocolate, but the queue seemed rather long and I just wanted to get home and have a shower.
 
-<p>turns out it was a wise choice as the organisers didn’t have enough hot water and most people didn’t get a hot chocolate even if they had queued up.</p>
+turns out it was a wise choice as the organisers didn't have enough hot water and most people didn't get a hot chocolate even if they had queued up.
 
-<p>I have never been to a race where I have had to make up the course myself. it kind of makes me think I should have just run a 10K on my normal routes, but then I had never been to that side of Oldbury Court park, and it is really nice, so we’ll be taking the dogs back there.</p>
+I have never been to a race where I have had to make up the course myself. it kind of makes me think I should have just run a 10K on my normal routes, but then I had never been to that side of Oldbury Court park, and it is really nice, so we'll be taking the dogs back there.
 
-<p>But I won’t be signing up for anymore “Run for chocolate” races. I can save myself the entry fee and make up a 10K route myself. it’s what I ended up doing anyway.</p>
+But I won't be signing up for anymore "Run for chocolate" races. I can save myself the entry fee and make up a 10K route myself. it's what I ended up doing anyway.
 
-<p>My knees seem fine for now, which is really good news. I will be keeping a close eye on them for the next couple of weeks to see if they coped okay with the long run, but I’m hopeful.</p>
+My knees seem fine for now, which is really good news. I will be keeping a close eye on them for the next couple of weeks to see if they coped okay with the long run, but I'm hopeful.
 
-<p>If they are still okay next week, I’ll be entering the Ironman 70.3 Weymouth, so fingers crossed.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="fitness" /><summary type="html"><![CDATA[As I am aiming for a middle distance triathlon in September, I want to make sure that I can complete it before shelling out the (rather high) entry fee.]]></summary></entry><entry><title type="html">Triathlon Training in the new year</title><link href="http://localhost:4000/2019-01-21-triathlon-training-in-new-year/" rel="alternate" type="text/html" title="Triathlon Training in the new year" /><published>2019-01-21T20:14:00+00:00</published><updated>2019-01-21T20:14:00+00:00</updated><id>http://localhost:4000/triathlon-training-in-new-year</id><content type="html" xml:base="http://localhost:4000/2019-01-21-triathlon-training-in-new-year/"><![CDATA[<p>So, my 2019 training has got off to a good start. I’m running regularly and my knees seem to be holding up. I’ve got a training plan to get me to a middle distance triathlon in September and I am managing the run distances I have set myself.</p>
+If they are still okay next week, I'll be entering the Ironman 70.3 Weymouth, so fingers crossed.]]></content><author><name>Andy Aspell-Clark</name></author><category term="fitness" /><summary type="html"><![CDATA[As I am aiming for a middle distance triathlon in September, I want to make sure that I can complete it before shelling out the (rather high) entry fee.]]></summary></entry><entry><title type="html">Triathlon Training in the new year</title><link href="http://localhost:4000/2019-01-21-triathlon-training-in-new-year/" rel="alternate" type="text/html" title="Triathlon Training in the new year" /><published>2019-01-21T20:14:00+00:00</published><updated>2019-01-21T20:14:00+00:00</updated><id>http://localhost:4000/triathlon-training-in-new-year</id><content type="html" xml:base="http://localhost:4000/2019-01-21-triathlon-training-in-new-year/"><![CDATA[So, my 2019 training has got off to a good start. I'm running regularly and my knees seem to be holding up. I've got a training plan to get me to a middle distance triathlon in September and I am managing the run distances I have set myself.
 
-<p>I need to find some longer cycling routes to work and ones with a few hills too, but that shouldn’t be a problem. my weekly cycling distance is okay, I just need to move to get my ebike to be doing less of the work. last week I did use my normal commuter bicycle and managed the whole four days as well as my runs, so that was a really good sign.</p>
+I need to find some longer cycling routes to work and ones with a few hills too, but that shouldn't be a problem. my weekly cycling distance is okay, I just need to move to get my ebike to be doing less of the work. last week I did use my normal commuter bicycle and managed the whole four days as well as my runs, so that was a really good sign.
 
-<p>Swimming won’t be an issue, I have always found that to be the easy part of a triathlon (not that I’m fast, but I can keep going, and I did manage to swim the distance within the cut off time when I tried the ironman 70.3 last time)</p>
+Swimming won't be an issue, I have always found that to be the easy part of a triathlon (not that I'm fast, but I can keep going, and I did manage to swim the distance within the cut off time when I tried the ironman 70.3 last time)
 
-<p>The main worry about going longer is my knees. I’ve got a 10K booked in late January which will test my knees out and I’m hoping that they hold up okay.  if they do then I can enter the 70.3 in September and be fairly confident that I can manage the distances.</p>
+The main worry about going longer is my knees. I've got a 10K booked in late January which will test my knees out and I'm hoping that they hold up okay.&nbsp; if they do then I can enter the 70.3 in September and be fairly confident that I can manage the distances.
 
-<p>If my knees manage the 10K without too many problems, then I’m on for a middle distance and I will start upping my training.</p>
+If my knees manage the 10K without too many problems, then I'm on for a middle distance and I will start upping my training.
 
-<p>I had thought that I would go for the Woburner middle distance, but the 1500 feet climbing on the bike has made me reconsider the Ironman 70.3 at Weymouth.</p>
+I had thought that I would go for the Woburner&nbsp;middle distance, but the 1500 feet climbing on the bike has made me reconsider the Ironman 70.3 at Weymouth.
 
-<p>The Ironman 70.3 only has 800 feet of climb on the bike. When I think back to the last time I attempted the middle distance it was the hills on the bike that killed me, so keeping this to a minimum would help me psychologically.</p>
+The Ironman&nbsp;70.3 only has 800 feet of climb on the bike. When I think back to the last time I attempted the middle distance it was the hills on the bike that killed me, so keeping this to a minimum would help me psychologically.
 
-<p>Guess I only need to make the decision once I know that my knees can handle the running.</p>
+Guess I only need to make the decision once I know that my knees can handle&nbsp;the running.
 
-<p>So, fingers crossed for the 10K.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="triathlon" /><category term="fitness" /><summary type="html"><![CDATA[So, my 2019 training has got off to a good start. I’m running regularly and my knees seem to be holding up. I’ve got a training plan to get me to a middle distance triathlon in September and I am managing the run distances I have set myself.]]></summary></entry><entry><title type="html">Creating a Watch Face for Android Wear OS 2</title><link href="http://localhost:4000/2019-01-14-creating-watch-face-for-android-wear-os/" rel="alternate" type="text/html" title="Creating a Watch Face for Android Wear OS 2" /><published>2019-01-14T20:07:00+00:00</published><updated>2019-01-14T20:07:00+00:00</updated><id>http://localhost:4000/creating-watch-face-for-android-wear-os</id><content type="html" xml:base="http://localhost:4000/2019-01-14-creating-watch-face-for-android-wear-os/"><![CDATA[<h2 id="step-1---setup-my-watch-for-development">Step 1 - Setup my watch for development</h2>
+So, fingers crossed for the 10K.]]></content><author><name>Andy Aspell-Clark</name></author><category term="triathlon" /><category term="fitness" /><summary type="html"><![CDATA[So, my 2019 training has got off to a good start. I’m running regularly and my knees seem to be holding up. I’ve got a training plan to get me to a middle distance triathlon in September and I am managing the run distances I have set myself.]]></summary></entry><entry><title type="html">Creating a Watch Face for Android Wear OS 2</title><link href="http://localhost:4000/2019-01-14-creating-watch-face-for-android-wear-os/" rel="alternate" type="text/html" title="Creating a Watch Face for Android Wear OS 2" /><published>2019-01-14T20:07:00+00:00</published><updated>2019-01-14T20:07:00+00:00</updated><id>http://localhost:4000/creating-watch-face-for-android-wear-os</id><content type="html" xml:base="http://localhost:4000/2019-01-14-creating-watch-face-for-android-wear-os/"><![CDATA[## Step 1 - Setup my watch for development
 
-<p>I have wanted to create a watch face for android wear for a while, but as no new watches were being released my old Moto 360 watch running wear os 1.0 got out of date and I stopped using it.</p>
+I have wanted to create a watch face for android wear for a while, but as no new watches were being released my old Moto 360 watch running wear os 1.0 got out of date and I stopped using it.
 
-<p>For Christmas 2018 I got a new wear os watch running wear os 2.2 (android os 8.0.0). it has a round 400 x 400 screen and I decided to finally get round to creating myself a custom watch face for it.</p>
+For Christmas 2018 I got a new wear os watch running wear os 2.2 (android os 8.0.0). it has a round 400 x 400 screen and I decided to finally get round to creating myself a custom watch face for it.
 
-<p>The first thing I do with all my android devices is to enable developer options. if you don’t know how to do that then you
-can find the method using a google search. I won’t give it hear as it opens up all sorts of options that could make android become slow/unusable.</p>
+The first thing I do with all my android devices is to enable developer options. if you don't know how to do that then you
+can find the method using a google search. I won't give it hear as it opens up all sorts of options that could make android become slow/unusable.
 
-<p>Once I had developer options enabled, I turned on USB debugging. This watch (as opposed to my old Moto 360) has a USB
-connection to the computer, so I don’t have to use WiFi debugging (which has to be set up for each debugging session).</p>
+Once I had developer options enabled, I turned on USB debugging. This watch (as opposed to my old Moto 360) has a USB
+connection to the computer, so I don't have to use WiFi debugging (which has to be set up for each debugging session).
 
-<p>now on to the watch face creation.</p>
+now on to the watch face creation.
 
-<h2 id="step-2---get-the-sample-watch-face-running-on-a-watch">Step 2 - get the sample watch face running on a watch</h2>
 
-<p>A lot changed between Android wear 1.x and Wear OS 2.x.</p>
+## Step 2 - get the sample watch face running on a watch
 
-<p>The major change is that wear os 2.x allows apps built specifically for a watch with no phone part. in android wear os 1.x you had to build a phone app and add a module that would be installed on a watch. the users had to install the phone app and the watch part would be automatically installed.</p>
+A lot changed between Android wear 1.x and Wear OS 2.x.
 
-<p>As a watch face doesn’t need anything to be running on the phone, it is purely a Wear OS app, but a watch face app has certain limitations.</p>
+The major change is that wear os 2.x allows apps built specifically for a watch with no phone part. in android wear os 1.x you had to build a phone app and add a module that would be installed on a watch. the users had to install the phone app and the watch part would be automatically installed.
 
-<p>for my watch face, I would base it on the new watch I got which has a 1.39” round screen with a size of 400x400 pixels.</p>
+As a watch face doesn't need anything to be running on the phone, it is purely a Wear OS app, but a watch face app has certain limitations.
 
-<p>Now one thing I wondered was how do you have a round screen with a size of 400x400 pixels?</p>
+for my watch face, I would base it on the new watch I got which has a 1.39” round screen with a size of 400x400 pixels.
 
-<p>Turns out that the 400x400 is the bounding box which the round display is inside, so the display is actually a circle of 400 pixels diameter.</p>
+Now one thing I wondered was how do you have a round screen with a size of 400x400 pixels?
 
-<p>So now I know how much screen real estate I have to play with, what do I want to display? As this is a learning exercise (learning kotlin and android watch face development) I decided to keep it simple, I’d display the Scott Logic logo, the time and watch battery percentage.</p>
+Turns out that the 400x400 is the bounding box which the round display is inside, so the display is actually a circle of 400 pixels diameter.
 
-<p>First thing was to get a watch face project up and running. to do that is really simple with the Android Studio IDE. Once Android studio is running, select “Create New Project”.</p>
+So now I know how much screen real estate I have to play with, what do I want to display? As this is a learning exercise (learning kotlin and android watch face development) I decided to keep it simple, I'd display the Scott Logic logo, the time and watch battery percentage.
 
-<p>I am going to base this post on Android Studio 3.2 which is the version I am using. (the new project wizard has changed in version 3.3 and no longer matches the screenshots)</p>
+First thing was to get a watch face project up and running. to do that is really simple with the Android Studio IDE. Once Android studio is running, select "Create New Project".
 
-<p>Once “New Project” had been selected you will see the new project wizard:</p>
+I am going to base this post on Android Studio 3.2 which is the version I am using. (the new project wizard has changed in version 3.3 and no longer matches the screenshots)
 
-<p><img src="../assets/images/New_Project_Wizard_1.png" alt="image" /></p>
+Once "New Project" had been selected you will see the new project wizard:
 
-<p>The details here will be familiar to Android and Java developers, so I won’t explain them.</p>
+![image](../assets/images/New_Project_Wizard_1.png)
 
-<p><img src="../assets/images/New_Project_Wizard_2.png" alt="image" /></p>
+The details here will be familiar to Android and Java developers, so I won't explain them.
 
-<p>on the next screen in the wizard, we uncheck <code class="language-plaintext highlighter-rouge">Phone and Tablet</code> and check <code class="language-plaintext highlighter-rouge">Wear OS</code>. This will give us a project that just contains the new watch face.</p>
+![image](../assets/images/New_Project_Wizard_2.png)
 
-<p><img src="../assets/images/New_Project_Wizard_3.png" alt="image" /></p>
+on the next screen in the wizard, we uncheck `Phone and Tablet` and check `Wear OS`. This will give us a project that just contains the new watch face.
 
-<p>This screen allows us to select what the Wear OS app will contain. I selected <code class="language-plaintext highlighter-rouge">Watch Face</code>.</p>
+![image](../assets/images/New_Project_Wizard_3.png)
 
-<p><img src="../assets/images/New_Project_Wizard_4.png" alt="image" /></p>
+This screen allows us to select what the Wear OS app will contain. I selected `Watch Face`.
 
-<p>This is the last screen in the wizard and allows us to select an analog or digital sample watch face. I selected a digital watch face.</p>
+![image](../assets/images/New_Project_Wizard_4.png)
 
-<p>Once the project was created by Android Studio, I hit “Run” and immediately hit the first (of many) issues.</p>
+This is the last screen in the wizard and allows us to select an analog or digital sample watch face. I selected a digital watch face.
 
-<p><strong><code class="language-plaintext highlighter-rouge">Error Running app : Default Activity not found</code></strong></p>
+Once the project was created by Android Studio, I hit "Run" and immediately hit the first (of many) issues.
 
-<p>“Huh?” I thought to myself. “This is the default project created by Android Studio. Surely it should execute?”</p>
+**`Error Running app : Default Activity not found`**
 
-<p>But no, the new project wizard was created before you could create watch faces and so it sets up the default run configuration
-to execute the projects “Default” activity when it is run.</p>
+"Huh?" I thought to myself. "This is the default project created by Android Studio. Surely it should execute?"
 
-<p>So to fix this I had to open the run configurations dialog box and change the <code class="language-plaintext highlighter-rouge">Launch Options</code>-&gt;<code class="language-plaintext highlighter-rouge">Launch</code> dropdown from <code class="language-plaintext highlighter-rouge">Default Activity</code> to <code class="language-plaintext highlighter-rouge">Nothing</code> (more on this later).</p>
+But no, the new project wizard was created before you could create watch faces and so it sets up the default run configuration
+to execute the projects "Default" activity when it is run.
 
-<p><img src="../assets/images/Run_Configuration.png" alt="image" /></p>
+So to fix this I had to open the run configurations dialog box and change the `Launch Options`->`Launch` dropdown from `Default Activity` to `Nothing` (more on this later).
 
-<p>Now I hit “Run” again and it showed me the “select deployment target” dialog with my watch appearing in the list of devices. Great, but not so fast. it says <code class="language-plaintext highlighter-rouge">Missing feature : Watch</code>.</p>
+![image](../assets/images/Run_Configuration.png)
 
-<p>Really? the device is a watch and yet it says <code class="language-plaintext highlighter-rouge">Missing feature : Watch</code>? okay, what do I do now? over to Google.</p>
+Now I hit "Run" again and it showed me the "select deployment target" dialog with my watch appearing in the list of devices. Great, but not so fast. it says `Missing feature : Watch`.
 
-<p>Apparently this is caused by the Wear OS implementation not being 100% Google Android Wear OS despite the about screen telling me it’s “<em>Wear OS by Google</em>” version 2.2, and according to the internet (which is always right?) to fix this problem I have to edit  my <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code> file and change the line:</p>
+Really? the device is a watch and yet it says `Missing feature : Watch`? okay, what do I do now? over to Google.
 
-<p><code class="language-plaintext highlighter-rouge">&lt;uses-feature android:name="android.hardware.type.watch"&gt;</code></p>
+Apparently this is caused by the Wear OS implementation not being 100% Google Android Wear OS despite the about screen telling me it's "*Wear OS by Google*" version 2.2, and according to the internet (which is always right?) to fix this problem I have to edit  my `AndroidManifest.xml` file and change the line:
 
-<p>to</p>
+`<uses-feature android:name="android.hardware.type.watch">`
 
-<p><code class="language-plaintext highlighter-rouge">&lt;uses-feature android:name="android.hardware.type.watch" android:required="false" /&gt;</code></p>
+to
 
-<p>So I edited my <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code>, hit run and lo and behold, I get the same error message.</p>
+`<uses-feature android:name="android.hardware.type.watch" android:required="false" />`
 
-<p>The actual reason this message is being displayed is that I have not accepted the debugging certificate on the watch. to get the watch to display the request I had to use the adb devices command with the watch connected via usb (not over wifi, which I also tried. wifi debugging only works after the certificate has been accepted over a usb connection).</p>
+So I edited my `AndroidManifest.xml`, hit run and lo and behold, I get the same error message.
 
-<p>Once the certificate has been accepted I hit “Run” again and it showed me the “select deployment target” dialog. I selected my watch and hit pressed “Okay”.</p>
+The actual reason this message is being displayed is that I have not accepted the debugging certificate on the watch. to get the watch to display the request I had to use the adb devices command with the watch connected via usb (not over wifi, which I also tried. wifi debugging only works after the certificate has been accepted over a usb connection).
 
-<p>Great. Then I look at my watch and it’s still showing the old watch face. On the watch it didn’t automatically show the newly
-installed watch face, I have to change it manually.</p>
+Once the certificate has been accepted I hit "Run" again and it showed me the "select deployment target" dialog. I selected my watch and hit pressed "Okay".
 
-<p>And finally, I have my newly created watch face displayed on my watch.</p>
+Great. Then I look at my watch and it's still showing the old watch face. On the watch it didn't automatically show the newly
+installed watch face, I have to change it manually.
 
-<p><img src="../assets/images/New_Watch_Face_Ver_1.png" alt="image" /></p>
+And finally, I have my newly created watch face displayed on my watch.
 
-<p>okay, a bit boring I know, but now we have the skeleton to work from. Also. it’s interesting to note that the screenshot (which came directory from the watch) is square, so the screenshot is of the canvas, and not what the end user sees (which is round).</p>
+![image](../assets/images/New_Watch_Face_Ver_1.png)
 
-<h2 id="step-3---customise-default-watch-face">Step 3 - customise default watch face</h2>
-<p>the first decision was what to have as a background. naturally, I decided to use the Scott Logic logo, but the standard logos don’t fit a square, so I decided to use Scott Logic’s “Social” logo.</p>
+okay, a bit boring I know, but now we have the skeleton to work from. Also. it's interesting to note that the screenshot (which came directory from the watch) is square, so the screenshot is of the canvas, and not what the end user sees (which is round).
 
-<p><img src="../assets/images/sl_social_bmp.png" alt="image" /></p>
 
-<p>This is where we realise that an Android Wear OS watch face is not a normal Android App. According to the codelab Create a watchface for Wear OS</p>
+## Step 3 - customise default watch face
+the first decision was what to have as a background. naturally, I decided to use the Scott Logic logo, but the standard logos don't fit a square, so I decided to use Scott Logic's "Social" logo.
 
-<p>A watch face is essentially a native service that runs in the background on a Wear OS device. Within this service, there is an engine that renders each screen. You can think of this as an animator flipping through a book of moving cartoon drawings. Our code will fill each of these pages, making the watch face move.</p>
+![image](../assets/images/sl_social_bmp.png)
 
-<p>What this means in practice is that there are no activities in a Wear OS watch face, and no xml layouts. a watch face is drawn
+This is where we realise that an Android Wear OS watch face is not a normal Android App. According to the codelab Create a watchface for Wear OS
+
+A watch face is essentially a native service that runs in the background on a Wear OS device. Within this service, there is an engine that renders each screen. You can think of this as an animator flipping through a book of moving cartoon drawings. Our code will fill each of these pages, making the watch face move.
+
+What this means in practice is that there are no activities in a Wear OS watch face, and no xml layouts. a watch face is drawn
 directly onto a canvas with drawing primitives. In a normal Android activity, I would simply set the background of the control
 to be the image either in xml or in code and viola, the background is there. The background image will scale itself to match
-the control it is the background of.</p>
+the control it is the background of.
 
-<p>In a watch face I have to draw the image myself (which means using bitmap, not vector drawables), but first the image needs
-to be scaled, using the <code class="language-plaintext highlighter-rouge">Bitmap.createScaledBitmap()</code> function, to make it fit the watch display. Once the bitmap image is
-the correct size it can be drawn on the canvas using <code class="language-plaintext highlighter-rouge">drawBitmap()</code></p>
+In a watch face I have to draw the image myself (which means using bitmap, not vector drawables), but first the image needs
+to be scaled, using the `Bitmap.createScaledBitmap()` function, to make it fit the watch display. Once the bitmap image is
+the correct size it can be drawn on the canvas using `drawBitmap()`
 
-<p>As this is a watchface app, it will be running all the time. To save battery Wear OS has two modes for displaying a watchface,
-<code class="language-plaintext highlighter-rouge">interactive</code> and <code class="language-plaintext highlighter-rouge">ambient</code>. The reason to have to modes is simple. lots of colour and animations drain battery life, so in
-ambient mode the idea is to use few colours and limit any animations.</p>
+As this is a watchface app, it will be running all the time. To save battery Wear OS has two modes for displaying a watchface,
+`interactive` and `ambient`. The reason to have to modes is simple. lots of colour and animations drain battery life, so in
+ambient mode the idea is to use few colours and limit any animations.
 
-<p>Due to this, I decided to only draw the Scott Logic logo when in interactive mode.</p>
+Due to this, I decided to only draw the Scott Logic logo when in interactive mode.
 
-<p>So, I altered the code to draw the scaled logo as a background image with its origin coordinates as 0,0 (top left of the screen)</p>
+So, I altered the code to draw the scaled logo as a background image with its origin coordinates as 0,0 (top left of the screen)
 
-<p><img src="../assets/images/New_Watch_Face_Ver_2.png" alt="image" /></p>
+![image](../assets/images/New_Watch_Face_Ver_2.png)
 
-<p>Well, it’s there, but the time digits really get in the way.</p>
+Well, it's there, but the time digits really get in the way.
 
-<p>Looking at the logo, there is room underneath it that looks big enough for the time, so I adjusted the coordinates of the time
-display (which were being drawn at 45,90 to draw the time at 45,200 which moves the time to the bottom of the screen. I also had to decrease the size of the text being drawn to make it fit in the space.</p>
+Looking at the logo, there is room underneath it that looks big enough for the time, so I adjusted the coordinates of the time
+display (which were being drawn at 45,90 to draw the time at 45,200 which moves the time to the bottom of the screen. I also had to decrease the size of the text being drawn to make it fit in the space.
 
-<p><img src="../assets/images/New_Watch_Face_Ver_3.png" alt="image" /></p>
+![image](../assets/images/New_Watch_Face_Ver_3.png)
 
-<p>Okay, we now have the logo and time displayed. now we move on to displaying the battery percentage. I have also changed the font the time is displayed in to match the Scott Logic Brand guidelines.</p>
+Okay, we now have the logo and time displayed. now we move on to displaying the battery percentage. I have also changed the font the time is displayed in to match the Scott Logic Brand guidelines.
 
-<p>Step 3 - add battery percentage
+
+Step 3 - add battery percentage
 as there is a small amount of empty space above the Scott Logic logo, I decided to put the battery percentage there. With a bit of
 fiddling, I settled on displaying the watch battery percentage icon at 50,30 with the percentage text next to the icon at 75,60.
-I also changed the text colour to be Scott Logic primary bold orange, because I like orange, and it’s available in the brand guidelines.</p>
+I also changed the text colour to be Scott Logic primary bold orange, because I like orange, and it's available in the brand guidelines.
 
-<p><img src="../assets/images/New_Watch_Face_Ver_4.png" alt="image" /></p>
+![image](../assets/images/New_Watch_Face_Ver_4.png)
 
-<p>and this is what it looks like on a round display:</p>
+and this is what it looks like on a round display:
 
-<p><img src="../assets/images/New_Watch_Face_Ver_4-round.png" alt="image" /></p>
+![image](../assets/images/New_Watch_Face_Ver_4-round.png)
 
-<p>seeing the percentage as text is okay, but a nice gauge would be more aesthetically pleasing. Now the fun starts. How to display a graphical representation of the battery percentage? There are many ways. The two major styles would be a box and a dial.</p>
+seeing the percentage as text is okay, but a nice gauge would be more aesthetically pleasing. Now the fun starts. How to display a graphical representation of the battery percentage? There are many ways. The two major styles would be a box and a dial.
 
-<p><img src="../assets/images/Battery_Display_Styles.png" alt="image" /></p>
+![image](../assets/images/Battery_Display_Styles.png)
 
-<p>there are lots of combinations where a segmented dial is displayed, and as I have a round watch face a segmented dial is my aim for the battery meter.</p>
+there are lots of combinations where a segmented dial is displayed, and as I have a round watch face a segmented dial is my aim for the battery meter.
 
-<p>I want something like this:</p>
+I want something like this:
 
-<p><img src="../assets/images/sample_battery_meter.png" alt="image" /></p>
+![image](../assets/images/sample_battery_meter.png)
 
-<p>I did search for an example of drawing this type of meter but did not find anything, so I started looking at how to draw things on
+I did search for an example of drawing this type of meter but did not find anything, so I started looking at how to draw things on
 an android wear canvas. the most suggested method for drawing things like watch hands is to rotate the canvas, draw the image and
-then rotate the canvas back.</p>
+then rotate the canvas back.
 
-<p>but then I found the <code class="language-plaintext highlighter-rouge">drawArc()</code> function. okay this lets me draw a nice arc by defining the bounding box (400 x 400 so that it is centred on my display), a radius and stroke thickness.</p>
+but then I found the `drawArc()` function. okay this lets me draw a nice arc by defining the bounding box (400 x 400 so that it is centred on my display), a radius and stroke thickness.
 
-<p>so I drew an arc which represented the current state of the battery by drawing 100 arcs. each arc represents one percent of the
+so I drew an arc which represented the current state of the battery by drawing 100 arcs. each arc represents one percent of the
 battery and I change the color of the arc when I pass the current battery level, so if the battery is at 67%, then I draw the arcs
-up to and including 67 in orange and the rest of the arcs in charcoal.</p>
+up to and including 67 in orange and the rest of the arcs in charcoal.
 
-<p>sounds easy, but for quite a while I forgot to set the style in the Paint object to stroke, so the arc would not paint on the canvas
-even though when I set <code class="language-plaintext highlighter-rouge">useCentre</code> to true (which paints the entire segment from it’s outer diameter to the centre (see here for an explanation) the segment drew on the screen. Once I set the <code class="language-plaintext highlighter-rouge">Paint.style</code> to stroke, the arc displayed as expected.</p>
+sounds easy, but for quite a while I forgot to set the style in the Paint object to stroke, so the arc would not paint on the canvas
+even though when I set `useCentre` to true (which paints the entire segment from it's outer diameter to the centre (see here for an explanation) the segment drew on the screen. Once I set the `Paint.style` to stroke, the arc displayed as expected.
 
-<p><img src="../assets/images/New_Watch_Face_Ver_5.png" alt="image" /></p>
+![image](../assets/images/New_Watch_Face_Ver_5.png)
 
-<p>and again, this is what it looks like on a round display:</p>
+and again, this is what it looks like on a round display:
 
-<p><img src="../assets/images/New_Watch_Face_Ver_5-round.png" alt="image" /></p>
+![image](../assets/images/New_Watch_Face_Ver_5-round.png)
 
-<p>Well, this works and by making each arc 1.5 degrees I get a nice size to the battery meter. But this is drawing 100 arcs each time the display is redrawn (which is often in interactive mode, and we don’t display the meter in ambient mode). There must be a better way.</p>
+Well, this works and by making each arc 1.5 degrees I get a nice size to the battery meter. But this is drawing 100 arcs each time the display is redrawn (which is often in interactive mode, and we don't display the meter in ambient mode). There must be a better way.
 
-<p>Then I remembered Z order for drawing. Simply draw an orange box to represent the battery level, and then draw a bitmap on top of it to mask off the shape I want, so that the orange meter colour shows through the spaces left in the bitmap.</p>
+Then I remembered Z order for drawing. Simply draw an orange box to represent the battery level, and then draw a bitmap on top of it to mask off the shape I want, so that the orange meter colour shows through the spaces left in the bitmap.
 
-<p><img src="../assets/images/basic-z-index.gif" alt="image" /></p>
+![image](../assets/images/basic-z-index.gif)
 
-<p>For now, I have a functioning watch face. it’s not that pretty, but I’ve learned a lot about how a watch face gets drawn.</p>
+For now, I have a functioning watch face. it's not that pretty, but I've learned a lot about how a watch face gets drawn.
 
-<p>My next step is to use GIMP to design a background that has ‘holes’ for the battery meter and see what that looks like.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="software" /><category term="android" /><summary type="html"><![CDATA[Step 1 - Setup my watch for development]]></summary></entry><entry><title type="html">2019 is Here</title><link href="http://localhost:4000/2019-01-11-2019-is-here/" rel="alternate" type="text/html" title="2019 is Here" /><published>2019-01-11T19:35:00+00:00</published><updated>2019-01-11T19:35:00+00:00</updated><id>http://localhost:4000/2019-is-here</id><content type="html" xml:base="http://localhost:4000/2019-01-11-2019-is-here/"><![CDATA[<p>So, 2019 is here and it’s going to be a big one.</p>
+My next step is to use GIMP to design a background that has 'holes' for the battery meter and see what that looks like.]]></content><author><name>Andy Aspell-Clark</name></author><category term="software" /><category term="android" /><summary type="html"><![CDATA[Step 1 - Setup my watch for development]]></summary></entry><entry><title type="html">2019 is Here</title><link href="http://localhost:4000/2019-01-11-2019-is-here/" rel="alternate" type="text/html" title="2019 is Here" /><published>2019-01-11T19:35:00+00:00</published><updated>2019-01-11T19:35:00+00:00</updated><id>http://localhost:4000/2019-is-here</id><content type="html" xml:base="http://localhost:4000/2019-01-11-2019-is-here/"><![CDATA[So, 2019 is here and it's going to be a big one.
 
-<p>Since I started at Scott Logic last year I am getting much fitter. being just about 10.5 Km door to door it’s an easy cycle (or will be once I get fit again). Also there are lots of us who like to go running at lunchtime. Well, they go running, I just try to keep up, and mostly just watch their backs head off into the distance. Of course trying to keep up will get me fitter and faster in the long run (I keep telling myself that).</p>
+Since I started at Scott Logic last year I am getting much fitter. being just about 10.5 Km door to door it's an easy cycle (or will be once I get fit again). Also there are lots of us who like to go running at lunchtime. Well, they go running, I just try to keep up, and mostly just watch their backs head off into the distance. Of course trying to keep up will get me fitter and faster in the long run (I keep telling myself that).
 
-<p>Last year, I finally got back into triathlons and I am now looking at which races I will be participating in this year (notice I don’t say competing in, which would be a misnomer, I only compete to not come last!)</p>
+Last year, I finally got back into triathlons and I am now looking at which races I will be participating in this year (notice I don't say competing in, which would be a misnomer, I only compete to not come last!)
 
-<p>Many years ago (around 2007) I attempted to complete the Ironman 70.3 at Wimbleball. I failed. I was far too slow on the bike leg and ran out of time. That was the first race I had not managed to finish.</p>
+Many years ago (around 2007) I attempted to complete the Ironman 70.3 at Wimbleball. I failed. I was far too slow on the bike leg and ran out of time. That was the first race I had not managed to finish.
 
-<p>This year I am thinking about trying my hand at another middle distance race (same distance as an Ironman 70.3 without the branding). It has to be between Aug 2019 and Aug 2020 as I want to complete the distance before I turn ‘cough’. Oh, sorry you didn’t catch that?, never mind. Is this a mid life crisis? too late for that I’m afraid.</p>
+This year I am thinking about trying my hand at another middle distance race (same distance as an Ironman 70.3 without the branding). It has to be between Aug 2019 and Aug 2020 as I want to complete the distance before I turn 'cough'. Oh, sorry you didn't catch that?, never mind. Is this a mid life crisis? too late for that I'm afraid.
 
-<p>Anyway, back to the triathlons.</p>
+Anyway, back to the triathlons.
 
-<p>This limits my choice of race. It will take at least six months of training to get myself to a stage where I may be able to complete the distances in the times allowed. Also I don’t want to travel too far. so I looked through the list of available races and whittled it down to the following three:</p>
+This limits my choice of race. It will take at least six months of training to get myself to a stage where I may be able to complete the distances in the times allowed. Also I don't want to travel too far. so I looked through the list of available races and whittled it down to the following three:
 
-<p>Woburn Abbey Triathlon in September
+Woburn Abbey Triathlon in September
 Ironman 70.3 Weymouth in September
-Immortal Half in June</p>
+Immortal Half in June
 
-<p>Each race has it’s own advantages.</p>
+Each race has it's own advantages.
 
-<p>The Immortal is the same course I failed on last time (although no longer being organised by Ironman), so completing that course would be great. The disadvantage of this course is that it is quite hilly with 5000 feet of climbing on the bike (if only I’d looked at that before entering last time!)</p>
+The Immortal is the same course I failed on last time (although no longer being organised by Ironman), so completing that course would be great. The disadvantage of this course is that it is quite hilly with 5000 feet of climbing on the bike (if only I'd looked at that before entering last time!)
 
-<p>The Ironman 70.3 is quite flat with only 800 feet of climbing on the bike, but costs a lot to enter.</p>
+The Ironman 70.3 is quite flat with only 800 feet of climbing on the bike, but costs a lot to enter.
 
-<p>The Woburner (as the Woburn triathlon is called) is 9 months away, doesn’t have too much climbing (1500 feet on the bike) and is in 220 magazine’s list of 8 of the UKs best half Ironmans for beginners.</p>
+The Woburner (as the Woburn triathlon is called) is 9 months away, doesn't have too much climbing (1500 feet on the bike) and is in 220 magazine's list of 8 of the UKs best half Ironmans for beginners.
 
-<p>I think that I have settled on the Woburner, although this might change as I create my training plan.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="triathlon" /><category term="fitness" /><summary type="html"><![CDATA[So, 2019 is here and it’s going to be a big one.]]></summary></entry><entry><title type="html">Wales 500 Post 2</title><link href="http://localhost:4000/2018-05-24-wales-500-post-2/" rel="alternate" type="text/html" title="Wales 500 Post 2" /><published>2018-05-24T08:00:00+01:00</published><updated>2018-05-24T08:00:00+01:00</updated><id>http://localhost:4000/wales-500-post-2</id><content type="html" xml:base="http://localhost:4000/2018-05-24-wales-500-post-2/"><![CDATA[<p>Day -1 (of the rally)
-So, tomorrow, Patrick and I will be riding up to set up our campsite ready for two days of (not quite off) roading.</p>
+I think that I have settled on the Woburner, although this might change as I create my training plan.]]></content><author><name>Andy Aspell-Clark</name></author><category term="triathlon" /><category term="fitness" /><summary type="html"><![CDATA[So, 2019 is here and it’s going to be a big one.]]></summary></entry><entry><title type="html">Wales 500 Post 2</title><link href="http://localhost:4000/2018-05-24-wales-500-post-2/" rel="alternate" type="text/html" title="Wales 500 Post 2" /><published>2018-05-24T08:00:00+01:00</published><updated>2018-05-24T08:00:00+01:00</updated><id>http://localhost:4000/wales-500-post-2</id><content type="html" xml:base="http://localhost:4000/2018-05-24-wales-500-post-2/"><![CDATA[Day -1 (of the rally)
+So, tomorrow, Patrick and I will be riding up to set up our campsite ready for two days of (not quite off) roading.
 
-<p>I’ve got my camping gear packed, but I’ve been getting confused about how to pack things that I will want whilst riding vs stuff to leave at camp.
-Then I realised that I’ve never done that before. whenever we’ve gone on a trip we’ve always stayed a night and then moved on to the next place. Only once have we set up and stayed in the same place for more than one night, and that was at Assen to watch the MotoGP.</p>
+I've got my camping gear packed, but I've been getting confused about how to pack things that I will want whilst riding vs stuff to leave at camp.
+Then I realised that I've never done that before. whenever we've gone on a trip we've always stayed a night and then moved on to the next place. Only once have we set up and stayed in the same place for more than one night, and that was at Assen to watch the MotoGP.
 
-<p>Guess I’ll get it sorted today. I think I’ve got everything I need, except a way to pump up my tyres if I have a puncture. I have a puncture repair kit, but no pump. hmmm, will have to think on that.</p>
+Guess I'll get it sorted today. I think I've got everything I need, except a way to pump up my tyres if I have a puncture. I have a puncture repair kit, but no pump. hmmm, will have to think on that.
 
-<p>I think I will be taking a rucksack so that I can carry stuff out on the rides with me, but I may try to attach it to the back of the bike instead of wearing it as it might get too hot.</p>
+I think I will be taking a rucksack so that I can carry stuff out on the rides with me, but I may try to attach it to the back of the bike instead of wearing it as it might get too hot.
 
-<p>Today is wet and rainy, but I’m hoping that the ground on the routes will be dry by the time we are riding them on Saturday and Sunday.</p>
+Today is wet and rainy, but I'm hoping that the ground on the routes will be dry by the time we are riding them on Saturday and Sunday.
 
-<p>well, I need to get on and check that the GPS has the routes in it and see how I’m going to fit everything on the bike.</p>
+well, I need to get on and check that the GPS has the routes in it and see how I'm going to fit everything on the bike.
 
-<p>I’ll post Day 0/1/2 next week as I wont have a laptop with me.</p>]]></content><author><name>Andy Aspell-Clark</name></author><category term="scrambler" /><category term="motorcycle" /><summary type="html"><![CDATA[Day -1 (of the rally) So, tomorrow, Patrick and I will be riding up to set up our campsite ready for two days of (not quite off) roading.]]></summary></entry></feed>
+I'll post Day 0/1/2 next week as I wont have a laptop with me.]]></content><author><name>Andy Aspell-Clark</name></author><category term="scrambler" /><category term="motorcycle" /><summary type="html"><![CDATA[Day -1 (of the rally) So, tomorrow, Patrick and I will be riding up to set up our campsite ready for two days of (not quite off) roading.]]></summary></entry></feed>
