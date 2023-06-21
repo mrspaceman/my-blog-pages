@@ -6,9 +6,6 @@ author: Andy Aspell-Clark
 tags:
 - story
 - writing
-modified_time: '2017-10-09T07:02:02.913+01:00'
-blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-1160756993842196313
-blogger_orig_url: https://aspellclark.blogspot.com/2017/10/seat-14c-story-submission.html
 ---
 
 Well, I didn't win with my story for Seat 14C, so I'll post it here for people to read.
@@ -320,7 +317,3 @@ It took me a while to figure out, but the PCU even helped me to cross the roads.
 
 
 That week of sightseeing was a lot more than visiting another city. It was learning about all of the changes that had happened in the twenty year long nine and a half hour flight from Tokyo to San Francisco.
-
-
-
-

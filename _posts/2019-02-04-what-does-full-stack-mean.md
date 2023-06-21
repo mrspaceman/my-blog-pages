@@ -6,9 +6,6 @@ author: Andy Aspell-Clark
 tags:
 - software
 - computers
-modified_time: '2019-02-06T12:48:12.145Z'
-blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-2165610576568789478
-blogger_orig_url: https://aspellclark.blogspot.com/2019/02/what-does-full-stack-mean.html
 ---
 
 I've been a software engineer for a little while and I see the term "Full Stack developer" more and more, but what does it mean?
@@ -109,11 +106,11 @@ but here again, we are being far too vague (well HTML is okay)
 
 
 
-when someone says they "Know" Java, I can bet you that they don't. What would happen do you think if I was interviewing a "Java" developer and asked them how they would store a list of objects in a JavaME application? Yes, I know some would be able to answer it, but how many "Full Stack" developers would?
+when someone says they __Know__ Java, I can bet you that they don't. What would happen do you think if I was interviewing a "Java" developer and asked them how they would store a list of objects in a JavaME application? Yes, I know some would be able to answer it, but how many "Full Stack" developers would?
 
 
 
-or how much storage they would typically have for a JavaCard application? or how about quizzing them about their AWT knowledge?
+or how much storage they would typically have for a **JavaCard** application? or how about quizzing them about their AWT knowledge?
 
 
 
@@ -126,5 +123,3 @@ It's the same with Javascript, any advert that ask for "Javascript" really mean 
 
 
 So what does Full Stack really mean? as far as I can tell it's just another meaningless buzzword used by recruiters to make them sound like they know what they are talking about.
-
-

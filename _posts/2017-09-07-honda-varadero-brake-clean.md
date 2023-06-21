@@ -7,9 +7,6 @@ tags:
 - honda
 - varadero
 - motorcycle
-modified_time: '2017-09-07T07:10:28.996+01:00'
-blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-8085416902977158375
-blogger_orig_url: https://aspellclark.blogspot.com/2017/09/honda-varadero-brake-clean.html
 ---
 
 Well, I had a look at the front brake pads on my Varadero the other week. so I loosened up all the nuts while it was on the bike (to get better leverage on things like the pad retaining pins), wiggled the caliper to push the caliper pistons back into the caliper body and took the calipers off the bike.
@@ -32,6 +29,6 @@ on the way, I was thinking that it was a bit of a coincidence that I had played 
 
 And I also guessed that the piece of crud either got worked loose due to vibration, or just broke up and the brakes loosened.
 
-So the moral of the story is : If you see crud near your braking system, dont just ignore it. clean it up and make sure that all of the components can move freely.
+So the moral of the story is : If you see crud near your braking system, dont just ignore it. clean it up and make sure that all the components can move freely.
 
 I have now taken the calipers apart again and used wet and dry on the pads to clean all of the gunk off them, so this shouldn't happen again.
