@@ -52,6 +52,7 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - LICENSE
+    - index.md
     - README.md
 
 ###############################################
