@@ -38,3 +38,29 @@ The problem was that this user was an influential user and so his comments got r
 Now, if the user had raised a nice, concise and complete bug report, then we could have investigated the issue much quicker and probably fixed it quicker too. but, what is a concise and complete bug report.
 
 Well, I have my idea (and it will very likely be different to a lot of peoples ideas of a bug report). For me, as a developer, I want to be able to identify where in the code the error is likely to be happening, so I need information on what the user was doing when they encountered the bug. and very often a bug will occur because of some data that was entered, so I'd like to know the data that the user entered running up to the bug. 
+
+so a bug report to me would contain the following information:
+
+1. What version of the application was used (if known)?
+1. What environment the error was encountered in (dev/test/production/...)?
+1. What the user did? e.g:
+    * did the user click a button
+    * were they entering text into a field
+    * were they picking a date from a date picker
+1. What the user expected to happen? 
+1. Where in the application did the error occur?    
+    * the 'name' of the page where the user encountered the error
+    * if this is a web application, the url would be helpful
+1. If the user was pressing a button to submit some information, what information was in each field?
+1. User contact details. In case more information is needed 
+
+With this information, I can run the application locally (the specific version if it's specified in the bug report), then I can enter the same data and do the same actions to see if I can recreate the issue. if the same issue occurs locally, I can step through the code and pinpoint exactly where the issue is and (hopefully) fix it.
+What I would also do is add a test to make sure that scenario is tested in future and doesn't get broken by any future changes. 
+
+Without all of the above infomation, it will take longer to fix issues as developers will need to go back to the user and ask all of the above questions so that they have enough information to work on the bug.
+
+So in conclusion, if we all want the software to be written as quick as possible (and who doesn't), then anyone who raises a bug report needs to include the above information, and that includes testers, other developers and users.
+
+It is made easier if you can include a template into any bug reporting software to prompt people reporting bugs to enter the information.
+
+So please, everyone educate your testers/support teams/users on the information that is required. but don't just tell them what information you want, tell them why so that they understand the reason they need to enter so much information when reporting bugs.
