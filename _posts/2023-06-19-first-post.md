@@ -9,6 +9,6 @@ This is the first post in my new blog hosted in Github pages. I used to have a b
 
 what will you be able to find in these posts? probably nothing useful. The posts in this blog will be my ramblings
 
-Over time I will transfer my blog posts from blogger.com to this site. This will allow me to edit things a lot easier (mainly because I really like markdown).
+Over time I will transfer (and fixup) my blog posts from blogger.com to this site. This will allow me to edit things a lot easier (mainly because I really like markdown).
 
 I will also be adding new blog posts (that I dont really think anyone will be too interested in), but some of them may be useful to some people.

@@ -7,9 +7,6 @@ tags:
 - honda
 - cb750
 - motorcycle
-modified_time: '2017-12-27T07:42:19.116Z'
-blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-9045892537314119146
-blogger_orig_url: https://aspellclark.blogspot.com/2017/12/project-cb750-part-1.html
 ---
 
 ### So, on to my next project.

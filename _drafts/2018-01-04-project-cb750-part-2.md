@@ -6,9 +6,6 @@ author: Andy Aspell-Clark
 tags:
 - cb750
 - motorcycle
-modified_time: '2018-01-04T07:03:50.822Z'
-blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-3597422050192772305
-blogger_orig_url: https://aspellclark.blogspot.com/2018/01/project-cb750-part-2.html
 ---
 
 <h3>
