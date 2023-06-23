@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project CB750 part 1
-date: '2017-12-27T07:42:00.001Z'
+date: 2017-12-27
 author: Andy Aspell-Clark
 tags:
 - honda
