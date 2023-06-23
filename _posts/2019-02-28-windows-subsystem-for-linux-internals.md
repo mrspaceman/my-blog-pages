@@ -6,17 +6,11 @@ author: Andy Aspell-Clark
 tags:
 - software
 - computers
-modified_time: '2019-03-01T07:17:15.503Z'
-thumbnail: https://3.bp.blogspot.com/-BKu9RxhuFjU/XDj7DsE-z4I/AAAAAAADFqw/qqoOPvykLx0YRfpj2beYWWhLMgOlDMiPwCK4BGAYYCw/s72-c/word1-example-1.png
-blogger_id: tag:blogger.com,1999:blog-8558253627828403034.post-3937550000945481024
-blogger_orig_url: https://aspellclark.blogspot.com/2019/02/windows-subsystem-for-linux-internals.html
 ---
 
-
-## Background
+A little bit of Background
 
 Windows Subsystem for Linux was developed by Microsoft to enable command line programs compiled for the Linux operating system to be executed on Windows.
-
 
 
 To explain the architecture I would like to show the evolution of OS design and how that has enabled this subsystem to be built.
