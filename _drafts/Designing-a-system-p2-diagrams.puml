@@ -1,0 +1,56 @@
+@startuml Designing-a-system-p2-01
+start
+note
+start
+end note
+
+#PaleTurquoise:Read XML file;
+#PaleTurquoise:Process XML data;
+#PaleTurquoise:Save data to DB;
+
+stop
+note
+stop
+end note
+@enduml
+
+@startuml Designing-a-system-p2-02
+start
+
+repeat
+#PaleTurquoise:Read record
+from XML file;
+
+#PaleTurquoise:Process XML data;
+
+#PaleTurquoise:Save data to DB;
+repeat while (more records?) is (yes)
+
+stop
+@enduml
+
+
+@startuml Designing-a-system-p2-03
+start
+
+repeat
+#PaleTurquoise:Read record
+from XML file;
+
+if (record read?) is (<color:green>succeeds) then 
+    #PaleTurquoise:Process data record;
+    if (record processing?) is (<color:green>succeeds) then 
+        #PaleTurquoise:Save data to DB;
+        if (save to DB?) is (<color:red>fails) then 
+            #Red:Log error;
+        endif
+    else (<color:red>fails)
+        #Red:Log error;
+    endif
+else (<color:red>fails)
+    #Red:Log error;
+endif
+repeat while (more records?) is (yes)
+
+stop
+@enduml
