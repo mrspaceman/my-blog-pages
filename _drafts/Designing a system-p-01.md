@@ -34,8 +34,10 @@ C4Context
     }
 ```
 
-Now that we can see where/how our new system sits in things, we can start to decompose the high level into more detailed component diagrams.
-Each smart meter has it's own small local data store for when it cant connect to the central system (it can store readings for sending to the central data store later).
+Now that we can see where/how our new system sits in things, we can start to decompose
+the high level into more detailed component diagrams.
+Each smart meter has it's own small local data store for when it cant connect to the central system (it can store
+readings for sending to the central data store later).
 This is where we start to add more detail about the system we are designing.
 
 ```mermaid
