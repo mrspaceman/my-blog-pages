@@ -2,33 +2,43 @@
 
 So you want to start designing software as well as writing it (and testing it I hope). Where do you start?
 
-Well, there are plenty of tools around, and even more web pages with lists of those tools, so I wont go into that. This article is about how do we design software, not which tool we do it in.
+Well, there are plenty of tools around, and even more web pages with lists of those tools, so I wont go into that. This
+article is about how do we design software, not which tool we do it in.
 
-I will (of course) be including some diagrams, and these have mostly been created with [Mermaid](https://mermaid.js.org/), but you can use whatever software you are most comfortable with.
+I will (of course) be including some diagrams, and these have mostly been created
+with [Mermaid](https://mermaid.js.org/), but you can use whatever software you are most comfortable with.
 
-To design a system we have to start somewhere and the best place to start is with a very high level view of the entire system as a black box and how it fits into the wider world. This is called (in [C4](https://c4model.com/)) a **[Context Diagram](https://c4model.com/#SystemContextDiagram)**.
+To design a system we have to start somewhere and the best place to start is with a very high level view of the entire
+system as a black box and how it fits into the wider world. This is called (in [C4](https://c4model.com/)) a *
+*[Context Diagram](https://c4model.com/#SystemContextDiagram)**.
 
-From here we will follow a simple process and break items down into smaller and smaller parts until we are happy that we have enough information to work from. We wont be going to the level where we specify classes to create as I feel that if we go down to that level of detail, then we are likely to have to change the design far too often as the code changes.
+From here we will follow a simple process and break items down into smaller and smaller parts until we are happy that we
+have enough information to work from. We wont be going to the level where we specify classes to create as I feel that if
+we go down to that level of detail, then we are likely to have to change the design far too often as the code changes.
 
-we should be looking at getting to a level that shows the system in enough detail that it can be implemented, but not so much that the design has to be updated with every pull/merge request.
+we should be looking at getting to a level that shows the system in enough detail that it can be implemented, but not so
+much that the design has to be updated with every pull/merge request.
 
 So, back to the Context Diagram.
 
-to create the context diagram we need the high level overview of what the system needs to do, so here goes: we will build a design for a **smart energy meter reading system**.
+to create the context diagram we need the high level overview of what the system needs to do, so here goes: we will
+build a design for a **smart energy meter reading system**.
 
 This is our initial very high level description of our system.
 
-The following diagram for our fictional smart energy meter reading system. This diagram shows where each house's smart meter sits in the 'context' of the larger system. In this system each house has a smart meter for measuring electricity and gas usage. The central data store is read by the billing system to create each house's gas and electric bill:
+The following diagram for our fictional smart energy meter reading system. This diagram shows where each house's smart
+meter sits in the 'context' of the larger system. In this system each house has a smart meter for measuring electricity
+and gas usage. The central data store is read by the billing system to create each house's gas and electric bill:
 
 ```mermaid
-%%{init:{"theme":"forest"}}%%
+%%{init: {"theme": "forest"}}%%
 C4Context
     Enterprise_Boundary(b0, "District") {
         Person(customerA, "Customer Service", "")
         System(districtSvr2, "Smart Meter Service", "")
 
         System(houses, "Houses", "In House Smart Meter")
-        
+
         Rel(houses, districtSvr2, "send readings")
         Rel(customerA, districtSvr2, "")
     }
@@ -41,7 +51,7 @@ readings for sending to the central data store later).
 This is where we start to add more detail about the system we are designing.
 
 ```mermaid
-%%{init:{"theme":"forest"}}%%
+%%{init: {"theme": "forest"}}%%
 C4Component
     Enterprise_Boundary(b0, "District") {
         Person(customerA, "Customer 1", "")
@@ -55,7 +65,7 @@ C4Component
             System(homeSvr2, "House 2 Sensor Server", "")
             SystemDb(SystemDb2, "House 2 local store", "")
         }
-        
+
         Rel(homeSvr1, SystemDb1, "store readings", "")
         Rel(homeSvr2, SystemDb2, "store readings", "")
 
