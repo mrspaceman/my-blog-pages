@@ -27,9 +27,8 @@ that is robust, flexible, and maintainable:
 
 ### 1. Modularity:
 
-Modularity is the division of a software system into smaller, self-contained modules or components. Each module should
-perform a specific function and interact with other modules through well-defined interfaces. This approach promotes code
-reuse, simplifies testing, and isolates potential issues.
+Modularity is the division of a software system into smaller, self-contained, reusable modules or components (such as a authentication, auditing or logging components). Each module should
+perform a specific function and interact with other modules through well-defined interfaces. This approach promotes code reuse, simplifies testing, and isolates potential issues.
 
 ### 2. Abstraction:
 
