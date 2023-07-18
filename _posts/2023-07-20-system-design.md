@@ -5,7 +5,6 @@ date: 2023-07-20
 author: Andy Aspell-Clark
 tags:
   - computers
-  - work
 ---
 
 # Introduction to Software Design
