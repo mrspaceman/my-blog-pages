@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Software Design
-date: 2023-07-20
+date: 2023-07-17
 author: Andy Aspell-Clark
 tags:
   - computers
