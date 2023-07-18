@@ -5,6 +5,7 @@ date: 2023-07-17
 author: Andy Aspell-Clark
 tags:
   - computers
+  - software
 ---
 
 Software design is the process of conceiving, defining, and specifying the structure, components, interfaces, and

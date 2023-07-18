@@ -1,10 +1,11 @@
 ---
 layout: post
-author: Andy Aspell-Clark
 title: "Why good bug reports are important"
 date: 2023-06-21
+author: Andy Aspell-Clark
 tags:
-  - software
+   - computers
+   - software
 ---
 
 For those that arent software developers or testers; this post probably isnt for you. But maybe you want to find out what on earth I'm going on about. If so, then read on.
