@@ -101,3 +101,5 @@ solutions. A well-designed software system is the foundation of a successful app
 high-quality, maintainable, and scalable software. By adhering to design principles and leveraging design patterns,
 software engineers can create software that stands the test of time and meets the needs of users in an ever-changing
 technological landscape.
+
+Footnote : This blog post was written by ChatGPT. What do you think of it?
