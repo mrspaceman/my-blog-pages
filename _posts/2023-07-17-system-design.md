@@ -7,8 +7,6 @@ tags:
   - computers
 ---
 
-# Introduction to Software Design
-
 Software design is the process of conceiving, defining, and specifying the structure, components, interfaces, and
 behavior of a software system. It serves as the foundation upon which software engineers and developers build robust,
 scalable, and maintainable applications. Similar to architectural blueprints for constructing buildings, software design
