@@ -7,6 +7,7 @@
 *.o
 *.so
 
+
 # Packages #
 ############
 # it's better to unpack these files and commit the raw source
@@ -42,3 +43,4 @@ Thumbs.db
 /.idea/my-blog-pages.iml
 /.idea/vcs.xml
 /.idea/sonarlint
+_site
