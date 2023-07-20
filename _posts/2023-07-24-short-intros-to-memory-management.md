@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short Introduction to Memory Management in Java
-date: 2023-08-27
+date: 2023-07-24
 author: Andy Aspell-Clark
 tags:
     - computers
