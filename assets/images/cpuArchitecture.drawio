@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2023-07-24T07:14:08.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="D4BRw_RgzBiwju4Xr-Qh" version="21.6.5" type="device">
+  <diagram name="Page-1" id="5CwizzyZmwf4_bQhbW-x">
+    <mxGraphModel dx="1045" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7moxM9yFptFh7dnn69dI-12" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="470" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-23" value="ALU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-24" value="Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-25" value="Registers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-26" value="Memory&lt;br&gt;Management&lt;br&gt;Unit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-27" value="ALU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-28" value="ALU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7moxM9yFptFh7dnn69dI-29" value="ALU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
