@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Crucial Role of Testing in Software Development
-date: 2023-07-31
+title: Short Introduction to Testing in Software Development
+date: 2023-08-07
 author: Andy Aspell-Clark
 tags:
   - computers
@@ -47,4 +47,4 @@ In the world of software development, testing is not an option; it is a critical
 * [The Practical Test Pyramid - Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html)
 
 -----
-Footnote : This blog post was written by ChatGPT. What do you think of it?
+Footnote : This blog post was written using ChatGPT. What do you think of it?

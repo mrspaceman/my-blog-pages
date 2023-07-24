@@ -14,6 +14,9 @@ On my current project we have a few junior developers. I
 
 the list I currently have is:
 
+ * Memory Leaks & Memory Management in Java
+ * JVM Garbage Collection
+ * Testing
  * Unix/Linux
  * Command Line Usage
  * git
@@ -23,6 +26,3 @@ the list I currently have is:
  * Compilation & Linking
  * JVM
  * Variable Scope in Java
- * Memory Leaks
- * Memory Management
- * JVM Garbage Collection
