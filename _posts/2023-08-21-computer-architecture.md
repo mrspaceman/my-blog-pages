@@ -30,8 +30,9 @@ This is a very simple diagram of a CPU:
 ![image](../assets/images/cpuArchitecture.png)
 
 * The Memory Management Unit (MMU) allows the CPU to access the main memory in the computer
-* The Registers are basically a tiny bank of memory that can be address by the CPU. These "memory" locations can be accessed the fastest.
-* the Cache store a copy of a small amount of external memory. This memory is quicker to access than external memory. There may also be multiple levels in cache inside a CPU.
+* The Registers are basically a tiny bank of memory that can be addressed by the CPU. These "memory" locations can be accessed the fastest.
+* the Cache is used to store a copy of a small amount of external memory. This memory is quicker to access than external memory. There may also be multiple levels in cache inside a CPU, with each
+  "level" of cache being faster to access (an also more expensive).
 * The ALU (Arithmetic and logic unit) is the component that performs arithmetic and logical operations. In modern CPU's there will be many of these, with some dedicated to integer arithmetic and some
   dedicated to floating point arithmetic.
 
@@ -43,9 +44,4 @@ Now, let's look at how a simple CPU executes instructions (called the fetch exec
 1. Store: If the instruction changes the data, the result is stored back in memory or in a CPU register for temporary storage.
 1. Repeat: The CPU repeats this process, fetching, decoding, and executing instructions one after another, in sequence, until the program is complete.
 
-This is a simplified explanation of computer architecture.
-
-There are a lot more concepts in modern computer architecture, and even in modern CPU's. let explore some of them now.
-
-modern CPU's want to run code as fast as possible. One of the things that can slow a modern CPU is reading instructions in from main memory. To help with this a modern CPU will read in
-instructions in advance of executing them
+This is a simplified explanation of computer architecture. A google search will give you many weeks worth of reading if you want to go down that rabbit hole.
