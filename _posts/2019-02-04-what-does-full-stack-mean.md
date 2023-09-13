@@ -92,7 +92,10 @@ This is a whole series of articles in itself (which I may go into one day), but 
 
 ## Conclusion
 
-One thing I have deliberately done in the above sections is (try) to avoid mentioning any of the technologies typically associated with a "Full Stack" developer. I dougt that any developer would be an expert in writing the assembly code to get a CPU to boot, initialising the MMU (and other CPU's in an SMP system), then writing all of the drivers so that the OS is ready for an application to be written on top of it.
+One thing I have deliberately done in the above sections is (try) to avoid mentioning any of the technologies typically
+associated with a "Full Stack" developer. I doubt that any developer would be an expert in writing the assembly code to
+get a CPU to boot, initialising the MMU (and other CPU's in an SMP system), then writing all of the drivers so that the
+OS is ready for an application to be written on top of it.
 
 and why develop all of these things when there are so many options out there? So what does this oft used term mean then?
 
