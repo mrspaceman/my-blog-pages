@@ -7,6 +7,7 @@ tags:
 
 - software
 - computers
+
 ---
 
 I've been a software engineer for a little while and I see the term "Full Stack developer" more and more, but what does

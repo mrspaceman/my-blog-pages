@@ -12,7 +12,7 @@ tags:
 
 I am going to start writing some short "Introduction to" articles which I will be
 
-On my current project we have a few junior developers. I
+On my current project we have a few junior developers.
 
 the list I currently have is:
 
@@ -29,6 +29,7 @@ the list I currently have is:
 * Compilation & Linking
 * JVM
 * Variable Scope in Java
+* OAuth & JWT's
 
 # Compilation and linking
 
@@ -40,23 +41,31 @@ the list I currently have is:
     * what does it do?
 1. why should we care?
 1. the compilation process
-    * JIT
+   * Just In Time
 
 # Unix/Linux
 
 1. Unix / Linux history
 1. Users
-    * root
+   * `root`
     * non-humans
     * the rest of us
 1. Filesystem layout
-    * /
-    * /bin
-    * /etc
-    * /user
-    * /lib
-    * /mnt
+   * `/`
+   * `/bin`
+   * `/etc`
+   * `/usr`
+   * `/lib`
+   * `/mnt`
 1. SSH/Telnet/RLogin
 1. WSL
 
 # The Command line
+
+# UML
+
+1. basics of UML
+1. PlantUML/Mermaid
+1. Component Diagram
+1. Activity Diagram
+1. Sequence Diagram
