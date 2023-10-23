@@ -4,25 +4,59 @@ title: Short Intros to ...
 date: 2023-08-27
 author: Andy Aspell-Clark
 tags:
-    - computers
-    - software
+
+- computers
+- software
+
 ---
 
-I am going to start writing some short "Introduction to" articles which I will be 
+I am going to start writing some short "Introduction to" articles which I will be
 
-On my current project we have a few junior developers. I 
+On my current project we have a few junior developers. I
 
 the list I currently have is:
 
- * Memory Leaks & Memory Management in Java
- * JVM Garbage Collection
- * Testing
- * Unix/Linux
- * Command Line Usage
- * git
- * UML
- * Databases
- * Computer Architecture
- * Compilation & Linking
- * JVM
- * Variable Scope in Java
+* Computer Architecture
+* Memory Leaks & Memory Management in Java
+* JVM Garbage Collection
+* Testing
+* Unix/Linux
+* Command Line Usage
+* git
+* UML
+* Databases
+* Computer Architecture
+* Compilation & Linking
+* JVM
+* Variable Scope in Java
+
+# Compilation and linking
+
+1. what is an interpreter?
+    * what does it do?
+1. what is a compiler?
+    * what does it do?
+1. what is a linker?
+    * what does it do?
+1. why should we care?
+1. the compilation process
+    * JIT
+
+# Unix/Linux
+
+1. Unix / Linux history
+1. Users
+    * root
+    * non-humans
+    * the rest of us
+1. Filesystem layout
+    * /
+    * /bin
+    * /etc
+    * /user
+    * /lib
+    * /mnt
+1. SSH/Telnet/RLogin
+1. WSL
+
+# The Command line
