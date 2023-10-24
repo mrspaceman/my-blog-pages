@@ -66,6 +66,7 @@ the list I currently have is:
 1. What is a `shell`
 1. interactive or not?
 1. `csh`, `ash`, `bash`
+1. variables, `export` and expansion
 1. useful commands and flags
 1. `.bashrc` files
    1. `.bashrc`
