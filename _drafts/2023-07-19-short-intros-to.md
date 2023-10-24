@@ -16,7 +16,8 @@ On my current project we have a few junior developers.
 
 the list I currently have is:
 
-* Computer Architecture
+* Computer Architecture Part 1 (CPU)
+* Computer Architecture Part 2 - Supporting hardware
 * Memory Leaks & Memory Management in Java
 * JVM Garbage Collection
 * Testing
@@ -61,6 +62,16 @@ the list I currently have is:
 1. WSL
 
 # The Command line
+
+1. What is a `shell`
+1. interactive or not?
+1. `csh`, `ash`, `bash`
+1. useful commands and flags
+1. `.bashrc` files
+   1. `.bashrc`
+   1. `.bashrc_profile`
+   1. `.bash_history`
+1. shell script files
 
 # UML
 
