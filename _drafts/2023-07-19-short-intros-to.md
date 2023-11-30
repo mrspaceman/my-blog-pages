@@ -71,6 +71,10 @@ the list I currently have is:
 
 # The Command line
 
+ssh hannahw@185.231.138.116
+ssh jasonb@185.231.138.116
+ssh ethanm@185.231.138.116
+
 1. What is a `shell`
 1. interactive or not?
 1. `csh`, `ash`, `bash`
