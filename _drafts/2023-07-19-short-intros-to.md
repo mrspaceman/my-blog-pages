@@ -69,6 +69,12 @@ the list I currently have is:
 1. SSH/Telnet/RLogin
 1. WSL
 
+# REST API best practises
+1. 
+
+# Using Postman to test API's
+1. 
+
 # The Command line
 
 ssh hannahw@185.231.138.116
