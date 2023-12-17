@@ -83,7 +83,7 @@ ssh ethanm@185.231.138.116
 
 1. What is a `shell`
 1. interactive or not?
-1. `csh`, `ash`, `bash`
+1. `csh`, `ash`, `bash`, `zsh`
 1. variables, `export` and expansion
 1. `.bashrc` files
    1. `.bashrc`
@@ -113,7 +113,7 @@ ssh ethanm@185.231.138.116
    1. `which`
    1. `exit`
 1. shell script files
-1. `Ctrl-R`
+1. `Ctrl-R/O/G/S`
 1. `;` & `&&`
 
 # UML
