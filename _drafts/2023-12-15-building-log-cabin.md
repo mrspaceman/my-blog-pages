@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Starting to turn
-date: 2023-11-23
+title:Building a BillyOh Devon Log Cabin
+date: 2023-12-26
 author: Andy Aspell-Clark
 tags:
 - woodwork
@@ -52,4 +52,9 @@ to extend the concrete pad, I planned to use ground screws and build a base on t
 
 The friday afternoon, I measures the joists against the shed walls and cut them to size, then I assembled the base frame and finally got the ground screws into position and installed. Once the base frame was down (80% on the concrete base and the rest on the ground screws) I put the rest of the base joists in place. Now it was on to the Devon shed (and yes, I'm calling it a shed and not a log cabin).
 
+First was working out which bits of wood were the shed bearers. This had me stumped for a while as I was expecting the bearers to be bigger than the ones supplied, so I kept overlooking the actual bearers looking for something more substantial. Once we had worked out which pieces were the bearers we put them in place. finally we can start to assemble the walls.
+
+we put the first two side pieces down (easily identified as the only two pieces that were flat and not grooved on the bottom). We were assembling the "Log Cabin".
+
+Now it was a simple case of putting in front and back pieces, then sides, then front and back and so on until we got to around six wall pieces high (according to the instructions, this is when you put the floor in).
 

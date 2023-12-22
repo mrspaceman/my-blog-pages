@@ -100,21 +100,21 @@ ssh ethanm@185.231.138.116
    1. `find`
    1. `mkdir`
    1. `rm` & `rmdir`
-   1. `cp`, `mv` & `rm`
-   1. `history`
-   1. `ps` & `kill` & `killall`
-   1. `chmod` & `chown`
-   1. `sudo`
-   1. `top` & `htop`
+   2. `cp`, `mv`
+   3. `history`
+   4. `ps` & `kill` & `killall`
+   5. `chmod` & `chown`
+   6. `sudo`
+   7. `top` & `htop`
    1. `df` & `du` & `pydf`
-   1. `ping`
-   1. `vi` & `nano`
-   1. `passwd`
-   1. `which`
-   1. `exit`
-1. shell script files
-1. `Ctrl-R/O/G/S`
-1. `;` & `&&`
+   2. `ping`
+   3. `vi` & `nano`
+   4. `passwd`
+   5. `which`
+   6. `exit`
+2. shell script files
+3. `Ctrl-R/O/G/S`
+4. `;` & `&&`
 
 # UML
 
