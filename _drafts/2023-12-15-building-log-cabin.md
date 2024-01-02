@@ -30,6 +30,10 @@ wood poor quality and warped
 all screws and nails mixed in a big bag
     * hours to sort them out
 
+walls leaked
+
+----
+
 Good Morning/Afternoon/Evening/Night (who knows when you are reading this).
 
 Here is my account of assembling a BillyOh Devon Log cabin (and it's not pretty).
