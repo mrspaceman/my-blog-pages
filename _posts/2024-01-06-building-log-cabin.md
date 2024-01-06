@@ -16,25 +16,25 @@ if you don't want to spend the time to read this entire post, please read the ne
 This is a quick summary of the problems we have had:
 
 delivery estimate changed after the order was placed    
-    * was 4-6 weeks when I placed the order
-    * changed to 8-10 weeks after I contacted them to see where my order was
+* was 4-6 weeks when I placed the order
+* changed to 8-10 weeks after I contacted them to see where my order was
 
 Delivery was incomplete/wrong
-    * missing roof planks
-    * Not enough roof felt (supplied 15m roll, needed 20m)
-    * delivered very wet despite it being a dry day
+* missing roof planks
+* Not enough roof felt (supplied 15m roll, needed 20m)
+* delivered very wet despite it being a dry day
 
 Instructions abysmal    
-    * links to winchester cabin, which is different
-    * parts list incomplete and confusing
+* links to winchester cabin, which is different
+* parts list incomplete and confusing
 
 wood poor quality and warped
-    * very difficult to get the tongue and groove fitted properly
-    * ended up with a gap above the window and door
-    * Window did not fit in the supplied frame. had to plane down the edge and remove screws and refit the frame
+* very difficult to get the tongue and groove fitted properly
+* ended up with a gap above the window and door
+* Window did not fit in the supplied frame. had to plane down the edge and remove screws and refit the frame
 
 all screws and nails mixed in a big bag
-    * hours to sort them out
+* hours to sort them out
 
 walls leaked
 
