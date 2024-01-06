@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a BillyOh Devon Log Cabin
-date: 2024-01-15
+date: 2024-01-06
 author: Andy Aspell-Clark
 tags:
 - woodwork
