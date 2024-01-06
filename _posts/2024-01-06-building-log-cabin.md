@@ -20,7 +20,7 @@ delivery estimate changed after the order was placed
 * changed to 8-10 weeks after I contacted them to see where my order was
 
 Delivery was incomplete/wrong
-* missing roof planks
+* missing roof planks (still missing as I write this)
 * Not enough roof felt (supplied 15m roll, needed 20m)
 * delivered very wet despite it being a dry day
 
