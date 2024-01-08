@@ -11,8 +11,7 @@ tags:
 
 if you don't want to spend the time to read this entire post, please read the next line as it will save you time, effort, money and misery:
 
-
-This is a quick summary of the problems we have had:
+### This is a quick summary of the problems we have had:
 
 delivery estimate changed after the order was placed    
 * was 4-6 weeks when I placed the order
@@ -35,7 +34,9 @@ wood poor quality and warped
 all screws and nails mixed in a big bag
 * hours to sort them out
 
-walls leaked
+the walls leaked after it was all put together
+
+anyway, on to the writeup:
 
 ----
 
@@ -79,7 +80,7 @@ well, no I don't think we could have worked it out. So anyway, we guessed which 
 
 so we got the walls up to six planks high. This wasn't too bad. we had a lot of hammering to get the tongue and grooves to fit (and I mean a lot of hammering, going back and forth between each end of the board and trying to unwarp the planks as we slotted them together).
 
-No to fit the floor boards. This was a bit of a faff, but not too bad. the bearers do not get fixed to whatever is underneath them (at least the instructions seem to say don't fix them down), so they moved every time I nudged them, but we got the floor down and it's not too bad.
+Now to fit the floor boards. This was a bit of a faff, but not too bad. the bearers do not get fixed to whatever is underneath them (at least the instructions seem to say don't fix them down), so they moved every time I nudged them, but we got the floor down and it's not too bad.
 
 we did use a billyoh youtube video of assembling the devon log cabin, and boy they made it look so easy. I should have realised that VFX these days are really good.
 
@@ -93,7 +94,7 @@ We got to the final layer, which is one layer over the window frame. and this is
 
 so the front of the cabin is like this:
 
-Very short wall piece, then a gap, then this floating piece, then the window frame, then another very short wall piece sort of like this:
+Very short wall piece, then a gap for the door, then this floating piece, then the window frame, then another very short wall piece sort of like this:
 
 ```
 ======                 =====]----------[=====
@@ -105,7 +106,7 @@ what on earth had happened?
 
 we looked at the side walls and there were a few places where the tongue and groove was not fully seated, but nothing that seemed to add up to such a large gap above the window frame.
 
-the middle "very short" boards, we fudged by putting packers into the tongue and groove and between a few of them and then they finally slotted into the full length top board. But what about the window frame? it took us a while, but eventually, we worked out that the window frame had an orientation. We had installed it upside down. Now as changing it would mean undoing a lot of work, we decided to leave it as it was. We could push it up and cover the gap, and use screws to secure it, but this is not ideal. Had there been anything in the instructions to tell us the window frame should be installed a certain way up, then fine I'd accept the blame, but there is nothing in any instructions I have found (or on youtube videos) that says the window frame has an orientation.
+in the end we decided to "fix" the middle "very short" boards by fudging it. We put packers into the tongue and groove and between a few of them and then they finally slotted into the full length top board. But what about the window frame? it took us a while, but eventually, we worked out that the window frame had an orientation. We had installed it upside down. Now as changing it would mean undoing a lot of work, we decided to leave it as it was. We could push it up and cover the gap, and use screws to secure it, but this is not ideal. Had there been anything in the instructions to tell us the window frame should be installed a certain way up, then fine I'd accept the blame, but there is nothing in any instructions I have found (or on youtube videos) that says the window frame has an orientation.
 
 By this time of course, we were fully committed to finishing this shed build, so we moved on to the roof. All of the instructions we had found said the purlins would be notched and should be installed notch side down.
 
