@@ -23,7 +23,7 @@ Delivery was incomplete/wrong
 * delivered very wet despite it being a dry day
 
 Instructions abysmal    
-* links to winchester cabin, which is different
+* links to winchester cabin, which is different (I could not find any Devon specific instructions on the web, except a youtube video which we followed)
 * parts list incomplete and confusing
 
 wood poor quality and warped
@@ -40,13 +40,15 @@ anyway, on to the writeup:
 
 ----
 
+### Constructing the "Log Cabin"
+
 Good Morning/Afternoon/Evening/Night (who knows when you are reading this).
 
 Here is my account of assembling a BillyOh Devon Log cabin (and it's not pretty).
 
 I was looking for a cheap way of getting a garden office. I had been looking at Garden Offices and they were far too expensive for my budget. I had seen quite small garden offices for 15 to 20k (GBP). there was no way I was willing to pay that much, so I looked around for alternatives.
 
-I already had a concrete pad from an old shed at the bottom of the garden, but I wanted more room in my office than the shed had, so I was looking for an office building of 3 meters wide by 4 meters deep. I finally found a company that supplied some good looking (in the photos at least) log cabin buildings that looked like they should assemble easily. They have thick walls that should help with insulation and slot together like lego.
+I already had a concrete pad from an old shed at the bottom of the garden, but I wanted more room in my office than the shed had, so I was looking for an office building 3 meters wide by 4 meters deep. I finally found a company that supplied some good looking (in the photos at least) log cabin buildings that looked like they should assemble easily. They have thick walls that should help with insulation and slot together like lego.
 
 I found the BillyOh log cabins and looked through the range and liked the look of the Kent Log Cabin, but as it wasn't square, it would have made extending the concrete pad more awkward. I decided on the Devon Log Cabin as it was the dimensions I wanted and a price that was okay.
 
@@ -54,15 +56,19 @@ I selected the thicker boards for the walls, roof and floor to help with insulat
 
 6 weeks later and no news about when the billyoh shed would arrive, so I emailed them and they got back to say that the timelines were 8 to 10 weeks.
 
-4 more weeks later, and the shed finally arrived. It arrived on a Thursday, so I took the friday afternoon off to start the build.
+4 more weeks later, the shed finally arrived. It arrived on a Thursday, so I took the Friday afternoon off to start the build.
 
 The plan was this:
 
 to extend the concrete pad, I planned to use ground screws and build a base on that. I wanted the base joists to match the shed walls, so while I had the ground screws and base joists I decided to wait to cut them to size to make sure they would fit the shed walls.
 
-The friday afternoon, I measures the joists against the shed walls and cut them to size, then I assembled the base frame and finally got the ground screws into position and installed. Once the base frame was down (80% on the concrete base and the rest on the ground screws) I put the rest of the base joists in place. Now it was on to the Devon shed (and yes, I'm calling it a shed and not a log cabin).
+# The Foundation
 
-First was working out which bits of wood were the shed bearers. This had me stumped for a while as I was expecting the bearers to be bigger than the ones supplied, so I kept overlooking the actual bearers looking for something more substantial. Once we had worked out which pieces were the bearers we put them in place. finally we can start to assemble the walls.
+The Friday afternoon, I measures the joists against the shed walls and cut them to size, then I assembled the base frame and finally got the ground screws into position and installed. Once the base frame was down (80% on the concrete base and the rest on the ground screws) I put the rest of the base joists in place. Now it was on to the Devon shed (and yes, I'm calling it a shed and not a log cabin).
+
+First was working out which bits of wood were the shed bearers. This had me stumped for a while as I was expecting the bearers to be bigger than the ones supplied, so I kept overlooking the actual bearers looking for something more substantial. Once we had worked out which pieces were the bearers we put them in place. Finally we can start to assemble the walls.
+
+# The Log Cabin
 
 we put the first two side pieces down (easily identified as the only two pieces that were flat and not grooved on the bottom). We were now assembling the "Log Cabin".
 
@@ -72,7 +78,7 @@ This is where we hit our first problem.
 
 There were two "very short" sections of wall that were at the front. one section would be next to the door, the other section next to the window. These two were different lengths and nothing in the instructions indicated which should be used for the door or the window.
 
-We thought that there would be a different number of each (as the ones next to the window only started at the bottom of the window), but when we counted, there seemed to be the same number of each (which looking back, much have been wrong as we don't have any spares left).
+We thought that there would be a different number of each (as the ones next to the window only started at the bottom of the window frame), but when we counted, there seemed to be the same number of each (which looking back, much have been wrong as we don't have any spares left).
 
 We may have been able to work out which was which by measuring "short" pieces (which went under the window), the door, the door frame, the window frame, guessing at any allowances had been made and...
 
@@ -80,7 +86,7 @@ well, no I don't think we could have worked it out. So anyway, we guessed which 
 
 so we got the walls up to six planks high. This wasn't too bad. we had a lot of hammering to get the tongue and grooves to fit (and I mean a lot of hammering, going back and forth between each end of the board and trying to unwarp the planks as we slotted them together).
 
-Now to fit the floor boards. This was a bit of a faff, but not too bad. the bearers do not get fixed to whatever is underneath them (at least the instructions seem to say don't fix them down), so they moved every time I nudged them, but we got the floor down and it's not too bad.
+Now to fit the floor boards. This was a bit of a faff, but not too bad. the bearers do not get fixed to whatever is underneath them (at least the instructions seem to say don't fix them down), so they moved every time I nudged them, but we got the floor down and it's not too bad (although we may add another floor layer to spread the load a bit more).
 
 we did use a billyoh youtube video of assembling the devon log cabin, and boy they made it look so easy. I should have realised that VFX these days are really good.
 
@@ -100,13 +106,15 @@ Very short wall piece, then a gap for the door, then this floating piece, then t
 ======                 =====]----------[=====
 ```
 
-but now that we put a board across the entire width of the shed above the window frame, we noticed that the middle section didn't get as high as the board going all the way across the full width of the wall. there was a gap of about an inch (or 25mm) and there was also a gap above the window frame.
+But now that we put a board across the entire width of the shed above the window frame, we noticed that the middle section didn't get as high as the board going all the way across the full width of the wall. there was a gap of about an inch (or 25mm) and there was also a gap above the window frame.
 
-what on earth had happened?
+What on earth had happened?
 
-we looked at the side walls and there were a few places where the tongue and groove was not fully seated, but nothing that seemed to add up to such a large gap above the window frame.
+We looked at the side walls and there were a few places where the tongue and groove was not fully seated, but nothing that seemed to add up to such a large gap above the window frame.
 
-in the end we decided to "fix" the middle "very short" boards by fudging it. We put packers into the tongue and groove and between a few of them and then they finally slotted into the full length top board. But what about the window frame? it took us a while, but eventually, we worked out that the window frame had an orientation. We had installed it upside down. Now as changing it would mean undoing a lot of work, we decided to leave it as it was. We could push it up and cover the gap, and use screws to secure it, but this is not ideal. Had there been anything in the instructions to tell us the window frame should be installed a certain way up, then fine I'd accept the blame, but there is nothing in any instructions I have found (or on youtube videos) that says the window frame has an orientation.
+In the end we decided to "fix" the middle "very short" boards by fudging it. We put packers into the tongue and groove between a few of them and then they finally slotted into the full length top board.
+
+But what about the window frame? it took us a while, but eventually, we worked out that the window frame had an orientation. We had installed it upside down. Now as changing it would mean undoing a lot of work, we decided to leave it as it was. We could push it up and cover the gap, and use screws to secure it, but this is not ideal. Had there been anything in the instructions to tell us the window frame should be installed a certain way up, then fine I'd accept the blame, but there is nothing in any instructions I have found (or on youtube videos) that says the window frame has an orientation.
 
 By this time of course, we were fully committed to finishing this shed build, so we moved on to the roof. All of the instructions we had found said the purlins would be notched and should be installed notch side down.
 
