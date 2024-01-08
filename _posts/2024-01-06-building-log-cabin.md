@@ -7,11 +7,10 @@ tags:
 - woodwork
 ---
 
-## Building a BillyOh Devon Log Cabin
+## **<tldr>DO NOT BUY BILLYOH PRODUCTS</tldr>**
 
 if you don't want to spend the time to read this entire post, please read the next line as it will save you time, effort, money and misery:
 
-**<tldr>DO NOT BUY BILLYOH PRODUCTS</tldr>**
 
 This is a quick summary of the problems we have had:
 
