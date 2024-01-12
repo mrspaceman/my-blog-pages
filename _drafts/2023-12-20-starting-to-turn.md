@@ -1,23 +1,20 @@
 ---
 layout: post
 title: Starting to turn
-date: 2023-11-23
+date: 2024-01-30
 author: Andy Aspell-Clark
 tags:
-
 - woodwork
 - lathe
-
 ---
 
-I have been talking about buying a lathe for a few years now. Mostly I have wanted a lathe to turn pens,
-but I have always thought I would turn bowls as well.
+I have been talking about buying a lathe for a few years now. Mostly I have wanted a lathe to turn pens, but I have always thought I would turn bowls as well.
 
 One of the problems that has stopped me buying a lathe before has been where on earth I would put it?
 
 My workshop isn't that large and it already has a lot in it (too much really).
 
-Claire bought me a lathe for christmas, with starter tools a bowl blank and some pen blanks.
+Claire bought me a lathe for christmas 2023, with starter tools a bowl blank and some pen blanks.
 
 it's a nice compact (read small) lathe that could actually sit on a black and decker workbench, and thats where I intiallaly set it up.
 
@@ -25,7 +22,7 @@ setup consisted of getting the main body of the lathe out of the box and putting
 
 here comes my first mistake (and yes, there will be plenty more) !
 
-there was a power lead in the box, 
+there was a power lead in the box,
 
 ![image](../assets/images/2023-22-20-starting-to-turn/power-lead-plug.png)
 
@@ -80,4 +77,3 @@ I didnt have much space in my garage (still dont actually) and so the planks wer
 back to the present, and I realised I can use the offcuts from the planks I cut to create small spindle blanks for pen turning. So I ordered a pack of 5 pen kits (from amazon) and when they arrived, I followed the instructions (mostly) and cut a blank in half and drilled a hole through it. I couldnt find the chuck key for my pillar drill, so I used a hand drill and manually drilled the holes in the blanks. Luckly I had made the blanks quite a bit larger than the pen blanks you buy (bought ones are around 19mm square and mine were at least twice that). As the blanks were a bit on the large size (like me really), it didnt matter that the hole I drilled wasnt completly straight.
 
 [images]()
-
