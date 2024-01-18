@@ -37,6 +37,8 @@ a few problems here.
 2. Exactly what is going to be delivered ?
 3. I thought the last comment about assembling the shed within 4 weeks a bit of a joke as it was delivered (incomplete) on the 30th November 2023, and they've left me with a hole in the roof since then, so much for assembling in 4 weeks.
 
+WE have a video doorbell, and when we watched the delivery, it was dumped on the doorstep, the driver rang the bell, didnt wait for an answer and drove away.
+
 we got a friend to take in the delivery, and guess what:
 
 the delivery was of two window frames not a pack of 10 roof boards.
