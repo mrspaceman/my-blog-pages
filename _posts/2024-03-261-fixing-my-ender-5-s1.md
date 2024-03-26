@@ -33,7 +33,7 @@ So, disassembly complete, well, nearly. I also had to take the heater and thermi
 
 so with the hotend screwed on to the printer and the heater and thermistor connected to the LPCBBOH it was time for the fan.
 
-Ah, the new fan didnt come with a connector on the end of the wires, so I had to snip the old fan's connector off and solder it on to the new fan. bingo, ready to rock and roll.
+Ah, the new fan didn't come with a connector on the end of the wires, so I had to snip the old fan's connector off and solder it on to the new fan. bingo, ready to rock and roll.
 
 so, with the old connector on new fan, I attached the fan to the LPCBBOH and screwed the fan in place on the hotend and powered up.
 
@@ -69,11 +69,11 @@ It's a good day, the new board and ribbon cable have arrived, so I go back to th
 
 with everything reconnected and screwed back in place, I power it on again and go through the checks to make sure everything it working. starting with the hotend fan, and yep, looks like it's working. It was the LPCBBOH hotend fan connector. My printer is back up and running.
 
-Right, now to test print a benchy, with me watching so that the gremlins didnt have a chance to bugger it up.
+Right, now to test print a benchy, with me watching so that the gremlins didn't have a chance to bugger it up.
 
 it got a couple of layers through and then the hotend just stopped. Here we go again. (I must have blinked and let the gremlins in)
 
-so back on th ePC, email to creality that I had swapped the board and that it still wasnt working. I really didnt know what Creality could do now as the only other explanation could be the motherboard, but I didnt see why that would break as it doesnt have any moving parts.
+so back on th ePC, email to creality that I had swapped the board and that it still wasn't working. I really didn't know what Creality could do now as the only other explanation could be the motherboard, but I didn't see why that would break as it doesnt have any moving parts.
 
 email back from Creality and they say a new motherboard is on it's way. Really, Creality could have  blamed user error here, but no, they have sent me a replacement part for an old (and not exactly top of the line) printer. I'm astounded by how good Creality support is.
 
@@ -95,7 +95,7 @@ A few more test prints later and the printer is now fully up and working. I gues
 
 it took a couple more weeks for the motherboard to arrive, but I dont think I need that at the moment, so it will go into the Ender 5 S1 stuff box for now.
 
-I cant really praise Creality support enough, they did enerything to get me back up and running quickly, and if I'd followed what they had suggested and replaced the ribbon cable when they sent it to me, my printer would have been up and working a lot sooner.
+I cant really praise Creality support enough, they did everything to get me back up and running quickly, and if I'd followed what they had suggested and replaced the ribbon cable when they sent it to me, my printer would have been up and working a lot sooner.
 
 Many prints later and it's still going strong.
 
