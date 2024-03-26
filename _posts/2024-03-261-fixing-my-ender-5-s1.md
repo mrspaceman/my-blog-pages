@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing My Creality Ender 5 S1
-date: 2024-04-30
+date: 2024-03-26
 author: Andy Aspell-Clark
 tags:
 - 3D Printing
@@ -41,7 +41,7 @@ Well, at least no magic smoke escaped, thats a start, then I set the nozzle temp
 
 Oh, the fan stopped again.
 
-Little tip here. Never turn you back on your 3D printer as that's when the goblins must come out to break something. You'll never see them, but thats my only explanation.
+Little tip here. Never turn you back on your 3D printer as that's when the gremlins come out to break something. You'll never see them, but thats my only explanation.
 
 So, I cooled everything down, remove the power and removed the fan connector, checked it over and put it back into the LPCBBOH, fired everything back up and set the nozzle temp again. The fan is working.
 
@@ -53,7 +53,7 @@ ok, ready for a test print, back at my PC, slice a benchy and start a print.
 
 Hmmm, the hotend fan has stopped again. My fault for turning my back and going to slice a benchy.
 
-It was at this point that my wife mentioned that as it was still under warranty (just, less than a month left), that I should contact creality and see what they said. I wasn't convinced as thats a company know for cheap and okayish printers. this was a printer that wasnt new and I just thought that creality would fob me off, so I sent a support email describing the problem and they got back to me to make sure which fan wasnt working and asked if I had tried the hotend fan in the parts cooling fan port to prove the fan worked. Of course I had.....
+It was at this point that my wife mentioned that as it was still under warranty (just, less than a month left), that I should contact creality and see what they said. I wasn't convinced as thats a company know for cheap and okayish printers. this was a printer that wasnt new and I just thought that creality would fob me off, so I sent a support email describing the problem and they got back to me to make sure which fan wasnt working and asked if I had tried the hotend fan in the parts cooling fan port to prove the fan worked. Of course I had tri.....
 
 Oh, maybe I should have tried that before cutting the connector off the old fan.
 
@@ -64,3 +64,40 @@ I reply to creality and attach a photo of the fan as asked, and they get back to
 Wow, I'm amazed, that is a level of service I wasnt expecting,
 
 So, I impatiently wait for the new board to arrive with it's working connector.
+
+It's a good day, the new board and ribbon cable have arrived, so I go back to the printer, turn it round as I need to work at the back of the printer now, unscrew the part cooling fan and disconnect it from the LPCBBOH, disconnect the thermistor, heater block, hotend fan, extruder and ribbon cable, then I can put the new LPCBBOH in it's place and reconnect everything, phew.
+
+with everything reconnected and screwed back in place, I power it on again and go through the checks to make sure everything it working. starting with the hotend fan, and yep, looks like it's working. It was the LPCBBOH hotend fan connector. My printer is back up and running.
+
+Right, now to test print a benchy, with me watching so that the gremlins didnt have a chance to bugger it up.
+
+it got a couple of layers through and then the hotend just stopped. Here we go again. (I must have blinked and let the gremlins in)
+
+so back on th ePC, email to creality that I had swapped the board and that it still wasnt working. I really didnt know what Creality could do now as the only other explanation could be the motherboard, but I didnt see why that would break as it doesnt have any moving parts.
+
+email back from Creality and they say a new motherboard is on it's way. Really, Creality could have  blamed user error here, but no, they have sent me a replacement part for an old (and not exactly top of the line) printer. I'm astounded by how good Creality support is.
+
+so, the motherboard took a few weeks to arrive, and in that time I thought I might as well replace the ribbon cable that creality sent me with the new LPCBBOH.
+
+so I unclipped the ribbon cable from the LPCBBOH, turned the printer onto its front so that I could unscrew the bottom to get at the other end of the ribbon cable, clipped a few cable ties that were holding it in place, replaced the old ribbon cable with the new ribbon cable, zip tied it back in place, ran it back up the back of the printer and reattached it to the LPCBBOH.
+
+turn the printer on, not expecting much, run through my tests and everything works, yes everything, including the hotend fan.
+
+okay, now watching like a hawk so as not to give the gremlins a chance to muck it up, I start a benchy.
+
+It worked !!!
+
+wow, a successful print.
+
+I really should have replaced the cable and LPCBBOH, which is probably why Creality had sent it to me, guess they know their stuff.
+
+A few more test prints later and the printer is now fully up and working. I guess it was a loose connection in the ribbon cable.
+
+it took a couple more weeks for the motherboard to arrive, but I dont think I need that at the moment, so it will go into the Ender 5 S1 stuff box for now.
+
+I cant really praise Creality support enough, they did enerything to get me back up and running quickly, and if I'd followed what they had suggested and replaced the ribbon cable when they sent it to me, my printer would have been up and working a lot sooner.
+
+Many prints later and it's still going strong.
+
+Thanks Creality for making good affordable printers and for having Amazing support.
+
