@@ -33,7 +33,9 @@ So, disassembly complete, well, nearly. I also had to take the heater and thermi
 
 so with the hotend screwed on to the printer and the heater and thermistor connected to the LPCBBOH it was time for the fan.
 
-Ah, the new fan didn't come with a connector on the end of the wires, so I had to snip the old fan's connector off and solder it on to the new fan. bingo, ready to rock and roll.
+Ah, the new fan didn't come with a connector on the end of the wires, 
+![image](../assets/images/2024-03-26-fixing-my-ender-5-s1/20240228_121936.jpg)
+so I had to snip the old fan's connector off and solder it on to the new fan. bingo, ready to rock and roll.
 
 so, with the old connector on new fan, I attached the fan to the LPCBBOH and screwed the fan in place on the hotend and powered up.
 
@@ -80,6 +82,8 @@ email back from Creality and they say a new motherboard is on it's way. Really, 
 so, the motherboard took a few weeks to arrive, and in that time I thought I might as well replace the ribbon cable that creality sent me with the new LPCBBOH.
 
 so I unclipped the ribbon cable from the LPCBBOH, turned the printer onto its front so that I could unscrew the bottom to get at the other end of the ribbon cable, clipped a few cable ties that were holding it in place, replaced the old ribbon cable with the new ribbon cable, zip tied it back in place, ran it back up the back of the printer and reattached it to the LPCBBOH.
+
+![alt text](../assets/images/2024-03-26-fixing-my-ender-5-s1/20240302_094633.jpg)
 
 turn the printer on, not expecting much, run through my tests and everything works, yes everything, including the hotend fan.
 
