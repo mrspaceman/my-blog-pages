@@ -74,6 +74,8 @@ I didn't have much space in my garage (still don't actually) and so the planks w
 
 [images]()
 
-back to the present, and I realised I can use the offcuts from the planks I cut to create small spindle blanks for pen turning. So I ordered a pack of 5 pen kits (from amazon) and when they arrived, I followed the instructions (mostly) and cut a blank in half and drilled a hole through it. I couldn't find the chuck key for my pillar drill, so I used a hand drill and manually drilled the holes in the blanks. Luckily I had made the blanks quite a bit larger than the pen blanks you buy (bought ones are around 19mm square and mine were at least twice that). As the blanks were a bit on the large size (like me really), it didn't matter that the hole I drilled wasn't completely straight.
+back to the present, and I realised I can use the offcuts from the planks I cut to create small spindle blanks for pen turning. So I ordered a pack of 5 pen kits and some of the specialst tooling needed (from amazon) and when they arrived, I followed the instructions (mostly) and cut a blank in half and drilled a hole through it. I couldn't find the chuck key for my pillar drill, so I used a hand drill and manually drilled the holes in the blanks. Luckily I had made the blanks quite a bit larger than the pen blanks you can buy (bought ones are around 19mm square and mine were at least twice that). As the blanks were a bit on the large size (like me really), it didn't matter that the hole I drilled wasn't completely straight.
 
 [images]()
+
+I put the two parts of the pen blank onto the pen mandrel (thats the bit that holds the blanks in the lathe), mounted the mandrel into the lathe, made sure the speed was set to it's slowest setting and turned it on.
