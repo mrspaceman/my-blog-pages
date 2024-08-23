@@ -22,7 +22,24 @@ as a woodworker, I like dovetail joints and they also locate parts nicely togeth
 
 while a single dovetail would probably work, I decided to go with two dovetails as I believe it will be nicer (once glued I dont think there will be any difference in strength, so it's just an arbitrary decision I have made.)
 
-so the dovetail will in my part will look like this:
+first, a single dovetail:
+
+
+![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.single.png)
+
+now back to the maths (I know, I didnt really want to do this, but once I've got this worked out and in a spreadsheet I can forget all about it)
+
+so we have (or at least I want for now)
+
+1. `L = 2X + Y`
+3. `R = S / 3`
+4. `S = X`
+
+so if the two faces to join together are 100mm long (`L = 100mm`)
+
+
+<!--
+next I will attempt a double dovetail:
 
 ![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.single.png)
 
@@ -96,7 +113,7 @@ so the values for my FreeCAD spreadsheet are this:
 | 22 |   |   |
 | 23 |   |   |
 
-
+-->
 
 
 
