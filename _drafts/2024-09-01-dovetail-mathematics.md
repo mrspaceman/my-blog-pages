@@ -38,7 +38,6 @@ so we have (or at least I want for now)
 so if the two faces to join together are 100mm long (`L = 100mm`)
 
 
-<!--
 next I will attempt a double dovetail:
 
 ![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.single.png)
@@ -113,7 +112,6 @@ so the values for my FreeCAD spreadsheet are this:
 | 22 |   |   |
 | 23 |   |   |
 
--->
 
 
 
