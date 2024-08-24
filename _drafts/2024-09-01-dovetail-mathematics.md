@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dovetail mathematics for 3d design
+title: Dovetail Mathematics for 3D Design
 date: 2024-09-01
 author: Andy Aspell-Clark
 tags:
@@ -8,7 +8,34 @@ tags:
 - freecad
 ---
 
-3D Design Mathematics.
+3D Design and Mathematics.
+
+I am learning 3d design so that I can create my own parts to 3D print. I have started with some simple designs (which are all available on [Printables](https://www.printables.com/@MrSpaceman_244086)).
+
+For all of my current designs I have made sure that they fit on my printer bed, which is 22 cm by 22 cm square. 
+
+When using my [crosscut jig](https://www.printables.com/model/827909-magnetic-crosscut-saw-jig), I realised that I would like it longer than it's current design and started thinking about how I could design it so that it could be made longer by joining multiple parts together.
+
+I did start thinking about this, but didn't get very far.
+
+recently I have thought of creating a shelf that could be any length by joining multiple parts together:
+
+![modular shelf design drawing](../assets/images/2024-09-01-dovetail-mathematics/modular_shelf_design1.jpg)
+
+This led to to actually try out a simple [test dovetail joint in FreeCAD](https://www.printables.com/model/984253-test-piece-for-dovetail-joint), and while I was printing that design I decided to write this article.
+
+
+
+
+This article was meant to show the process of trial, error and calculations that led me to my current design for joining two 3d printed parts together.
+
+
+![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_double.png)
+
+
+
+-----
+## Original article below
 
 When designing some of my woodworking jigs to be 3d printed I wanted them to be able to be larger then the maximum size I could print in one piece.
 
@@ -22,25 +49,20 @@ as a woodworker, I like dovetail joints and they also locate parts nicely togeth
 
 while a single dovetail would probably work, I decided to go with two dovetails as I believe it will be nicer (once glued I dont think there will be any difference in strength, so it's just an arbitrary decision I have made.)
 
-first, a single dovetail:
+for my first try I created a test piece with a single dovetail:
 
+![dovetail schematic single](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.single.png)
 
-![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.single.png)
+I did this one without thinking about the maths first, and this is the design I came up with:
 
-now back to the maths (I know, I didnt really want to do this, but once I've got this worked out and in a spreadsheet I can forget all about it)
-
-so we have (or at least I want for now)
-
-1. `L = 2X + Y`
-3. `R = S / 3`
-4. `S = X`
+![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_single.png)
 
 so if the two faces to join together are 100mm long (`L = 100mm`)
 
 
 next I will attempt a double dovetail:
 
-![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.single.png)
+![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.png)
 
 now back to the maths (I know, I didnt really want to do this, but once I've got this worked out and in a spreadsheet I can forget all about it)
 
@@ -96,14 +118,14 @@ so the values for my FreeCAD spreadsheet are this:
 |  6 | Dovetail hole spacing (X)   | =B1 / 4  |
 |  7 | Dovetail hole Gap (Y)       | =B6 / 2  |
 |  8 | Dovetail hole width (S)     | =B6      |
-|  9 | Dovetail Depth (R)          | =B*/3    |
+|  9 | Dovetail Depth (R)          | =B8/3    |
 | 10 | Dovetail hole pin Width (T) | =B9      |
 | 11 |   |   |
 | 12 |   |   |
-| 13 | Dovetail pin spacing (X)   | =B1 / 4  |
-| 14 | Dovetail pin gap (Y)       | =B6 / 2  |
+| 13 | Dovetail pin spacing (X)   | =B6  |
+| 14 | Dovetail pin gap (Y)       | =B7  |
 | 15 | Dovetail pin width (S)     | =B6      |
-| 16 | Dovetail pin depth (R)     | =B*/3    |
+| 16 | Dovetail pin depth (R)     | =B9    |
 | 10 | Dovetail Pin Width (T)     | =B9      |
 | 18 |   |   |
 | 19 |   |   |
