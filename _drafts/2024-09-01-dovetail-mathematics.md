@@ -20,7 +20,7 @@ I did start thinking about this, but didn't get very far.
 
 recently I have thought of creating a shelf that could be any length by joining multiple parts together:
 
-![modular shelf design drawing](../assets/images/2024-09-01-dovetail-mathematics/modular_shelf_design1.jpg)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/modular_shelf_design1.jpg" alt="modular shelf design drawing" width="400"/>
 
 This led to to actually try out a simple [test dovetail joint in FreeCAD](https://www.printables.com/model/984253-test-piece-for-dovetail-joint), and while I was printing that design I decided to write this article.
 
