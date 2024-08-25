@@ -26,12 +26,27 @@ This led to to actually try out a simple [test dovetail joint in FreeCAD](https:
 
 that design was made up as I went along, and I thought I could document it here afterwards. that turned out to be more difficult than I had initially thought.
 
+This is the  single dovetail test piece:
+
+![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_single.png)
+which worked as you can see here:
+
+![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-1.jpg)
+
+![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-2.jpg)
+
+![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-3.jpg)
+
+
 This article was meant to show the process of trial, error and calculations that led me to my current design for joining two 3d printed parts together.
 
 I started with the double dovetail in my **Original Article (below)**, but when I tried to put the design into FreeCAD, I realised that I had missed putting in the distance from the pin (**S**) to the edge and the result is that the pin can end up in the wrong place.
 
-Also, whilst writing the original article, I realised that if I specifed the angle and size (**R**) for the dovetail then the pin would end up in the correct position automatically, so that led me to update the double dovetail using the angle and it looks good so far. 
+Also, whilst writing the original article, I realised that if I specifed the angle (**A**) and size (**R**) for the dovetail then the pin would end up in the correct position automatically, so that led me to update the double dovetail using the angle and it looks good so far.
 
+![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.3.png)
+
+This is the final design in FreeCAD:
 ![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_double.png)
 
 
