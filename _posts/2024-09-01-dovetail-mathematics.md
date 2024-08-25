@@ -50,7 +50,7 @@ Also, whilst writing the original article, I realised that if I specifed the ang
 This is the final design in FreeCAD:
 <img src="../assets/images/2024-09-01-dovetail-mathematics/dovetail_double.png" alt="double dovetail" width="450"/>
 
-which worked first time when I printed it:
+which worked first time when I printed it (well, I did spend a minute or two sanding down):
 
 <img src="../assets/images/2024-09-01-dovetail-mathematics/double_dovetail-1.jpg" alt="double dovetail" width="450"/>
 
