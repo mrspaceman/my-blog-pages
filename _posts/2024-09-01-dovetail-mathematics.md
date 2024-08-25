@@ -20,7 +20,7 @@ I did start thinking about this, but didn't get very far.
 
 recently I have thought of creating a shelf that could be any length by joining multiple parts together:
 
-<img src="../assets/images/2024-09-01-dovetail-mathematics/modular_shelf_design1.jpg" alt="modular shelf design drawing" width="400"/>
+<img src="../assets/images/2024-09-01-dovetail-mathematics/modular_shelf_design1.jpg" alt="modular shelf design drawing" width="450"/>
 
 This led to to actually try out a simple [test dovetail joint in FreeCAD](https://www.printables.com/model/984253-test-piece-for-dovetail-joint), and while I was printing that design I decided to write this article.
 
@@ -28,14 +28,15 @@ that design was made up as I went along, and I thought I could document it here 
 
 This is the  single dovetail test piece:
 
-![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_single.png)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/dovetail_single.png" alt="double dovetail" width="450"/>
+
 which worked as you can see here:
 
-![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-1.jpg)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-1.jpg" alt="single dovetail" width="450"/>
 
-![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-2.jpg)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-2.jpg" alt="single dovetail" width="450"/>
 
-![single dovetail](../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-3.jpg)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/single_dovetail-3.jpg" alt="single dovetail" width="450"/>
 
 
 This article was meant to show the process of trial, error and calculations that led me to my current design for joining two 3d printed parts together.
@@ -44,12 +45,20 @@ I started with the double dovetail in my **Original Article (below)**, but when 
 
 Also, whilst writing the original article, I realised that if I specifed the angle (**A**) and size (**R**) for the dovetail then the pin would end up in the correct position automatically, so that led me to update the double dovetail using the angle and it looks good so far.
 
-![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.3.png)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.3.png" alt="double dovetail" width="450"/>
 
 This is the final design in FreeCAD:
-![double dovetail](../assets/images/2024-09-01-dovetail-mathematics/dovetail_double.png)
+<img src="../assets/images/2024-09-01-dovetail-mathematics/dovetail_double.png" alt="double dovetail" width="450"/>
 
+which worked first time when I printed it:
 
+<img src="../assets/images/2024-09-01-dovetail-mathematics/double_dovetail-1.jpg" alt="double dovetail" width="450"/>
+
+<img src="../assets/images/2024-09-01-dovetail-mathematics/double_dovetail-2.jpg" alt="double dovetail" width="450"/>
+
+<img src="../assets/images/2024-09-01-dovetail-mathematics/double_dovetail-3.jpg" alt="double dovetail" width="450"/>
+
+So, now I know how to get two pieces to join together, I will crack on with my modular shelf design.
 
 -----
 ## Original article below
