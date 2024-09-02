@@ -73,7 +73,7 @@ I will start with joining parts on straight faces.
 
 as a woodworker, I like dovetail joints and they also locate parts nicely together, so I'll use dovetail joints for my parts.
 
-while a single dovetail would probably work, I decided to go with two dovetails as I believe it will be nicer (once glued I dont think there will be any difference in strength, so it's just an arbitrary decision I have made.)
+while a single dovetail would probably work, I decided to go with two dovetails as I believe it will be nicer (once glued I don't think there will be any difference in strength, so it's just an arbitrary decision I have made.)
 
 for my first try I created a test piece with a single dovetail:
 
@@ -90,7 +90,7 @@ next I will attempt a double dovetail:
 
 ![image](../assets/images/2024-09-01-dovetail-mathematics/dovetail_maths.png)
 
-now back to the maths (I know, I didnt really want to do this, but once I've got this worked out and in a spreadsheet I can forget all about it)
+now back to the maths (I know, I didn't really want to do this, but once I've got this worked out and in a spreadsheet I can forget all about it)
 
 so we have (or at least I want for now)
 
