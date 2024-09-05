@@ -113,13 +113,19 @@ public class SecurityConfig {
 }
 ```
 
+<<<<<<< Updated upstream
 (we will be using the dependencies later, but I thought they would be useful here for reference)
 
 the `@EnableMethodSecurity` annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
+||||||| constructed merge base
+the `@EnableMethodSecurity` annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
+=======
+the [`@EnableMethodSecurity`](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html) annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
+>>>>>>> Stashed changes
 
 to add users into the security that spring is using (and replace the default user that Spring provides) we will add a bean method such as the following
 ```java
-    @Bean
+    @Bean∂
     @Profile("!prod")
     public UserDetailsService userDetailsService(BCryptPasswordEncoder bCryptPasswordEncoder) {
        UserDetails user1 = User.builder()
@@ -143,9 +149,9 @@ to add users into the security that spring is using (and replace the default use
     }
 ```
 so what is going on here?
-first I'm going to assume that you understand the `@Bean` annotation, if not, then you need to go an learn about it as is it fundamental to configuring Spring Boot applications in code.
+first I'm going to assume that you understand the [`@Bean`](https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html) annotation, if not, then you need to go an learn about it as is it fundamental to configuring Spring Boot applications in code.
 
-the `@Profile` annotation is making sure we **Do Not** use this in production as it is not secure. It's fine for tests and running locally so that you can implement and debug code, but it should never be used in production.
+the [`@Profile`](https://spring.io/blog/2011/02/14/spring-3-1-m1-introducing-profile) annotation is making sure we **Do Not** use this in production as it is not secure. It's fine for tests and running locally so that you can implement and debug code, but it should never be used in production.
 
 we use the `.password(encoder().encode("password2"))` function so that the passwords that are stored in memory are encrypted and not stored in cleartext/plaintext (yes, I know the password is in cleartext in the source code, but we are only using this for development and testing, so yes encoding it in memory is a bit redundant, but it shows the principle that we should encode stored passwords).
 
