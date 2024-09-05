@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short Intro to ... Securing a spring boot application
-date: 2024-09-01
+date: 2024-10-01
 author: Andy Aspell-Clark
 tags:
 - programming
@@ -39,6 +39,20 @@ so, now we know the difference between authentication and authorisation we can l
 
 For this article I will assume we are securing an API that does not have a UI with it.
 
+## What we will be implementing
+
+```mermaid
+sequenceDiagram
+    Client App->>Spring Boot App: call endpoint
+    Spring Boot App->>Spring Boot Security: Retrieve security details
+    Spring Boot Security->>Spring Boot Authentication Manager: Is user Authenticated?
+    Spring Boot Authentication Manager-->>Spring Boot Security: Yes
+    Spring Boot Security->>Spring Boot Authorisation Manager: Is user Authorised?
+    Spring Boot Authorisation Manager-->>Spring Boot Security: Yes
+    Spring Boot Security-->>Spring Boot App: User is allowed to access endpoint
+
+```
+
 ## Initialising the project for security
 The first thing to do to secure a Spring Boot API is to include the Spring security library. Assuming you have already used the [Spring Initializr](https://start.spring.io/) to create your project and have some endpoints up and running we need to add the dependency into the list of libraries that your project is using.
 
@@ -56,6 +70,8 @@ or in maven by adding this block into your pom.xml
     <version>3.3.2</version>
 </dependency>
 ```
+
+while your looking at your dependencies, you should make sure that they are all up to date as old dependencies can have vulnerabilities that have been fixed in newer versions.
 
 if your not sure how to add these or where to add them, then you need to learn a bit more about the fundamentals of these tools so that you can work more efficiently with them in future.
 
@@ -91,9 +107,11 @@ public class SecurityConfig {
 }
 ```
 
+(we will be using the dependencies later, but I thought they would be useful here for reference)
+
 the `@EnableMethodSecurity` annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
 
-to add users into the security that spring is using (and replace the default that Spring provides) we will add a bean method such as the following
+to add users into the security that spring is using (and replace the default user that Spring provides) we will add a bean method such as the following
 ```java
     @Bean
     @Profile("!prod")
@@ -123,8 +141,7 @@ first I'm going to assume that you understand the `@Bean` annotation, if not, th
 
 the `@Profile` annotation is making sure we **Do Not** use this in production as it is not secure. It's fine for tests and running locally so that you can implement and debug code, but it should never be used in production.
 
-we use the `encode()` function so that the passwords that are stored in memory are encrypted and not stored in cleartext/plaintext.
-
+we use the `.password(encoder().encode("password2"))` function so that the passwords that are stored in memory are encrypted and not stored in cleartext/plaintext (yes, I know the password is in cleartext in the source code, but we are only using this for development and testing, so yes encoding it in memory is a bit redundant, but it shows the principle that we should encode stored passwords).
 
 so, we now have two users available for securing our application, but how do we assign users to endpoints? For that we will add another function into the `SecurityConfig` class:
 ```java
@@ -158,6 +175,8 @@ If your app exposes a UI, then you will need some form of login screen and then 
 ## Other links that are well worth a read:
 * [Spring guide on Securing a Web Application](https://spring.io/guides/gs/securing-web)
 * [Spring's own guide on Spring securty](https://spring.io/projects/spring-security)
+* [Spring Boot & OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2)
 * [Storing Passwords](https://docs.spring.io/spring-security/reference/features/authentication/password-storage.html#authentication-password-storage-boot-cli)
 * [OWASP REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html)
 * [OWASP REST Assessment Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Assessment_Cheat_Sheet.html)
+* [Spring Security: Authentication and Authorization In-Depth](https://www.marcobehler.com/guides/spring-security)
