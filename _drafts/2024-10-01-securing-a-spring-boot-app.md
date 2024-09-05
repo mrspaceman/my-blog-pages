@@ -42,15 +42,21 @@ For this article I will assume we are securing an API that does not have a UI wi
 ## What we will be implementing
 
 ```mermaid
+---
+config:
+  layout: elk
+  look: handDrawn
+---
 sequenceDiagram
-    Client App->>Spring Boot App: call endpoint
-    Spring Boot App->>Spring Boot Security: Retrieve security details
-    Spring Boot Security->>Spring Boot Authentication Manager: Is user Authenticated?
-    Spring Boot Authentication Manager-->>Spring Boot Security: Yes
-    Spring Boot Security->>Spring Boot Authorisation Manager: Is user Authorised?
-    Spring Boot Authorisation Manager-->>Spring Boot Security: Yes
-    Spring Boot Security-->>Spring Boot App: User is allowed to access endpoint
-
+    Client App ->> Spring Boot App: call endpoint
+    Spring Boot App ->> Spring Boot Security: Retrieve security details
+    Spring Boot Security ->> Spring Boot Authentication Manager: Is user Authenticated?
+    Spring Boot Authentication Manager -->> Spring Boot Security: Yes
+    Spring Boot Security ->> Spring Boot Authorisation Manager: Is user Authorised?
+    Spring Boot Authorisation Manager -->> Spring Boot Security: Yes
+    Spring Boot Security -->> Spring Boot App: User is allowed to access endpoint
+    Spring Boot App ->> Your App Code: endpoint is called
+    Your App Code -->> Client App: return results
 ```
 
 ## Initialising the project for security
