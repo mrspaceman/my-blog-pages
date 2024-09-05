@@ -113,21 +113,9 @@ public class SecurityConfig {
 }
 ```
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 (we will be using the dependencies later, but I thought they would be useful here for reference)
 
-the `@EnableMethodSecurity` annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
-||||||| constructed merge base
-the `@EnableMethodSecurity` annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
-=======
 the [`@EnableMethodSecurity`](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html) annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
->>>>>>> Stashed changes
-||||||| constructed merge base
-the `@EnableMethodSecurity` annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
-=======
-the [`@EnableMethodSecurity`](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html) annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
->>>>>>> Stashed changes
 
 to add users into the security that spring is using (and replace the default user that Spring provides) we will add a bean method such as the following
 ```java
