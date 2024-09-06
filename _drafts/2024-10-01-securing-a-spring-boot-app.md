@@ -46,9 +46,10 @@ For this article I will assume we are securing an API that does not have a UI wi
 config:
   layout: elk
   look: handDrawn
+  <!-- theme: forest -->
 ---
 sequenceDiagram
-    Client App ->> Spring Boot App: call endpoint
+    $$\alpha$$ Client App ->> Spring Boot App: call endpoint
     Spring Boot App ->> Spring Boot Security: Retrieve security details
     Spring Boot Security ->> Spring Boot Authentication Manager: Is user Authenticated?
     Spring Boot Authentication Manager -->> Spring Boot Security: Yes
