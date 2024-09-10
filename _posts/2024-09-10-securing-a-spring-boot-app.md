@@ -99,31 +99,31 @@ class SecurityConfig {
 
 to add users into the security that spring is using (and replace the default user that Spring provides) we will add a bean method such as the following
 ```java
-    @Bean
-    @Profile("!prod")
-    fun userDetailsService(bCryptPasswordEncoder: BCryptPasswordEncoder): UserDetailsService {
-        val userDetailsManager = InMemoryUserDetailsManager()
-        userDetailsManager.createUser(
-            User
-                .builder()
-                .username("user1")
-                .password(encoder().encode("password1"))
-                .roles("USER")
-                .build(),
-        )
-        userDetailsManager.createUser(
-            User
-                .builder()
-                .username("user2")
-                .password(encoder().encode("password2"))
-                .roles("USER", "ADMIN")
-                .build(),
-        )
-        return userDetailsManager
-    }
+@Bean
+@Profile("!prod")
+fun userDetailsService(bCryptPasswordEncoder: BCryptPasswordEncoder): UserDetailsService {
+    val userDetailsManager = InMemoryUserDetailsManager()
+    userDetailsManager.createUser(
+        User
+            .builder()
+            .username("user1")
+            .password(encoder().encode("password1"))
+            .roles("USER")
+            .build(),
+    )
+    userDetailsManager.createUser(
+        User
+            .builder()
+            .username("user2")
+            .password(encoder().encode("password2"))
+            .roles("USER", "ADMIN")
+            .build(),
+    )
+    return userDetailsManager
+}
 
-    @Bean
-    fun encoder(): BCryptPasswordEncoder = BCryptPasswordEncoder()
+@Bean
+fun encoder(): BCryptPasswordEncoder = BCryptPasswordEncoder()
 ```
 ### So what is going on here?
 
@@ -135,28 +135,28 @@ we use the `.password(encoder().encode("password2"))` function so that the passw
 
 so, we now have two users available for securing our application, but how do we assign users to endpoints? For that we will add another function into the `SecurityConfig` class:
 ```java
-    /**
-     * Basic Security - not for production, but can be useful for testing
-     */
-    @Bean
-    @Profile("!prod")
-    @Throws(Exception::class)
-    fun securityFilterChain(http: HttpSecurity): SecurityFilterChain {
-        http
-            .authorizeHttpRequests(
-                Customizer { requests ->
-                    requests
-                        .anyRequest()
-                        .authenticated()
-                },
-            ).httpBasic(Customizer.withDefaults())
-            .sessionManagement { httpSecuritySessionManagementConfigurer: SessionManagementConfigurer<HttpSecurity?> ->
-                httpSecuritySessionManagementConfigurer.sessionCreationPolicy(
-                    SessionCreationPolicy.STATELESS,
-                )
-            }
-        return http.build()
-    }
+/**
+ * Basic Security - not for production, but can be useful for testing
+ */
+@Bean
+@Profile("!prod")
+@Throws(Exception::class)
+fun securityFilterChain(http: HttpSecurity): SecurityFilterChain {
+    http
+        .authorizeHttpRequests(
+            Customizer { requests ->
+                requests
+                    .anyRequest()
+                    .authenticated()
+            },
+        ).httpBasic(Customizer.withDefaults())
+        .sessionManagement { httpSecuritySessionManagementConfigurer: SessionManagementConfigurer<HttpSecurity?> ->
+            httpSecuritySessionManagementConfigurer.sessionCreationPolicy(
+                SessionCreationPolicy.STATELESS,
+            )
+        }
+    return http.build()
+}
 ```
 
 this configuration tells Spring that any request (`anyRequest()`) that comes into this system has to be authenticated (see above), so to use any of the endpoints a User must have logged in.
