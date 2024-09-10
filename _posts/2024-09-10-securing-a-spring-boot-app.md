@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short Intro to ... Securing a spring boot application
-date: 2024-10-11
+date: 2024-09-10
 author: Andy Aspell-Clark
 tags:
 - programming
@@ -46,10 +46,9 @@ For this article I will assume we are securing an API that does not have a UI wi
 config:
   layout: elk
   look: handDrawn
-  <!-- theme: forest -->
 ---
 sequenceDiagram
-    $$\alpha$$ Client App ->> Spring Boot App: call endpoint
+    Client App ->> Spring Boot App: call endpoint
     Spring Boot App ->> Spring Boot Security: Retrieve security details
     Spring Boot Security ->> Spring Boot Authentication Manager: Is user Authenticated?
     Spring Boot Authentication Manager -->> Spring Boot Security: Yes
@@ -188,7 +187,7 @@ so we now make sure that a user is authenticated before they can hit any of our 
 
 as long as the user is set up correctly in the login (OAuth) server, we can use the roles assigned to the user. We assigned roles to teh two users in our `InMemoryUserDetailsManager`. 
 
-`user1` has the line `.authorities("ROLE_USER")` giving them the role of user while `user` has the line `.authorities("ROLE_ADMIN")` giving them the role of admin. these roles has no effent on our API endpoints yet. to use the rolws we need to add another annotation to the endpoints like this:
+`user1` has the line `.roles("ROLE_USER")` giving them the role of user while `user` has the line `.roles("ROLE_ADMIN")` giving them the role of admin. these roles has no effect on our API endpoints yet. to use the rolws we need to add another annotation to the endpoints like this:
 ```java
 @RestController("/sensors")
 class SensorDataController(
