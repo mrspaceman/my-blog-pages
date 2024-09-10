@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short Intro to ... Securing a spring boot application
-date: 2024-10-01
+date: 2024-10-11
 author: Andy Aspell-Clark
 tags:
 - programming
@@ -108,56 +108,46 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-@EnableMethodSecurity
-public class SecurityConfig {
+class SecurityConfig {
 }
 ```
-
 (we will be using the dependencies later, but I thought they would be useful here for reference)
-
-the [`@EnableMethodSecurity`](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html) annotation is optional and only needed if you want to be able to secure any class and/or method and not just the REST endpoints that are exposed by your application.
 
 to add users into the security that spring is using (and replace the default user that Spring provides) we will add a bean method such as the following
 ```java
-    @Bean∂
+    @Bean
     @Profile("!prod")
-    public UserDetailsService userDetailsService(BCryptPasswordEncoder bCryptPasswordEncoder) {
-       UserDetails user1 = User.builder()
+    fun userDetailsService(bCryptPasswordEncoder: BCryptPasswordEncoder): UserDetailsService {
+        val userDetailsManager = InMemoryUserDetailsManager()
+        userDetailsManager.createUser(
+            User
+                .builder()
                 .username("user1")
                 .password(encoder().encode("password1"))
-                .authorities("ROLE_USER")
-                .build();
-
-        UserDetails admin = User.builder()
+                .roles("USER")
+                .build(),
+        )
+        userDetailsManager.createUser(
+            User
+                .builder()
                 .username("user2")
                 .password(encoder().encode("password2"))
-                .authorities("ROLE_ADMIN")
-                .build();
-
-        return new InMemoryUserDetailsManager(user1,admin);
+                .roles("USER", "ADMIN")
+                .build(),
+        )
+        return userDetailsManager
     }
 
     @Bean
-    public BCryptPasswordEncoder encoder() {
-        return new BCryptPasswordEncoder();
-    }
+    fun encoder(): BCryptPasswordEncoder = BCryptPasswordEncoder()
 ```
-so what is going on here?
-<<<<<<< Updated upstream
-first I'm going to assume that you understand the [`@Bean`](https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html) annotation, if not, then you need to go an learn about it as is it fundamental to configuring Spring Boot applications in code.
-||||||| constructed merge base
-first I'm going to assume that you understand the `@Bean` annotation, if not, then you need to go an learn about it as is it fundamental to configuring Spring Boot applications in code.
+### So what is going on here?
 
-the `@Profile` annotation is making sure we **Do Not** use this in production as it is not secure. It's fine for tests and running locally so that you can implement and debug code, but it should never be used in production.
-=======
 first I'm going to assume that you understand the [`@Bean`](https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html) annotation, if not, then you need to go an learn about it as is it fundamental to configuring Spring Boot applications in code.
 
 the [`@Profile`](https://spring.io/blog/2011/02/14/spring-3-1-m1-introducing-profile) annotation is making sure we **Do Not** use this in production as it is not secure. It's fine for tests and running locally so that you can implement and debug code, but it should never be used in production.
->>>>>>> Stashed changes
 
-the [`@Profile`](https://spring.io/blog/2011/02/14/spring-3-1-m1-introducing-profile) annotation is making sure we **Do Not** use this in production as it is not secure. It's fine for tests and running locally so that you can implement and debug code, but it should never be used in production.
-
-we use the `.password(encoder().encode("password2"))` function so that the passwords that are stored in memory are encrypted and not stored in cleartext/plaintext (yes, I know the password is in cleartext in the source code, but we are only using this for development and testing, so yes encoding it in memory is a bit redundant, but it shows the principle that we should encode stored passwords).
+we use the `.password(encoder().encode("password2"))` function so that the passwords that are stored in memory are encrypted and not stored in cleartext/plaintext (yes, I know the password is in cleartext in the source code, but we are only using this for development and testing, so yes encoding it in memory is a bit redundant, but it shows the principle that we should encode stored (at rest) passwords).
 
 so, we now have two users available for securing our application, but how do we assign users to endpoints? For that we will add another function into the `SecurityConfig` class:
 ```java
@@ -165,28 +155,71 @@ so, we now have two users available for securing our application, but how do we 
      * Basic Security - not for production, but can be useful for testing
      */
     @Bean
-    @Profile("dev")
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    @Profile("!prod")
+    @Throws(Exception::class)
+    fun securityFilterChain(http: HttpSecurity): SecurityFilterChain {
         http
-                headers(header -> header.frameOptions(HeadersConfigurer.FrameOptionsConfig::disable))
-                .csrf(AbstractHttpConfigurer::disable)
-                .formLogin(AbstractHttpConfigurer::disable)
-                .authorizeHttpRequests((requests) -> requests
-                        .anyRequest().authenticated()
+            .authorizeHttpRequests(
+                Customizer { requests ->
+                    requests
+                        .anyRequest()
+                        .authenticated()
+                },
+            ).httpBasic(Customizer.withDefaults())
+            .sessionManagement { httpSecuritySessionManagementConfigurer: SessionManagementConfigurer<HttpSecurity?> ->
+                httpSecuritySessionManagementConfigurer.sessionCreationPolicy(
+                    SessionCreationPolicy.STATELESS,
                 )
-                .httpBasic(Customizer.withDefaults())
-                .sessionManagement(httpSecuritySessionManagementConfigurer ->
-                        httpSecuritySessionManagementConfigurer.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
-        return http.build();
+            }
+        return http.build()
     }
 ```
 
-this configuration tell Spring that any request (`anyRequest()`) that comes into this system has to be authenticated (see above).
+this configuration tells Spring that any request (`anyRequest()`) that comes into this system has to be authenticated (see above), so to use any of the endpoints a User must have logged in.
 
+setting the `SessionManagementConfigurer` with `SessionCreationPolicy.STATELESS` means Spring wont create any sessions for access to our REST API. this means that every time a call is made to one of our endpoints it's security details will be verified. This means that a user would have to provide their username and password every time they call one of our endpoints.
 
-If your app exposes a UI, then you will need some form of login screen and then some way of checking that the details the user entered are correct and that the user is allowed to do the things that they are trying to do. This, in the spirit of microservices (i.e. services are small and specialised) this would normally be handled by an external Authentication server (often an OAuth server).
+when the APi is in production, it will likely use a JWT token to verify that the user is authenticated, and it will be up to the calling application to maintain that JWT token.
 
+....
 
+so we now make sure that a user is authenticated before they can hit any of our endpoints, but what if we want to only allow certain users to access some of our endpoints (e.g. administration endpoints) ?
+
+as long as the user is set up correctly in the login (OAuth) server, we can use the roles assigned to the user. We assigned roles to teh two users in our `InMemoryUserDetailsManager`. 
+
+`user1` has the line `.authorities("ROLE_USER")` giving them the role of user while `user` has the line `.authorities("ROLE_ADMIN")` giving them the role of admin. these roles has no effent on our API endpoints yet. to use the rolws we need to add another annotation to the endpoints like this:
+```java
+@RestController("/sensors")
+class SensorDataController(
+    val sensorDataService: SensorDataService,
+) {
+    @GetMapping("/datetime")
+    @PreAuthorize("hasAnyRole('ROLE_SYSTEM_READ_ONLY', 'ROLE_USER')")
+    fun getDateTime(): ResponseEntity<LocalDateTime> = ResponseEntity(LocalDateTime.now(), HttpStatus.OK)
+
+    @PostMapping("/storeReading")
+    @PreAuthorize("hasAnyRole('ROLE_USER')")
+    fun storeReading(sensorData: SensorData) {
+        sensorDataService.storeReading(sensorData)
+    }
+
+    @GetMapping("/sensorreadings")
+    @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
+    fun getSensorReadings(
+        @RequestParam(required = false) sensorId: Int,
+    ): ResponseEntity<List<SensorData>> = ResponseEntity(sensorDataService.getAllSensorReadings(sensorId), HttpStatus.OK)
+}
+```
+
+here we have a sample REST Controller class which is listening to all API requests that com in on `/sensors` (denoted by the `@RestController("/sensors")`)
+
+each endpoint is annotated with a `Mapping` annotation. here we are using `@GetMapping` and `@PostMapping`.
+
+The user roles are checked by spring according to the `@PreAuthorize` annotations. The controller is set so that any user can get the current date and time and submit a sensor reading, but only users who have the ADMIN role can retrieve the sensor readings from the system.
+
+so now your system is setup to only allow authenticated and authorized users access to your REST endpoints.
+
+There is a lot more to Security and Spring security, but this is a short introduction.
 
 ## Other links that are well worth a read:
 * [Spring guide on Securing a Web Application](https://spring.io/guides/gs/securing-web)
