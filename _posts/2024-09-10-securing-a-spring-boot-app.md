@@ -40,24 +40,8 @@ so, now we know the difference between authentication and authorisation we can l
 For this article I will assume we are securing an API that does not have a UI with it.
 
 ## What we will be implementing
+<img src="../assets/images/2024-09-10-secure-spring-app.png" width="450"/>
 
-```mermaid
----
-config:
-  layout: elk
-  look: handDrawn
----
-sequenceDiagram
-    Client App ->> Spring Boot App: call endpoint
-    Spring Boot App ->> Spring Boot Security: Retrieve security details
-    Spring Boot Security ->> Spring Boot Authentication Manager: Is user Authenticated?
-    Spring Boot Authentication Manager -->> Spring Boot Security: Yes
-    Spring Boot Security ->> Spring Boot Authorisation Manager: Is user Authorised?
-    Spring Boot Authorisation Manager -->> Spring Boot Security: Yes
-    Spring Boot Security -->> Spring Boot App: User is allowed to access endpoint
-    Spring Boot App ->> Your App Code: endpoint is called
-    Your App Code -->> Client App: return results
-```
 
 ## Initialising the project for security
 The first thing to do to secure a Spring Boot API is to include the Spring security library. Assuming you have already used the [Spring Initializr](https://start.spring.io/) to create your project and have some endpoints up and running we need to add the dependency into the list of libraries that your project is using.
@@ -66,7 +50,7 @@ I hope your using either gradle or maven, if not then it would be worth getting 
 
 to add Spring security into your project you wil need to include the `spring-boot-starter-security` library which you do in gradle by adding the following line into your dependencies:
 ```
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+implementation 'org.springframework.boot:spring-boot-starter-security'
 ```
 or in maven by adding this block into your pom.xml
 ```
