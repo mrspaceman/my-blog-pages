@@ -40,7 +40,7 @@ so, now we know the difference between authentication and authorisation we can l
 For this article I will assume we are securing an API that does not have a UI with it.
 
 ## What we will be implementing
-<img src="../assets/images/2024-09-10-secure-spring-app.png" width="750"/>
+<img src="../assets/images/2024-09-10-secure-spring-app.png" width="1024"/>
 
 
 ## Initialising the project for security
