@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short Intro to ... Programming Language Interpreters
-date: 2024-10-01
+date: 2024-11-01
 author: Andy Aspell-Clark
 tags:
 - programming
