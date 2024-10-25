@@ -16,3 +16,47 @@ so if the CPU only works on numbers, how does the text we type get executed by t
 
 This is where compilers and interpreters come in. They translate teh text we type for a language, be it BASIC, pascal, Fortan, Ada etc... into codes that the CPU understands.
 
+```python
+# This program adds two numbers
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+```
+
+```assembly
+# This program adds two numbers
+MOV    CX, 0000    
+MOV    AX, [3000]    
+MOV    BX, [3002]    
+ADD    AX, BX    
+JNC    2010    
+INC    CX    
+MOV    [3004], AX    
+MOV    [3006], CX    
+HLT
+```
+
+```
+0x50
+0x4A
+0x14
+0x32
+0xF4
+0x33
+```
+
+```
+0110110110010100
+0011010010100101
+1010001000110011
+1010010011010100
+1010101101100010
+0010000100101101
+```
+
