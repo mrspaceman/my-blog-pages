@@ -1,4 +1,14 @@
-# Designing a system - part 10
+---
+layout: post
+title: Designing a system - part 02
+date: 2025-04-30
+author: Andy Aspell-Clark
+tags:
+- computers
+- software design
+---
+
+# Designing a system - part 02
 
 This is part 10 of my ***Designing a system*** series of posts.
 

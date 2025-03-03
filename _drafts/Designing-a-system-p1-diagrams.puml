@@ -1,38 +1,35 @@
 @startuml Designing-a-system-p1-01
 
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
-' uncomment the following line and comment the first to use locally
-' !include C4_Context.puml
+    !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-LAYOUT_WITH_LEGEND()
+    LAYOUT_WITH_LEGEND()
 
-title System Context diagram for Mercury Data Extraction
+     Enterprise_Boundary(b0, "District") {
+        Person(customerSvc, "Customer Service", "")
+        System(supplierBilling, "Supplier Billing System", "Reads customer usage<br/>information and creates bills and<br/>invoices for each household")
+        System(districtSvr2, "Smart Meter Service", "")
 
-Person(customer, "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
-System(banking_system, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+        System(houses, "Houses", "In House Smart Meter", "Measures the amnount of energy<br/>that the house is using<br/>and sends that to the supplier")
 
-System_Ext(mail_system, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-System_Ext(mainframe, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
-
-Rel(customer, banking_system, "Uses")
-Rel_Back(customer, mail_system, "Sends e-mails to")
-Rel_Neighbor(banking_system, mail_system, "Sends e-mails", "SMTP")
-Rel(banking_system, mainframe, "Uses")
+        Rel(houses, districtSvr2, "send readings")
+        Rel(customerSvc, districtSvr2, "")
+        Rel(supplierBilling, districtSvr2, "read usage")
+    }
 @enduml
 
 @startuml Designing-a-system-p1-02
-start
+    start
 
-repeat
-#PaleTurquoise:Read record
-from XML file;
+    repeat
+    #PaleTurquoise:Read record
+    from XML file;
 
-#PaleTurquoise:Process XML data;
+    #PaleTurquoise:Process XML data;
 
-#PaleTurquoise:Save data to DB;
-repeat while (more records?) is (yes)
+    #PaleTurquoise:Save data to DB;
+    repeat while (more records?) is (yes)
 
-stop
+    stop
 @enduml
 
 
