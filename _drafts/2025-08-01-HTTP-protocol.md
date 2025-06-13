@@ -27,3 +27,8 @@ But this misses so much of what actually happens, so let's go into more detail.
 
 
 
+## OSI model
+
+
+
+
