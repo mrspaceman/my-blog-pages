@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short Intro to ... Programming Language Interpreters
-date: 2024-11-01
+date: 2025-07-01
 author: Andy Aspell-Clark
 tags:
 - programming
@@ -14,8 +14,9 @@ All computers work the same way; a central processing unit (CPU) reads instructi
 
 so if the CPU only works on numbers, how does the text we type get executed by the CPU?
 
-This is where compilers and interpreters come in. They translate teh text we type for a language, be it BASIC, pascal, Fortan, Ada etc... into codes that the CPU understands.
+This is where compilers and interpreters come in. They translate the text we type for a language, be it BASIC, pascal, Fortan, Ada etc... into codes that the CPU understands.
 
+so if we feed this into a python interpreter
 ```python
 # This program adds two numbers
 
@@ -29,6 +30,28 @@ sum = num1 + num2
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 ```
 
+what the CPU will execute look like this (and no, this isnt the above in machine code):
+in hex
+```
+0x50
+0x4A
+0x14
+0x32
+0xF4
+0x33
+```
+or binary
+```
+0110110110010100
+0011010010100101
+1010001000110011
+1010010011010100
+1010101101100010
+0010000100101101
+```
+
+the machine code (as I hope you can see) is not easy to understand
+
 ```assembly
 # This program adds two numbers
 MOV    CX, 0000    
@@ -40,23 +63,5 @@ INC    CX
 MOV    [3004], AX    
 MOV    [3006], CX    
 HLT
-```
-
-```
-0x50
-0x4A
-0x14
-0x32
-0xF4
-0x33
-```
-
-```
-0110110110010100
-0011010010100101
-1010001000110011
-1010010011010100
-1010101101100010
-0010000100101101
 ```
 
