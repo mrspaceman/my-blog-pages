@@ -20,7 +20,7 @@ To answer this question there are a number of levels of detail we can go into he
 1. your browser connects to the server using the IP address and requests the page you asked for
 1. the server sends the page back to your browser
 1. your browser renders the page and displays it to you
-@startmermaid
+```mermaid!
 sequenceDiagram
     User ->> LocalBrowser: www.google.com
     LocalBrowser ->> DNS: IP Address for www.google.com?
@@ -28,7 +28,7 @@ sequenceDiagram
     LocalBrowser -) Server: Request Page
     Server -->> LocalBrowser: Here is the data stream for that page
     LocalBrowser -->> User: Here is the rendered page
-@endmermaid
+```
 
 Now this misses so much detail, but as I think I bombed on this question in interviews for going into too much detail, if all you want is to be able to answer this in an interview you can stop reading here (and I hope that the above answer works for you.)
 
