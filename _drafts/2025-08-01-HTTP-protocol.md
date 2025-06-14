@@ -84,14 +84,33 @@ a network packet is made up of a few fields:
 | Destination Address |
 | Payload             |
 
-There are more fields than this, but these are the ones we are interested in. (if you do want to know more about the format of a network packet have a look [here](https://www.geeksforgeeks.org/computer-networks/tcp-ip-packet-format/))
+There are more fields than this, but these are the ones we are interested in. (if you do want to know more about the format of a network packet have a look [here](https://www.geeksforgeeks.org/computer-networks/tcp-ip-packet-format/) )
 
 The network switch looks at the Sender Address of all packets it receives and stores that ip address against the port it received it on. It does this so that it doesn't flood the network with packets when it knows where the destination is.
 
-so, the packet has passed though a switch and on to the next part of it's journey. If you are at work or at home, there will probably be a router between your home/work network and the internet. A router is similar to a switch but connects two networks together (this is getting a but too into the weeds of networking, so I'll stop there, but if you want to know more have a look [here](https://www.cisco.com/c/en_uk/solutions/small-business/resource-center/networking/network-switch-vs-router.html#~switches))
+so, the packet has passed though a switch and on to the next part of it's journey. If you are at work or at home, there will probably be a router between your home/work network and the internet. A router is similar to a switch but connects two networks together (this is getting a but too into the weeds of networking, so I'll stop there, but if you want to know more have a look [here](https://www.cisco.com/c/en_uk/solutions/small-business/resource-center/networking/network-switch-vs-router.html#~switches) )
+
+Once the packet gets on to the internet, it will be passed though more switches until it hits the DNS server that your network is configured to talk to (8.8.8.8 is a DNS server from [google](https://developers.google.com/speed/public-dns)). If that DNS server knows about the URL you are looking for it will return that IP Address it has registered for that URL.
+
+When you register a URL, you have to register it to an ip address, which is then registered to a Top Level DNS server (there are 13 of these), from there it flows down a hierarchy of DNS servers.
+
+This explanation of DNS is very simplified (as is everything else on this page). Again if you'd like to read more detail on how DNS actually works, have a look [here](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/).
+
+so, where were we?, we seem to have gone down a bit of a rabbit hole. Oh yes, we were getting the IP address for a URL.
+
+So, once the request for an IP Address for a URL gets to the DNS server and that server sends the IP address back to your local machine (via the reverse path, which the network switches now know about).
+
+Okay, one that IP address packet gets back to your local machine and gets routed (not network routing, but the kernel routing the packet up to the correct application), the application can send a request to that IP address to get the page you asked for in the browser.
+
+That request also gets routed over the internet in the same way as above, but the switches now route it to the web server that matches the URL you typed in.
+
+that web server will have a look at the right hand side of the URL (e.g the `/wiki/OSI_model` in `https://en.wikipedia.org/wiki/OSI_model`) decide which page you have requested and send that data back to your machine.
+
+Once that data (as long as it wasn't a 301 or 302 redirect response) the browser will parse it, render it and then display it to the user.
 
 
-## OSI model
+# OSI model
+I did say that we would go into the OSI model later, but here is later and I think that this article is long enough already, so I'll save that for a future article.
 
 
 
