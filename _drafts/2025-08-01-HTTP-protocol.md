@@ -108,6 +108,12 @@ that web server will have a look at the right hand side of the URL (e.g the `/wi
 
 Once that data (as long as it wasn't a 301 or 302 redirect response) the browser will parse it, render it and then display it to the user.
 
+of course, just displaying the data isnt quite as simple as the above paragraph makes it sound. what comes back from the server is a stream of data. At it's simplest, that stream contains some HTML code that can be rendered and displayed in the browser, but if there is some javascript, then that javascript will/may/can get executed by an interpreter built into the browser and that javascript may go off to other servers to get data, or send data from the browser to a server.
+
+so thats it for "what happens when i type a url into my browser address bar". Went on a bit longer than I had planned, sorry about that.
+
+if your still here looking for the OSI bit, then I have some bad news for you I'm afraid.
+
 
 # OSI model
 I did say that we would go into the OSI model later, but here is later and I think that this article is long enough already, so I'll save that for a future article.
