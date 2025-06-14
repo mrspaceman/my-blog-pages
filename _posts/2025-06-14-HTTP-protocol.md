@@ -20,7 +20,7 @@ To answer this question there are a number of levels of detail we can go into he
 1. your browser connects to the server using the IP address and requests the page you asked for
 1. the server sends the page back to your browser
 1. your browser renders the page and displays it to you
-```mermaid
+@startmermaid
 sequenceDiagram
     User ->> LocalBrowser: www.google.com
     LocalBrowser ->> DNS: IP Address for www.google.com?
@@ -28,7 +28,7 @@ sequenceDiagram
     LocalBrowser -) Server: Request Page
     Server -->> LocalBrowser: Here is the data stream for that page
     LocalBrowser -->> User: Here is the rendered page
-```
+@endmermaid
 
 Now this misses so much detail, but as I think I bombed on this question in interviews for going into too much detail, if all you want is to be able to answer this in an interview you can stop reading here (and I hope that the above answer works for you.)
 
@@ -45,7 +45,7 @@ The browser is an application running on top of an operating system, so the brow
 But we are not going to go into kernel architecture here, we just need to know that there are multiple parts as the browser application will make a request to get the ip address of a URL and the user mode of the kernel will talk to the kernel mode. the kernel mode will make sure that all of the applications that are requesting network data can all talk over the network interface at the same time and only see the data that they have requested.
 
 So, to get the IP Address of a url it looks a bit like this:
-```mermaid
+```mermaid!
 sequenceDiagram
     User ->> LocalBrowser: www.google.com
     LocalBrowser ->> UserModeKernel: IP Address for www.google.com?
