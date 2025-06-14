@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The HTTP Protocol
-date: 2025-08-01
+date: 2025-06-14
 author: Andy Aspell-Clark
 tags:
 - computers
