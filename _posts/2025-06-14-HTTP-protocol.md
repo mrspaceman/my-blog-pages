@@ -13,9 +13,9 @@ tags:
 
 I have been asked this question in a couple of interviews now and I dont think I've given an answer that the interviewers wanted, so I thought I would write up an article on it to help others.
 
-To answer this question there are a number of levels of detail we can go into here.
+To answer this question, we can go into several levels of detail here.
 
-## The first and high level would be:
+## The first and highest level would be:
 1. your browser goes to a DNS server to get the IP address of the server that hosts the URL you typed in
 1. your browser connects to the server using the IP address and requests the page you asked for
 1. the server sends the page back to your browser
@@ -33,11 +33,11 @@ If it thinks that the string you typed in is not a URL, then it will perform a s
 
 If the browser thinks that the string you typed in is a URL, then it will start the process of retrieving the data and displaying it to the user, and this is where it gets very complicated.
 
-The browser is an application running on top of an operating system, so the browser itself doesn't talk directly to the network, instead it calls an function in the operating system kernel to get the ip address for a url. That sounds simple enough, but in the (linux, I'm not so sure about windows) kernel there are (at least) two layers, User mode and Kernel mode. The application; in this case the browser; is running in User mode and that helps the kernel maintain resources and security by not allowing applications to read/write memory and other system parts that are "owned" by other applications.
+The browser is an application running on top of an operating system, so the browser itself doesn't talk directly to the network, instead it calls a function in the operating system kernel to get the ip address for a URL. That sounds simple enough, but in the (Linux, I'm not so sure about Windows) kernel there are (at least) two layers, User mode and Kernel mode. The application; in this case the browser; is running in User mode and that helps the kernel maintain resources and security by not allowing applications to read/write memory and other system parts that are "owned" by other applications.
 
 But we are not going to go into kernel architecture here, we just need to know that there are multiple parts as the browser application will make a request to get the ip address of a URL and the user mode of the kernel will talk to the kernel mode. the kernel mode will make sure that all of the applications that are requesting network data can all talk over the network interface at the same time and only see the data that they have requested.
 
-So, to get the IP Address of a url it looks a bit like this:
+So, to get the IP Address of a URL it looks a bit like this:
 
 ![image](../assets/images/http-protocol/Screenshot 2025-06-14 161643.png)
 
@@ -58,11 +58,11 @@ a network switch gets the IP Address request packet and has to decide where to s
 lets summarise that a bit:
 a network packet is made up of a few fields:
 
-| Field               |
+| Field               |
 | ------------------- |
-| Sender Address      |
+| Sender Address      |
 | Destination Address |
-| Payload             |
+| Payload             |
 
 There are more fields than this, but these are the ones we are interested in. (if you do want to know more about the format of a network packet have a look [here](https://www.geeksforgeeks.org/computer-networks/tcp-ip-packet-format/) )
 
