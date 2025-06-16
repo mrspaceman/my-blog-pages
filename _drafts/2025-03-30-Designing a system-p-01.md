@@ -48,21 +48,7 @@ The following diagram for our fictional smart energy meter reading system. This 
 meter sits in the 'context' of the larger system. In this system each house has a smart meter for measuring electricity
 and gas usage. The central data store is read by the billing system to create each house's gas and electric bill:
 
-```mermaid
-%%{init: {"theme": "forest"}}%%
-C4Context
-    Enterprise_Boundary(b0, "District") {
-        Person(customerA, "Customer Service", "")
-        System(supplierBilling, "Supplier Billing System", "Reads customer usage<br/>information and creates bills and<br/>invoices for each household")
-        System(districtSvr2, "Smart Meter Service", "")
-
-        System(houses, "Houses", "In House Smart Meter", "Measures the amnount of energy<br/>that the house is using<br/>and sends that to the supplier")
-
-        Rel(houses, districtSvr2, "send readings")
-        Rel(customerA, districtSvr2, "store readings")
-        Rel(supplierBilling, districtSvr2, "read usage")
-    }
-```
+<img src=""/>
 
 Now that we can see where/how our new system sits in things, we can start to decompose
 the high level into more detailed component diagrams.
@@ -70,30 +56,4 @@ Each smart meter has it's own small local data store for when it cant connect to
 readings for sending to the central data store later).
 This is where we start to add more detail about the system we are designing.
 
-```mermaid
-%%{init: {"theme": "forest"}}%%
-C4Component
-    Enterprise_Boundary(b0, "District") {
-        Person(customerA, "Customer 1", "")
-        System(districtSvr2, "Billing System", "")
-
-        System_Boundary(house1, "House Sensors 1") {
-            System(homeSvr1, "House 1 Sensor Server", "")
-            SystemDb(SystemDb1, "House 1 local store", "")
-        }
-        System_Boundary(house2, "House Sensors 2") {
-            System(homeSvr2, "House 2 Sensor Server", "")
-            SystemDb(SystemDb2, "House 2 local store", "")
-        }
-
-        Rel(homeSvr1, SystemDb1, "store readings", "")
-        Rel(homeSvr2, SystemDb2, "store readings", "")
-
-        SystemDb(SystemDb3, "District data store", "")
-        Rel(homeSvr1, SystemDb3, "store readings", "")
-        Rel(homeSvr2, SystemDb3, "store readings", "")
-
-        Rel_Down(districtSvr2, SystemDb3, "read readings", "")
-        Rel(districtSvr2, customerA, "send bill", "")
-    }
-```
+<img src=""/>

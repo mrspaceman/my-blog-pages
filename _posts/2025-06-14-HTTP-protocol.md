@@ -11,7 +11,7 @@ tags:
 
 # Or "What happens when you type a URL into your browser"
 
-I have been asked this question in a coupe of interviews now and I dont think I've given an answer that the interviewers wanted, so I thought I would write up an article on it to help others.
+I have been asked this question in a couple of interviews now and I dont think I've given an answer that the interviewers wanted, so I thought I would write up an article on it to help others.
 
 To answer this question there are a number of levels of detail we can go into here.
 
@@ -91,6 +91,8 @@ Once that data (as long as it wasn't a 301 or 302 redirect response) the browser
 of course, just displaying the data isnt quite as simple as the above paragraph makes it sound. what comes back from the server is a stream of data. At it's simplest, that stream contains some HTML code that can be rendered and displayed in the browser, but if there is some javascript, then that javascript will/may/can get executed by an interpreter built into the browser and that javascript may go off to other servers to get data, or send data from the browser to a server.
 
 so thats it for "what happens when i type a url into my browser address bar". Went on a bit longer than I had planned, sorry about that.
+
+Oh, I have not gone in to the firewalls, load balanacers or others services that may be in front of the URL server as these (again) could be articles in their own right.
 
 if your still here looking for the OSI bit, then I have some bad news for you I'm afraid.
 
