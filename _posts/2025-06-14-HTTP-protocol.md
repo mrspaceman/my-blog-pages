@@ -92,7 +92,7 @@ of course, just displaying the data isnt quite as simple as the above paragraph 
 
 so thats it for "what happens when i type a url into my browser address bar". Went on a bit longer than I had planned, sorry about that.
 
-Oh, I have not gone in to the firewalls, load balanacers or others services that may be in front of the URL server as these (again) could be articles in their own right.
+Oh, I have not gone in to the firewalls, load balancers or others services that may be in front of the URL server as these (again) could be articles in their own right.
 
 if your still here looking for the OSI bit, then I have some bad news for you I'm afraid.
 
