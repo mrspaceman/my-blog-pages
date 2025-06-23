@@ -10,17 +10,19 @@ tags:
 
 This article is going to give a basic understanding of what a programming language interpreter is and it's advantages and disadvantages.
 
+# Introduction
+
 All computers work the same way; a central processing unit (CPU) reads instructions from storage and executes them. 
 
 ![Basic Computer Architecture](../assets/images/2025-17-01-what-is-an-interepter/Computer_architecture_block_diagram.png)
 
 (**The above image was taken from [this Wikipedia article](https://en.wikipedia.org/wiki/Computer_architecture)**)
 
-The instructions that the CPU reads are just numbers. These numbers are called machine code as each number (code) corresponds to a different operation (well, some operations are made up of multiple numbers in sequence, but the general idea is the same).
+The instructions that the CPU reads (from Main Memory) are just numbers. These numbers are called machine code as each number (code) corresponds to a different operation (well, some operations are made up of multiple numbers in sequence, but the general idea is the same).
 
 so if the CPU only works on numbers, how does the text we type get executed by the CPU?
 
-This is where compilers and interpreters come in. They translate the text we type for a language, be it BASIC, pascal, Fortan, Ada etc... into codes that the CPU understands.
+This is where compilers and interpreters come in. They translate the text we type for a language, be it BASIC, pascal, Fortran, Ada etc... into codes that the CPU understands.
 
 so if we feed this into a python interpreter
 ```python
@@ -36,7 +38,7 @@ sum = num1 + num2
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 ```
 
-what the CPU will execute look like this (and no, this isnt the above in machine code):
+what the CPU will execute will look like this (and no, this isn;t the above compiled into machine code):
 in hex
 ```
 0x50
@@ -56,7 +58,7 @@ or binary
 0010000100101101
 ```
 
-the machine code above (as I hope you can see) is not easy to understand. This is why programming languages were created.
+the machine code (as I hope you can see above) is not easy for us to understand. This is why programming languages were created.
 
 I believe that the first programming languages were the class now called assembly languages and were introduced [around 1947](https://en.wikipedia.org/wiki/Assembly_language).
 Each language was written for 
@@ -86,7 +88,11 @@ MOV    CX, 0000
 ```
 This means `Move` into register `CX` the value `0000`.
 
-Assembly language was converted into machine code using anm Assembler
+Assembly language was converted into machine code using anm Assembler. it does this by looking up the code for the instruction 
+that you want to perform and putting that in a memory location, with the other parts of the operation (the operands) in the memory locations following it.
+Once the Assembler has been executed against the code, then you get some machine code that can be loaded into memory (assuming it was written to a file) and executed.
+
+## Moving On
 
 Now as we are working at the level of the CPU, you need to understand how a CPU works to be able to write assembly language. That was fine when 
 programmers were moving from machine code to assembly as they already understood how the CPU worked.
