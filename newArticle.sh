@@ -15,7 +15,7 @@ cp test.png "assets/images/$articleTitle"
 cat >$draftFilename <<EOL
 ---
 layout: post
-title: Project CB750 part 3
+title: $articleName
 date: $todaysDate
 author: Andy Aspell-Clark
 tags:
@@ -32,7 +32,7 @@ tags:
 EOL
 
 set -x
-git add _drafts assets _posts
+git add ./_drafts ./assets ./_posts
 git commit -m"add article $articleTitle"
 # git push
 set +x
